@@ -1,0 +1,49 @@
+{
+  "loginUrl": "https://admin.example.invalid/website.html",
+  "growthEngineUrl": "https://admin.example.invalid/phoenix2/composite/middle/platform/index.html#/other?parmas=iframe&text=geo_growth_engine&isMoliAIIsall=0",
+  "targetPagePath": "/ge-block-test-131",
+  "publicUrl": "http://site.example.invalid/ge-block-test-131",
+  "proxyServer": "http://proxy.example.invalid:8080",
+  "refreshBeforeEdit": false,
+  "refreshButtonOptional": true,
+  "growthEngineSite": {
+    "name": "全量3.0区块",
+    "host": "site.example.invalid"
+  },
+  "editorBackfill": {
+    "enabled": true,
+    "siteName": "YOUR_TEST_SITE",
+    "siteHost": "site.example.invalid",
+    "siteLanguage": "英语",
+    "pageName": "GE-区块测试-131",
+    "scope": "blocks"
+  },
+  "browser": {
+    "channel": "chrome",
+    "headless": false,
+    "startMinimized": true,
+    "slowMo": 20,
+    "locale": "zh-CN"
+  },
+  "timeouts": {
+    "actionMs": 20000,
+    "navigationMs": 60000,
+    "syncMs": 90000,
+    "liveMs": 120000,
+    "livePollMs": 3000
+  },
+  "paths": {
+    "userDataDir": ".auth/growth-engine-h-v3-full",
+    "stateFile": ".state/growth-engine-h-v3-old-interface-regression-state.json",
+    "artifactsDir": "artifacts/growth-engine-h-v3-old-interface-regression",
+    "reportsDir": "reports/growth-engine-h-v3-old-interface-regression"
+  },
+  "batch": {
+    "componentStateFile": ".state/growth-engine-empty-component-source.json",
+    "rankingStateFile": ".state/growth-engine-v3-full-ranking-source.json",
+    "stateFile": ".state/growth-engine-h-v3-old-interface-regression-batch-state.json",
+    "pagesStateDir": ".state/growth-engine-h-v3-old-interface-regression-pages",
+    "artifactsDir": "artifacts/growth-engine-h-v3-old-interface-regression",
+    "reportsDir": "reports/growth-engine-h-v3-old-interface-regression"
+  }
+}

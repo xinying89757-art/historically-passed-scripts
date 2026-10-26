@@ -1,0 +1,31 @@
+{
+  "baseConfig": "config/onpage-agent-h-v3-expansion.json",
+  "preflightTargetIds": [
+    "expand-blocks-021",
+    "expand-blocks-033",
+    "expand-blocks-042",
+    "expand-blocks-066",
+    "expand-blocks-109",
+    "expand-blocks-110",
+    "expand-blocks-122"
+  ],
+  "originMismatchStates": [
+    ".state/growth-engine-h-v3-page-confirmation-state.json",
+    ".state/growth-engine-h-v3-page-confirmation-001-retry-state.json"
+  ],
+  "paths": {
+    "userDataDir": ".auth/growth-engine-h",
+    "stateFile": ".state/onpage-agent-h-v3-history-regression-state.json",
+    "artifactsDir": "artifacts/onpage-agent-h-v3-history-regression",
+    "reportsDir": "reports/onpage-agent-h-v3-history-regression"
+  },
+  "validationFallback": {
+    "singleItemOnBatchFailure": true
+  },
+  "pageConfirmation": {
+    "enabled": true,
+    "partialFieldUpdates": true,
+    "forceSiteList": true
+  },
+  "outputRoot": "../outputs/019fa755-5d3d-7792-8740-e4786e04a2f7"
+}

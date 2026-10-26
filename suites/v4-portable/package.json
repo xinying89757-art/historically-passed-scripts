@@ -1,0 +1,36 @@
+{
+  "name": "leadong-v4-block-h2-automation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "领动4.0编辑器区块铺页与首图富文本H2测试数据自动化",
+  "scripts": {
+    "configure": "node scripts/configure.mjs",
+    "check": "node scripts/check-env.mjs",
+    "v4:block:plan": "node src/v4-cli.mjs plan",
+    "v4:block:auth": "node src/v4-cli.mjs auth",
+    "v4:block:probe": "node src/v4-cli.mjs probe",
+    "v4:block:run:poc": "node src/v4-cli.mjs run --apply --max-pages 1",
+    "v4:block:run": "node src/v4-cli.mjs run --apply",
+    "v4:block:resume": "node src/v4-cli.mjs resume --apply",
+    "v4:block:retry": "node src/v4-cli.mjs retry --apply",
+    "v4:block:status": "node src/v4-cli.mjs status",
+    "v4:data:first:plan": "node src/v4-rich-text-cli.mjs inventory",
+    "v4:data:first:run": "node src/v4-rich-text-cli.mjs prepare --apply",
+    "v4:data:first:resume": "node src/v4-rich-text-cli.mjs resume --apply",
+    "v4:data:first:status": "node src/v4-rich-text-cli.mjs status",
+    "v4:data:first:report": "node src/v4-rich-text-cli.mjs report",
+    "v4:data:batch:plan": "node src/v4-rich-text-batch-cli.mjs plan",
+    "v4:data:batch:run:poc": "node src/v4-rich-text-batch-cli.mjs run --apply --max-pages 1",
+    "v4:data:batch:run": "node src/v4-rich-text-batch-cli.mjs run --apply",
+    "v4:data:batch:resume": "node src/v4-rich-text-batch-cli.mjs resume --apply",
+    "v4:data:batch:status": "node src/v4-rich-text-batch-cli.mjs status",
+    "test": "node --test test/v4-input.test.mjs test/v4-state-report.test.mjs test/v4-rich-text-setup.test.mjs test/v4-rich-text-batch.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright": "1.61.1"
+  }
+}

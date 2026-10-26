@@ -1,0 +1,71 @@
+{
+  "baseConfig": "config/onpage-agent-h-v3-expansion.json",
+  "preflightTargetIds": [],
+  "originMismatchStates": [
+    ".state/growth-engine-h-v3-page-confirmation-state.json",
+    ".state/growth-engine-h-v3-page-confirmation-001-retry-state.json"
+  ],
+  "targetObjects": [
+    {
+      "pagePath": "/001.html",
+      "objectType": "组件",
+      "objectId": "002"
+    },
+    {
+      "pagePath": "/001.html",
+      "objectType": "组件",
+      "objectId": "005"
+    },
+    {
+      "pagePath": "/001.html",
+      "objectType": "组件",
+      "objectId": "006"
+    },
+    {
+      "pagePath": "/001.html",
+      "objectType": "组件",
+      "objectId": "008"
+    },
+    {
+      "pagePath": "/001.html",
+      "objectType": "组件",
+      "objectId": "009"
+    },
+    {
+      "pagePath": "/010.html",
+      "objectType": "组件",
+      "objectId": "016"
+    }
+  ],
+  "expectedContract": {
+    "pages": 2,
+    "sites": 1,
+    "preflight_failed_pages": 0,
+    "preflight_objects": 0,
+    "preflight_headings": 0,
+    "origin_mismatch_pages": 2,
+    "origin_mismatch_objects": 6,
+    "origin_mismatch_headings": 6,
+    "objects": 6,
+    "components": 6,
+    "blocks": 0,
+    "historical_headings": 6
+  },
+  "paths": {
+    "userDataDir": ".auth/growth-engine-h",
+    "stateFile": ".state/onpage-agent-h-v3-six-components-regression-state.json",
+    "artifactsDir": "artifacts/onpage-agent-h-v3-six-components-regression",
+    "reportsDir": "reports/onpage-agent-h-v3-six-components-regression"
+  },
+  "validationFallback": {
+    "singleItemOnBatchFailure": true
+  },
+  "pageConfirmation": {
+    "enabled": true,
+    "partialFieldUpdates": true,
+    "forceSiteList": true
+  },
+  "reportTitle": "3.0六个组件H标签再次复核",
+  "outputFilename": "3.0六个组件H标签再次复核结果.xlsx",
+  "outputRoot": "../outputs/019fa755-5d3d-7792-8740-e4786e04a2f7"
+}

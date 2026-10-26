@@ -1,0 +1,31 @@
+{
+  "loginUrl": "https://admin.example.invalid/website.html",
+  "apiBaseUrl": "https://admin.example.invalid/geoEngine/api/onpageOpenApi",
+  "userId": 20085168,
+  "proxyServer": "http://proxy.example.invalid:8080",
+  "browser": {
+    "channel": "chrome",
+    "headless": false,
+    "startMinimized": true,
+    "slowMo": 80,
+    "locale": "zh-CN"
+  },
+  "timeouts": {
+    "navigationMs": 60000,
+    "actionMs": 20000
+  },
+  "paths": {
+    "userDataDir": ".auth/onpage-agent-seo-v3",
+    "stateFile": ".state/onpage-agent-seo-v3-state.json",
+    "artifactsDir": "artifacts/onpage-agent-seo-v3",
+    "reportsDir": "reports/onpage-agent-seo-v3"
+  },
+  "targets": [
+    {
+      "id": "page-001",
+      "pagePath": "/001.html",
+      "pageUrl": "https://site.example.invalid/001.html",
+      "pageName": "组件标题测试-001"
+    }
+  ]
+}

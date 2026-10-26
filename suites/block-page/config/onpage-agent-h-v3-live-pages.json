@@ -1,0 +1,68 @@
+{
+  "loginUrl": "https://admin.example.invalid/website.html",
+  "growthEngineUrl": "https://admin.example.invalid/phoenix2/composite/middle/platform/index.html#/other?parmas=iframe&text=geo_growth_engine&isMoliAIIsall=0",
+  "apiBaseUrl": "https://admin.example.invalid/geoEngine/api/onpageOpenApi",
+  "userId": 20085168,
+  "siteHost": "site.example.invalid",
+  "publicBaseUrl": "https://site.example.invalid",
+  "proxyServer": "http://proxy.example.invalid:8080",
+  "browser": {
+    "channel": "chrome",
+    "headless": false,
+    "startMinimized": true,
+    "slowMo": 60,
+    "locale": "zh-CN"
+  },
+  "timeouts": {
+    "actionMs": 25000,
+    "navigationMs": 60000,
+    "syncMs": 90000,
+    "liveMs": 120000,
+    "livePollMs": 3000,
+    "liveRenderMs": 1500
+  },
+  "paths": {
+    "userDataDir": ".auth/onpage-agent-h-v3-live-pages",
+    "stateFile": ".state/onpage-agent-h-v3-live-pages-state.json",
+    "artifactsDir": "artifacts/onpage-agent-h-v3-live-pages",
+    "reportsDir": "reports/onpage-agent-h-v3-live-pages"
+  },
+  "targets": [
+    {
+      "id": "product-new-editor",
+      "pageType": "产品",
+      "pagePath": "/test-h.html",
+      "businessSelector": ".prodDesc h1,.prodDesc h2,.prodDesc h3,.prodDesc h4,.prodDesc h5,.prodDesc h6"
+    },
+    {
+      "id": "product-old-editor",
+      "pageType": "产品",
+      "pagePath": "/test2-h.html",
+      "businessSelector": ".prodDesc h1,.prodDesc h2,.prodDesc h3,.prodDesc h4,.prodDesc h5,.prodDesc h6"
+    },
+    {
+      "id": "article-new-editor",
+      "pageType": "文章",
+      "pagePath": "/test-article-h.html",
+      "businessSelector": ".articledetail-cont h1,.articledetail-cont h2,.articledetail-cont h3,.articledetail-cont h4,.articledetail-cont h5,.articledetail-cont h6"
+    },
+    {
+      "id": "article-old-editor",
+      "pageType": "文章",
+      "pagePath": "/test-article-h2.html",
+      "businessSelector": ".articledetail-cont h1,.articledetail-cont h2,.articledetail-cont h3,.articledetail-cont h4,.articledetail-cont h5,.articledetail-cont h6"
+    },
+    {
+      "id": "category-old-editor",
+      "pageType": "产品分类描述",
+      "pagePath": "/3-0-pl07953276.html",
+      "businessSelector": ".sitewidget-prodDesc h1,.sitewidget-prodDesc h2,.sitewidget-prodDesc h3,.sitewidget-prodDesc h4,.sitewidget-prodDesc h5,.sitewidget-prodDesc h6"
+    },
+    {
+      "id": "category-new-editor",
+      "pageType": "产品分类描述",
+      "pagePath": "/--pl05210576.html",
+      "businessSelector": ".sitewidget-prodDesc h1,.sitewidget-prodDesc h2,.sitewidget-prodDesc h3,.sitewidget-prodDesc h4,.sitewidget-prodDesc h5,.sitewidget-prodDesc h6"
+    }
+  ]
+}

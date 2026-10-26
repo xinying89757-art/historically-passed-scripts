@@ -1,0 +1,12 @@
+{
+  "suite": "backend-setup",
+  "note": "作为已验证权限流程的准备/恢复依赖收录，不单独宣称全套通过。",
+  "evidence_version_caveat": "历史记录未包含可核对的源码提交哈希；此为来源历史证据，不是当前脱敏版本的 live 验证。",
+  "source_documents": [
+    "suites/backend-setup/SOURCE-README.md"
+  ],
+  "related_suite_evidence": [
+    "permissions"
+  ],
+  "records": []
+}

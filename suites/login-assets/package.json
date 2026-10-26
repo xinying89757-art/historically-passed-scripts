@@ -1,0 +1,12 @@
+{
+  "name": "bug1004949-admin-login",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "login": "node scripts/admin-login.mjs",
+    "login:headless": "HEADLESS=1 node scripts/admin-login.mjs"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}

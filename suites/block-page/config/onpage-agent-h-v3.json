@@ -1,0 +1,137 @@
+{
+  "loginUrl": "https://admin.example.invalid/website.html",
+  "growthEngineUrl": "https://admin.example.invalid/phoenix2/composite/middle/platform/index.html#/other?parmas=iframe&text=geo_growth_engine&isMoliAIIsall=0",
+  "apiBaseUrl": "https://admin.example.invalid/geoEngine/api/onpageOpenApi",
+  "userId": 20085168,
+  "proxyServer": "http://proxy.example.invalid:8080",
+  "browser": {
+    "channel": "chrome",
+    "headless": false,
+    "startMinimized": true,
+    "slowMo": 100,
+    "locale": "zh-CN"
+  },
+  "timeouts": {
+    "actionMs": 20000,
+    "navigationMs": 60000,
+    "syncMs": 90000,
+    "liveMs": 120000,
+    "livePollMs": 3000
+  },
+  "paths": {
+    "userDataDir": ".auth/growth-engine-h",
+    "stateFile": ".state/onpage-agent-h-v3-state.json",
+    "artifactsDir": "artifacts/onpage-agent-h-v3",
+    "reportsDir": "reports/onpage-agent-h-v3"
+  },
+  "sourceFiles": {
+    "componentStateFile": ".state/component-run-state.json",
+    "blockStateFile": ".state/growth-engine-v3-full-ranking-source.json"
+  },
+  "reportSupplementalStateFiles": [
+    ".state/onpage-agent-h-v3-empty-text-retest-state.json"
+  ],
+  "targets": [
+    {
+      "id": "component-control-004",
+      "pageName": "组件标题测试-004",
+      "pagePath": "/component-heading-test-004",
+      "pageUrl": "https://site.example.invalid/component-heading-test-004",
+      "growthEngineSiteName": "YOUR_TEST_SITE",
+      "growthEngineSiteHost": "site.example.invalid",
+      "editorSiteName": "测试增长引擎",
+      "editorSiteLanguage": "英语",
+      "scope": "components",
+      "scenarios": [
+        {
+          "itemIndex": 0,
+          "type": "both"
+        }
+      ]
+    },
+    {
+      "id": "component-regression-001",
+      "pageName": "组件标题测试-001",
+      "pagePath": "/001.html",
+      "pageUrl": "https://site.example.invalid/001.html",
+      "growthEngineSiteName": "YOUR_TEST_SITE",
+      "growthEngineSiteHost": "site.example.invalid",
+      "editorSiteName": "测试增长引擎",
+      "editorSiteLanguage": "英语",
+      "scope": "components",
+      "scenarios": [
+        {
+          "itemIndex": "all_editable",
+          "type": "both"
+        }
+      ]
+    },
+    {
+      "id": "component-fields-002",
+      "pageName": "组件标题测试-002",
+      "pagePath": "/002.html",
+      "pageUrl": "https://site.example.invalid/002.html",
+      "growthEngineSiteName": "YOUR_TEST_SITE",
+      "growthEngineSiteHost": "site.example.invalid",
+      "editorSiteName": "测试增长引擎",
+      "editorSiteLanguage": "英语",
+      "scope": "components",
+      "scenarios": [
+        {
+          "itemIndex": 0,
+          "type": "text_only"
+        },
+        {
+          "itemIndex": 1,
+          "type": "level_only"
+        },
+        {
+          "itemIndex": 2,
+          "type": "both"
+        }
+      ]
+    },
+    {
+      "id": "component-multi-003",
+      "pageName": "组件标题测试-003",
+      "pagePath": "/003.html",
+      "pageUrl": "https://site.example.invalid/003.html",
+      "growthEngineSiteName": "YOUR_TEST_SITE",
+      "growthEngineSiteHost": "site.example.invalid",
+      "editorSiteName": "测试增长引擎",
+      "editorSiteLanguage": "英语",
+      "scope": "components",
+      "scenarios": [
+        {
+          "itemIndex": 0,
+          "type": "empty_text"
+        },
+        {
+          "itemIndex": 1,
+          "type": "both"
+        },
+        {
+          "itemIndex": 2,
+          "type": "level_only"
+        }
+      ]
+    },
+    {
+      "id": "block-representative-002",
+      "pageName": "GE-区块测试-002",
+      "pagePath": "/ge-block-test-002",
+      "pageUrl": "https://site.example.invalid/ge-block-test-002",
+      "growthEngineSiteName": "YOUR_TEST_SITE",
+      "growthEngineSiteHost": "site.example.invalid",
+      "editorSiteName": "nanjing",
+      "editorSiteLanguage": "英语",
+      "scope": "blocks",
+      "scenarios": [
+        {
+          "itemIndex": "all_editable",
+          "type": "both"
+        }
+      ]
+    }
+  ]
+}

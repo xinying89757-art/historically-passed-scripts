@@ -1,0 +1,163 @@
+{
+  "loginUrl": "https://admin.example.invalid/website.html",
+  "apiBaseUrl": "https://admin.example.invalid/geoEngine/api/onpageOpenApi",
+  "userId": 20085168,
+  "proxyServer": "http://proxy.example.invalid:8080",
+  "browser": {
+    "channel": "chrome",
+    "headless": false,
+    "startMinimized": true,
+    "slowMo": 80,
+    "locale": "zh-CN"
+  },
+  "timeouts": {
+    "navigationMs": 60000,
+    "actionMs": 20000
+  },
+  "paths": {
+    "userDataDir": ".auth/onpage-agent-seo-v3",
+    "stateFile": ".state/onpage-agent-seo-batch-v3-v4-state.json",
+    "artifactsDir": "artifacts/onpage-agent-seo-batch-v3-v4",
+    "reportsDir": "reports/onpage-agent-seo-batch-v3-v4"
+  },
+  "batch": {
+    "v3Count": 10,
+    "v4Count": 3,
+    "structuredInvalidProbe": true
+  },
+  "targets": [
+    {
+      "id": "v3-001",
+      "platform": "3.0",
+      "siteName": "YOUR_TEST_SITE",
+      "siteHost": "site.example.invalid",
+      "pageName": "组件标题测试-011",
+      "pagePath": "/component-heading-test-011",
+      "pageUrl": "http://site.example.invalid/component-heading-test-011",
+      "sourceState": "onpage-agent-h-v3-expansion-state.before-retry-20260901163845.json"
+    },
+    {
+      "id": "v3-002",
+      "platform": "3.0",
+      "siteName": "YOUR_TEST_SITE",
+      "siteHost": "site.example.invalid",
+      "pageName": "组件标题测试-004",
+      "pagePath": "/component-heading-test-004",
+      "pageUrl": "http://site.example.invalid/component-heading-test-004",
+      "sourceState": "onpage-agent-h-v3-expansion-state.before-retry-20260901163845.json"
+    },
+    {
+      "id": "v3-003",
+      "platform": "3.0",
+      "siteName": "YOUR_TEST_SITE",
+      "siteHost": "site.example.invalid",
+      "pageName": "组件标题测试-005",
+      "pagePath": "/component-heading-test-005",
+      "pageUrl": "http://site.example.invalid/component-heading-test-005",
+      "sourceState": "onpage-agent-h-v3-expansion-state.before-retry-20260901163845.json"
+    },
+    {
+      "id": "v3-004",
+      "platform": "3.0",
+      "siteName": "YOUR_TEST_SITE",
+      "siteHost": "site.example.invalid",
+      "pageName": "组件标题测试-006",
+      "pagePath": "/component-heading-test-006",
+      "pageUrl": "http://site.example.invalid/component-heading-test-006",
+      "sourceState": "onpage-agent-h-v3-expansion-state.before-retry-20260901163845.json"
+    },
+    {
+      "id": "v3-005",
+      "platform": "3.0",
+      "siteName": "YOUR_TEST_SITE",
+      "siteHost": "site.example.invalid",
+      "pageName": "GE-区块测试-063",
+      "pagePath": "/ge-block-test-063",
+      "pageUrl": "http://site.example.invalid/ge-block-test-063",
+      "sourceState": "onpage-agent-h-v3-expansion-state.before-retry-20260901163845.json"
+    },
+    {
+      "id": "v3-006",
+      "platform": "3.0",
+      "siteName": "YOUR_TEST_SITE",
+      "siteHost": "site.example.invalid",
+      "pageName": "GE-区块测试-128",
+      "pagePath": "/ge-block-test-128",
+      "pageUrl": "http://site.example.invalid/ge-block-test-128",
+      "sourceState": "onpage-agent-h-v3-expansion-state.before-retry-20260901163845.json"
+    },
+    {
+      "id": "v3-007",
+      "platform": "3.0",
+      "siteName": "YOUR_TEST_SITE",
+      "siteHost": "site.example.invalid",
+      "pageName": "GE-区块测试-066",
+      "pagePath": "/ge-block-test-066",
+      "pageUrl": "http://site.example.invalid/ge-block-test-066",
+      "sourceState": "onpage-agent-h-v3-expansion-state.before-retry-20260901163845.json"
+    },
+    {
+      "id": "v3-008",
+      "platform": "3.0",
+      "siteName": "YOUR_TEST_SITE",
+      "siteHost": "site.example.invalid",
+      "pageName": "GE-区块测试-068",
+      "pagePath": "/ge-block-test-068",
+      "pageUrl": "http://site.example.invalid/ge-block-test-068",
+      "sourceState": "onpage-agent-h-v3-expansion-state.before-retry-20260901163845.json"
+    },
+    {
+      "id": "v3-009",
+      "platform": "3.0",
+      "siteName": "YOUR_TEST_SITE",
+      "siteHost": "site.example.invalid",
+      "pageName": "GE-区块测试-132",
+      "pagePath": "/ge-block-test-132",
+      "pageUrl": "http://site.example.invalid/ge-block-test-132",
+      "sourceState": "onpage-agent-h-v3-expansion-state.before-retry-20260901163845.json"
+    },
+    {
+      "id": "v3-010",
+      "platform": "3.0",
+      "siteName": "YOUR_TEST_SITE",
+      "siteHost": "site.example.invalid",
+      "pageName": "GE-区块测试-069",
+      "pagePath": "/ge-block-test-069",
+      "pageUrl": "http://site.example.invalid/ge-block-test-069",
+      "sourceState": "onpage-agent-h-v3-expansion-state.before-retry-20260901163845.json"
+    },
+    {
+      "id": "v4-001",
+      "platform": "4.0",
+      "siteName": "YOUR_TEST_SITE",
+      "siteHost": "site.example.invalid",
+      "pageName": "新版图片集区块测试-001",
+      "pagePath": "/new-gallery-block-test-001",
+      "pageUrl": "http://site.example.invalid/new-gallery-block-test-001",
+      "sourceState": "growth-engine-h-v4-supplement-audit-20260826151000.json",
+      "previewUrl": "http://site.example.invalid/new-gallery-block-test-001"
+    },
+    {
+      "id": "v4-002",
+      "platform": "4.0",
+      "siteName": "YOUR_TEST_SITE",
+      "siteHost": "site.example.invalid",
+      "pageName": "新版图片集区块测试-002",
+      "pagePath": "/new-gallery-block-test-002",
+      "pageUrl": "http://site.example.invalid/new-gallery-block-test-002",
+      "sourceState": "growth-engine-h-v4-supplement-audit-20260826151000.json",
+      "previewUrl": "http://site.example.invalid/new-gallery-block-test-002"
+    },
+    {
+      "id": "v4-003",
+      "platform": "4.0",
+      "siteName": "YOUR_TEST_SITE",
+      "siteHost": "site.example.invalid",
+      "pageName": "新版图片集区块测试-003",
+      "pagePath": "/new-gallery-block-test-003",
+      "pageUrl": "http://site.example.invalid/new-gallery-block-test-003",
+      "sourceState": "growth-engine-h-v4-supplement-audit-20260826151000.json",
+      "previewUrl": "http://site.example.invalid/new-gallery-block-test-003"
+    }
+  ]
+}

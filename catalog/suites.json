@@ -1,0 +1,161 @@
+[
+  {
+    "id": "block-page",
+    "source": "block-page-automation",
+    "title": "3.0/4.0 区块、组件、H 标签与增长引擎",
+    "entry_examples": [
+      "npm run plan",
+      "npm run ge:h:v3:preview:plan"
+    ],
+    "limitations": "包含历史已完成和失败/待处理分支；按 evidence 中逐项状态判断。",
+    "evidence": "evidence/block-page.json"
+  },
+  {
+    "id": "editor-3",
+    "source": "deliverables/leadong-3.0-block-automation",
+    "title": "3.0 编辑器与 AI、产品描述、Markdown",
+    "entry_examples": [
+      "npm run plan",
+      "npm run product:description-text-settings",
+      "npm run product:markdown-types"
+    ],
+    "limitations": "AI 与产品流程存在通过和失败记录，保留完整套件。",
+    "evidence": "evidence/editor-3.json"
+  },
+  {
+    "id": "ai-block",
+    "source": "deliverables/leadong-ai-block-ui-automation",
+    "title": "AI 区块独立交付版本",
+    "entry_examples": [
+      "npm run ai:regression:status",
+      "npm run ai:regression"
+    ],
+    "limitations": "来源 README 记载完整回归与专项通过，文章列表部分断言有局限。",
+    "evidence": "evidence/ai-block.json"
+  },
+  {
+    "id": "llms-txt",
+    "source": "llms-txt-automation",
+    "title": "llms.txt 页面开关、保存、公开页验证",
+    "entry_examples": [
+      "npm test",
+      "npm run auth",
+      "npm run test:live"
+    ],
+    "limitations": "来源 README 记载 32 通过、1 失败、3 条件跳过；不将所有用例视为通过。",
+    "evidence": "evidence/llms-txt.json"
+  },
+  {
+    "id": "phoenix",
+    "source": "automation/phoenix-design-flow",
+    "title": "建站资料、设计审批及域名浏览器流程",
+    "entry_examples": [
+      "npm run flow -- --help"
+    ],
+    "limitations": "设计主流程和拒绝流程有完整无错记录；域名部分动作有成功记录，完整 full-flow 未找到无错记录。",
+    "evidence": "evidence/phoenix.json"
+  },
+  {
+    "id": "llms-registry",
+    "source": "automation/llms-txt-ui-automation-20260910/runner",
+    "title": "llms.txt 点位注册表版 Playwright Test",
+    "entry_examples": [
+      "npx playwright test --list"
+    ],
+    "limitations": "结果与注册表需按所选批次配置；原始环境与登录态不归档。",
+    "evidence": "evidence/llms-registry.json"
+  },
+  {
+    "id": "permissions",
+    "source": "outputs/BUG1004949-reusable-runner-20260916",
+    "title": "页面权限、密码、会员、URL 回归交付版本",
+    "entry_examples": [
+      "npm run test:list",
+      "npm run test:unit"
+    ],
+    "limitations": "历史全量 40 条：35 通过、1 业务失败、3 环境阻塞、1 产品确认。",
+    "evidence": "evidence/permissions.json"
+  },
+  {
+    "id": "permissions-current",
+    "source": "output/ui-orchestrator/bug1004949/runner",
+    "title": "页面权限与 URL 当前运行器版本",
+    "entry_examples": [
+      "npm run test:list",
+      "npm run test:unit"
+    ],
+    "limitations": "与交付版本有差异；最新摘要 13 条中 9 通过、3 阻塞、1 产品确认。",
+    "evidence": "evidence/permissions-current.json"
+  },
+  {
+    "id": "backend-setup",
+    "source": "outputs/BUG1004949-content-backend-20260916",
+    "title": "权限回归后台准备与恢复依赖",
+    "entry_examples": [
+      "npx playwright test --list"
+    ],
+    "limitations": "作为已验证权限流程的准备/恢复依赖收录，不单独宣称全套通过。",
+    "evidence": "evidence/backend-setup.json"
+  },
+  {
+    "id": "admin-login",
+    "source": "outputs/BUG1004949-admin-login-20260916",
+    "title": "管理员独立登录历史版本",
+    "entry_examples": [
+      "npm run login"
+    ],
+    "limitations": "来源文档记载登录流程，且为历史权限运行所需依赖。",
+    "evidence": "evidence/admin-login.json"
+  },
+  {
+    "id": "login-assets",
+    "source": "outputs/BUG1004949-login-assets-20260921",
+    "title": "管理员登录资产版本",
+    "entry_examples": [
+      "npm run login"
+    ],
+    "limitations": "与旧版本代码有差异，来源文档及权限/编辑器历史流程可追溯。",
+    "evidence": "evidence/login-assets.json"
+  },
+  {
+    "id": "login-portable",
+    "source": "deliverables/leadong-playwright-login",
+    "title": "独立可携带的 Chrome 登录流程",
+    "entry_examples": [
+      "npm run login"
+    ],
+    "limitations": "提取自已使用的 AI UI 自动化流程；没有独立同版本运行哈希。",
+    "evidence": "evidence/login-portable.json"
+  },
+  {
+    "id": "v4-portable",
+    "source": "portable-packages/v4-block-h2-automation",
+    "title": "4.0 区块与 H2 独立交付版本",
+    "entry_examples": [
+      "npm run check",
+      "npm run v4:block:plan"
+    ],
+    "limitations": "来源交付说明与区块套件历史验证；原数据改为自备模板。",
+    "evidence": "evidence/v4-portable.json"
+  },
+  {
+    "id": "faq-replay",
+    "source": "work/faq-ui-pilot",
+    "title": "FAQ 创建、排序、删除、样式 CLI 回放",
+    "entry_examples": [
+      "bash run_first_batch.sh"
+    ],
+    "limitations": "历史首批 3 项通过；依赖已有浏览器会话与已打开的 FAQ/前台页。",
+    "evidence": "evidence/faq-replay.json"
+  },
+  {
+    "id": "source-channel",
+    "source": "outputs/source_channel_test_data",
+    "title": "来源渠道浏览器访问与埋点验证",
+    "entry_examples": [
+      "node run_source_channel_visits.mjs --input input/cases.xlsx --no-proxy"
+    ],
+    "limitations": "有浏览器访问成功记录；不代表来源渠道归因后台均已通过。依赖外部 artifact-tool 运行时。",
+    "evidence": "evidence/source-channel.json"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "v3FullInputDir": "input/v3-block-json",
+  "v3FullSourceStateFiles": [
+    ".state/run-state.json",
+    ".state/ranking-heading-run-state.json"
+  ],
+  "pageNamePrefix": "3.0本期H区块测试-",
+  "pagePathPrefix": "v3-current-heading-block-",
+  "blocksPerPage": 6,
+  "timeouts": {
+    "searchResultStableMs": 3000,
+    "searchResultMs": 3000,
+    "headingRecordMs": 90000,
+    "headingAuditMs": 20000,
+    "headingVerifyMs": 60000
+  },
+  "paths": {
+    "v3FullStateFile": ".state/v3-full-heading-state.json",
+    "v3FullArtifactsDir": "artifacts/v3-full-heading",
+    "v3FullReportsDir": "reports/v3-full-heading"
+  }
+}

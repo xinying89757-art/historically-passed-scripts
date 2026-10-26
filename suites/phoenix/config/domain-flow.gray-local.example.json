@@ -1,0 +1,31 @@
+{
+  "proxy": "none",
+  "proxyPac": "gray.pac",
+  "pacUrl": "http://proxy.example.invalid:8080/gray.pac",
+  "ignoreHTTPSErrors": true,
+  "environment": {
+    "name": "gray",
+    "entryUrl": "http://www.leadong.com/website.html",
+    "requiredHeaderName": "x-via",
+    "requiredHeaderValue": "Ld-Gray"
+  },
+  "urls": {
+    "login": "http://www.leadong.com/website.html",
+    "cloudHome": "http://www.leadong.com/website.html",
+    "agent": "https://admin.example.invalid/phoenix/website?module=agent"
+  },
+  "accounts": {
+    "admin": {
+      "account": "",
+      "passwordEnv": "PHOENIX_ADMIN_PASSWORD"
+    }
+  },
+  "site": {
+    "name": "#ACB-测试新运营服务sku",
+    "siteSettingId": "YOUR_TEST_ID",
+    "originalDomain": "site.example.invalid",
+    "testDomain": "bbd.ruibaodou.com",
+    "recordNumber": "1111",
+    "updatedRecordNumber": "1112"
+  }
+}

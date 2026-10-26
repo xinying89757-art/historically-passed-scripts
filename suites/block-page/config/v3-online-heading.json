@@ -1,0 +1,31 @@
+{
+  "v3OnlineWorkbook": "input/online-status.xlsx",
+  "v3OnlineSiteFile": ".state/v3-online-heading-site.json",
+  "v3OnlineStateFile": ".state/v3-online-heading-state.json",
+  "v3OnlineReportsDir": "reports/v3-online-heading",
+  "v3OnlineArtifactsDir": "artifacts/v3-online-heading",
+  "pageNamePrefix": "3.0上线区块测试-",
+  "pagePathPrefix": "v3-online-heading-block-",
+  "blocksPerPage": 6,
+  "v3FullInputDir": "input/v3-block-json",
+  "v3FullSourceStateFiles": [],
+  "timeouts": {
+    "searchResultMs": 3000,
+    "searchResultStableMs": 3000,
+    "searchSubmitAttempts": 3,
+    "blockRenderMs": 60000,
+    "headingAuditMs": 20000,
+    "headingRecordMs": 90000,
+    "headingVerifyMs": 60000
+  },
+  "browser": {
+    "headless": false,
+    "startMinimized": false,
+    "slowMo": 80
+  },
+  "paths": {
+    "v3FullStateFile": ".state/v3-online-heading-state.json",
+    "v3FullArtifactsDir": "artifacts/v3-online-heading",
+    "v3FullReportsDir": "reports/v3-online-heading/.internal"
+  }
+}

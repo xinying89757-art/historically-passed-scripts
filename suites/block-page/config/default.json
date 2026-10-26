@@ -1,0 +1,183 @@
+{
+  "inputCsv": "input/blocks.csv",
+  "componentWorkbook": "input/components.xlsx",
+  "componentSheetName": "一期清单",
+  "editorUrl": "https://website.leadong.com/phoenix/pagebuilder/layout",
+  "siteListUrlIncludes": "/website.html",
+  "siteName": "YOUR_TEST_SITE",
+  "siteLanguage": "英语",
+  "publicBaseUrl": "https://site.example.invalid",
+  "siteConfirmationHost": "site.example.invalid",
+  "blocksPerPage": 6,
+  "componentsPerPage": 6,
+  "preDeferredNameKeywords": [
+    "产品详情",
+    "页头"
+  ],
+  "pageNamePrefix": "GE-区块测试-",
+  "pagePathPrefix": "ge-block-test-",
+  "componentPageNamePrefix": "组件标题测试-",
+  "componentPagePathPrefix": "component-heading-test-",
+  "timeouts": {
+    "actionMs": 15000,
+    "blockRenderMs": 60000,
+    "blockNoSignalMs": 5000,
+    "searchResultMs": 10000,
+    "saveMs": 30000,
+    "publishMs": 180000
+  },
+  "browser": {
+    "headless": false,
+    "channel": "chrome",
+    "locale": "zh-CN",
+    "slowMo": 80
+  },
+  "paths": {
+    "userDataDir": ".auth/chrome-profile",
+    "stateFile": ".state/run-state.json",
+    "artifactsDir": "artifacts",
+    "reportsDir": "reports",
+    "componentStateFile": ".state/component-run-state.json",
+    "componentArtifactsDir": "artifacts/component-heading",
+    "componentReportsDir": "reports/component-heading"
+  },
+  "selectors": {
+    "siteCardSelector": ".mySiteBox",
+    "siteLanguageSelector": ".lansSelect .lanItem",
+    "editSiteSelector": ".userEditSite",
+    "editorFrameUrlIncludes": "/phoenix/pagebuilder?",
+    "pageMenuTexts": [
+      "^页面\\s*[:：]"
+    ],
+    "customPageTexts": [
+      "^自定义页面$"
+    ],
+    "newPageTexts": [
+      "新建页面"
+    ],
+    "editor3CardTexts": [
+      "网页编辑器3\\.0",
+      "继续使用当前网页编辑器"
+    ],
+    "editorCreateTexts": [
+      "^创建页面$"
+    ],
+    "blankPageTexts": [
+      "添加空白页"
+    ],
+    "templateConfirmTexts": [
+      "^选取$"
+    ],
+    "pageSettingsTexts": [
+      "^页面设置$"
+    ],
+    "pageNameLabels": [
+      "页面名称",
+      "名称"
+    ],
+    "pageNamePlaceholders": [
+      "请输入页面名称",
+      "页面名称"
+    ],
+    "pagePathLabels": [
+      "页面地址",
+      "页面路径",
+      "URL"
+    ],
+    "pagePathPlaceholders": [
+      "请输入页面地址",
+      "请输入页面路径",
+      "页面地址",
+      "页面路径"
+    ],
+    "createConfirmTexts": [
+      "^确定$",
+      "^创建$"
+    ],
+    "pageCreateResponseUrlIncludes": "/phoenix/page/setting",
+    "contentAddSelectors": [
+      "[title='添加区块到内容区']",
+      "[aria-label='添加区块到内容区']",
+      "[data-title='添加区块到内容区']",
+      "a.backstage-creatmodules-addbtn"
+    ],
+    "contentAddTexts": [
+      "^添加区块到内容区$"
+    ],
+    "blockSearchPlaceholders": [
+      "请输入区块ID或标签，进行搜索"
+    ],
+    "addButtonTexts": [
+      "^\\+?\\s*添加$"
+    ],
+    "noBlockResultTexts": [
+      "暂无数据",
+      "无数据",
+      "没有数据",
+      "没有数据了",
+      "没有找到",
+      "无搜索结果",
+      "暂无相关"
+    ],
+    "saveTexts": [
+      "^保存$"
+    ],
+    "saveSuccessTexts": [
+      "保存成功",
+      "已保存",
+      "保存完成"
+    ],
+    "publishTexts": [
+      "^发布"
+    ],
+    "publishConfirmTexts": [
+      "发布网站",
+      "立即发布",
+      "^确定$"
+    ],
+    "publishSuccessTexts": [
+      "发布成功",
+      "发布完成"
+    ],
+    "deleteBlockTexts": [
+      "^删除$",
+      "删除区块"
+    ],
+    "blockRootTemplates": [
+      "[data-block-id='{id}']",
+      "[data-blockid='{id}']",
+      "[block-id='{id}']",
+      "[data-module-id='{id}']",
+      "[data-component-id='{id}']",
+      "[id='{id}']"
+    ],
+    "loadingSelectors": [
+      ".loading",
+      ".is-loading",
+      "[aria-busy='true']"
+    ],
+    "renderErrorTexts": [
+      "加载失败",
+      "渲染失败",
+      "组件异常",
+      "区块异常"
+    ],
+    "componentAddSelectors": [
+      ".backstage-layoutrow-addbtns[title*='添加组件']",
+      ".backstage-layoutrow-addbtns"
+    ],
+    "componentPanelSelector": ".backstage-innerframe-widgetswrap",
+    "componentCardSelector": "dd.backstage-siteTool-widgetdrag[widgetid]:not(.backstage-siteTool-moduledrag)",
+    "componentRootSelector": ".backstage-stwidgets-settingwrap",
+    "componentSettingsTexts": [
+      "^设置$"
+    ],
+    "componentTitleSelectors": [
+      "input#componentTitle",
+      "input[name='componentTitle']",
+      "input[title='设置组件标题']"
+    ],
+    "componentDialogSaveSelector": ".backstage-dialog-submit",
+    "componentDialogCancelSelector": ".backstage-dialog-cancel"
+  }
+}

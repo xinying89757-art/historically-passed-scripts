@@ -1,0 +1,12 @@
+{
+  "suite": "admin-login",
+  "note": "来源文档记载登录流程，且为历史权限运行所需依赖。",
+  "evidence_version_caveat": "历史记录未包含可核对的源码提交哈希；此为来源历史证据，不是当前脱敏版本的 live 验证。",
+  "source_documents": [
+    "suites/admin-login/SOURCE-README.md"
+  ],
+  "related_suite_evidence": [
+    "permissions"
+  ],
+  "records": []
+}

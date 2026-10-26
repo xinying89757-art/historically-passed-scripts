@@ -1,0 +1,45 @@
+{
+  "loginUrl": "https://admin.example.invalid/website.html",
+  "growthEngineUrl": "https://admin.example.invalid/phoenix2/composite/middle/platform/index.html#/other?parmas=iframe&text=geo_growth_engine&isMoliAIIsall=0",
+  "apiBaseUrl": "https://admin.example.invalid/geoEngine/api/onpageOpenApi",
+  "userId": 20085168,
+  "proxyServer": "http://proxy.example.invalid:8080",
+  "browser": {
+    "channel": "chrome",
+    "headless": false,
+    "startMinimized": true,
+    "slowMo": 40,
+    "locale": "zh-CN"
+  },
+  "timeouts": {
+    "actionMs": 25000,
+    "navigationMs": 60000,
+    "liveMs": 120000,
+    "livePollMs": 3000,
+    "liveRenderMs": 1500
+  },
+  "paths": {
+    "userDataDir": ".auth/onpage-agent-h-v3-live-pages",
+    "stateFile": ".state/onpage-agent-h-v3-live-video-details-state.json",
+    "artifactsDir": "artifacts/onpage-agent-h-v3-live-video-details",
+    "reportsDir": "reports/onpage-agent-h-v3-live-video-details"
+  },
+  "targets": [
+    {
+      "id": "video-detail-new-editor",
+      "pageType": "视频详情",
+      "siteHost": "site.example.invalid",
+      "publicBaseUrl": "https://site.example.invalid",
+      "pagePath": "/--example-item.html",
+      "businessSelector": ".video_detail_desc h1,.video_detail_desc h2,.video_detail_desc h3,.video_detail_desc h4,.video_detail_desc h5,.video_detail_desc h6"
+    },
+    {
+      "id": "video-detail-old-editor",
+      "pageType": "视频详情",
+      "siteHost": "site.example.invalid",
+      "publicBaseUrl": "https://site.example.invalid",
+      "pagePath": "/--example-item.html",
+      "businessSelector": ".video_detail_desc h1,.video_detail_desc h2,.video_detail_desc h3,.video_detail_desc h4,.video_detail_desc h5,.video_detail_desc h6"
+    }
+  ]
+}

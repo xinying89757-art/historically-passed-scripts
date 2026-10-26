@@ -1,0 +1,14 @@
+{
+  "name": "phoenix-design-flow",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "flow": "node scripts/phoenix-design-flow.mjs",
+    "domain-flow": "node scripts/phoenix-domain-flow.mjs",
+    "status": "node scripts/phoenix-design-flow.mjs --action admin-status",
+    "check": "node --check scripts/phoenix-design-flow.mjs && node --check scripts/phoenix-domain-flow.mjs && node --check scripts/check-gray-environment.mjs"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}

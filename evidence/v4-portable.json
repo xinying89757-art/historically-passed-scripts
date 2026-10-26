@@ -1,0 +1,12 @@
+{
+  "suite": "v4-portable",
+  "note": "来源交付说明与区块套件历史验证；原数据改为自备模板。",
+  "evidence_version_caveat": "历史记录未包含可核对的源码提交哈希；此为来源历史证据，不是当前脱敏版本的 live 验证。",
+  "source_documents": [
+    "suites/v4-portable/SOURCE-README.md"
+  ],
+  "related_suite_evidence": [
+    "block-page"
+  ],
+  "records": []
+}

@@ -1,0 +1,12 @@
+{
+  "suite": "login-portable",
+  "note": "提取自已使用的 AI UI 自动化流程；没有独立同版本运行哈希。",
+  "evidence_version_caveat": "历史记录未包含可核对的源码提交哈希；此为来源历史证据，不是当前脱敏版本的 live 验证。",
+  "source_documents": [
+    "suites/login-portable/SOURCE-README.md"
+  ],
+  "related_suite_evidence": [
+    "ai-block"
+  ],
+  "records": []
+}

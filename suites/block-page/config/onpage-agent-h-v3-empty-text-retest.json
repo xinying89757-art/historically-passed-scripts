@@ -1,0 +1,50 @@
+{
+  "loginUrl": "https://admin.example.invalid/website.html",
+  "growthEngineUrl": "https://admin.example.invalid/phoenix2/composite/middle/platform/index.html#/other?parmas=iframe&text=geo_growth_engine&isMoliAIIsall=0",
+  "apiBaseUrl": "https://admin.example.invalid/geoEngine/api/onpageOpenApi",
+  "userId": 20085168,
+  "proxyServer": "http://proxy.example.invalid:8080",
+  "browser": {
+    "channel": "chrome",
+    "headless": false,
+    "startMinimized": true,
+    "slowMo": 100,
+    "locale": "zh-CN"
+  },
+  "timeouts": {
+    "actionMs": 20000,
+    "navigationMs": 60000,
+    "syncMs": 90000,
+    "liveMs": 120000,
+    "livePollMs": 3000
+  },
+  "paths": {
+    "userDataDir": ".auth/growth-engine-h",
+    "stateFile": ".state/onpage-agent-h-v3-empty-text-retest-state.json",
+    "artifactsDir": "artifacts/onpage-agent-h-v3-empty-text-retest",
+    "reportsDir": "reports/onpage-agent-h-v3-empty-text-retest"
+  },
+  "sourceFiles": {
+    "componentStateFile": ".state/component-run-state.json",
+    "blockStateFile": ".state/growth-engine-v3-full-ranking-source.json"
+  },
+  "targets": [
+    {
+      "id": "component-multi-003-empty-text-isolated",
+      "pageName": "组件标题测试-003",
+      "pagePath": "/003.html",
+      "pageUrl": "https://site.example.invalid/003.html",
+      "growthEngineSiteName": "YOUR_TEST_SITE",
+      "growthEngineSiteHost": "site.example.invalid",
+      "editorSiteName": "测试增长引擎",
+      "editorSiteLanguage": "英语",
+      "scope": "components",
+      "scenarios": [
+        {
+          "itemIndex": 0,
+          "type": "empty_text"
+        }
+      ]
+    }
+  ]
+}

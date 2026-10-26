@@ -1,0 +1,125 @@
+{
+  "suite": "source-channel",
+  "note": "有浏览器访问成功记录；不代表来源渠道归因后台均已通过。依赖外部 artifact-tool 运行时。",
+  "evidence_version_caveat": "历史记录未包含可核对的源码提交哈希；此为来源历史证据，不是当前脱敏版本的 live 验证。",
+  "source_documents": [],
+  "related_suite_evidence": [],
+  "records": [
+    {
+      "source": "outputs/source_channel_test_data/source_channel_core_20260717_153653.json",
+      "source_sha256": "207591b6a24d5e93dd9124e36b12d204e9a5cf5b50039f37f711bbd126212119",
+      "status_histogram": {
+        "success_true": 81,
+        "success_false": 8
+      },
+      "generatedAt": "2026-07-17T08:05:27.415Z"
+    },
+    {
+      "source": "outputs/source_channel_test_data/source_channel_core_retry_20260717_160627.json",
+      "source_sha256": "c2f6f2344bb32c196ad633633137346d4778d5654cd2290d39ddabe50b667599",
+      "status_histogram": {
+        "success_false": 4,
+        "success_true": 4
+      },
+      "generatedAt": "2026-07-17T08:17:12.687Z"
+    },
+    {
+      "source": "outputs/source_channel_test_data/source_channel_core_retry_20260717_161804.json",
+      "source_sha256": "4e25cc08e01c5092495569408284fd531900245fac29b613b3b2947a46351025",
+      "status_histogram": {
+        "success_true": 4
+      },
+      "generatedAt": "2026-07-17T08:21:38.167Z"
+    },
+    {
+      "source": "outputs/source_channel_test_data/source_channel_full_20260717_162155.json",
+      "source_sha256": "00cd413b0feb0351795ac2d72b5a622229021de4f64805aadb440dbae606a21c",
+      "status_histogram": {
+        "success_true": 14,
+        "success_false": 146
+      },
+      "generatedAt": "2026-07-17T08:32:30.341Z"
+    },
+    {
+      "source": "outputs/source_channel_test_data/source_channel_full_retry_20260717_164558.json",
+      "source_sha256": "cbdce43a83174fe7fa847eb4be679593fd579582f33f7c8f6b54957bb3fa2a2e",
+      "status_histogram": {
+        "success_true": 144
+      },
+      "generatedAt": "2026-07-17T09:52:29.875Z"
+    },
+    {
+      "source": "outputs/source_channel_test_data/source_channel_full_retry_probe_20260717_163743.json",
+      "source_sha256": "9e77dae580e35b77b0f5a29917a4b79c2d482ba85284bfcff5611dd7fd0d2bcb",
+      "status_histogram": {
+        "success_true": 2,
+        "success_false": 1
+      },
+      "generatedAt": "2026-07-17T08:44:59.979Z"
+    },
+    {
+      "source": "outputs/source_channel_test_data/source_channel_other_retest_20260720_155553.json",
+      "source_sha256": "87dc330c37d2c7075a6bf4a0b0b744fc73f89da0dca0f6bb8d830b1d59ef73d8",
+      "status_histogram": {
+        "success_true": 6
+      },
+      "generatedAt": "2026-07-20T08:08:12.530Z"
+    },
+    {
+      "source": "outputs/source_channel_test_data/source_channel_probe_20260717_152836.json",
+      "source_sha256": "405e86b796221b47a72bea3abae48afc728e48141b993b8fe95e58d7c9e4119e",
+      "status_histogram": {
+        "success_false": 6
+      },
+      "generatedAt": "2026-07-17T07:30:46.912Z"
+    },
+    {
+      "source": "outputs/source_channel_test_data/source_channel_probe_20260717_153412.json",
+      "source_sha256": "d2bd720eeba86a99bd3faa1c76d3c4e6b0996f82f04cc289ca07ddf3f879f427",
+      "status_histogram": {
+        "success_true": 6
+      },
+      "generatedAt": "2026-07-17T07:36:01.330Z"
+    },
+    {
+      "source": "outputs/source_channel_test_data/source_channel_prod_debug_20260723_222136.json",
+      "source_sha256": "8bf4b5599c90fa57774e694c86464aab487ed8b3ea5e6d3dedd7972c41f99318",
+      "status_histogram": {
+        "success_true": 1
+      },
+      "generatedAt": "2026-07-23T14:26:25.187Z"
+    },
+    {
+      "source": "outputs/source_channel_test_data/source_channel_prod_full_20260723_222136.json",
+      "source_sha256": "8ba7cbda3b8df5dc2dfeb7cc3efea49d348b46d3f04fa9aab1168cbc072b6d76",
+      "status_histogram": {
+        "success_true": 255
+      },
+      "generatedAt": "2026-07-23T16:07:13.744Z"
+    },
+    {
+      "source": "outputs/source_channel_test_data/source_channel_prod_resume_debug_20260723_222136.json",
+      "source_sha256": "17599191e7427a926632a22cd2b54c06ab03eb88f2ea4eae30c066ad2d28cf3c",
+      "status_histogram": {
+        "success_true": 1
+      },
+      "generatedAt": "2026-07-23T14:53:33.756Z"
+    },
+    {
+      "source": "outputs/source_channel_test_data/source_channel_prod_single_retry_20260723_222136.json",
+      "source_sha256": "00c48db3faab11fd8e3e2520d11979ba42b5dff79ae4e46ab233d7be42c8c068",
+      "status_histogram": {
+        "success_true": 1
+      },
+      "generatedAt": "2026-07-23T16:06:54.880Z"
+    },
+    {
+      "source": "outputs/source_channel_test_data/source_channel_video_baidu_retest_20260720_152703.json",
+      "source_sha256": "258d0a7603e1cabe0fe5421ce1968e11fb3521cdb78a54b372663305be328620",
+      "status_histogram": {
+        "success_true": 2
+      },
+      "generatedAt": "2026-07-20T07:27:55.497Z"
+    }
+  ]
+}

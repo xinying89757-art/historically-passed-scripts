@@ -1,0 +1,27 @@
+{
+  "editorUrl": "https://admin.example.invalid/website.html",
+  "siteListUrlIncludes": "/website.html",
+  "sourceStateFile": ".state/onpage-agent-h-v3-expansion-state.json",
+  "auth": {
+    "userDataDir": ".auth/v3-page-address-confirmation"
+  },
+  "browser": {
+    "channel": "chrome",
+    "headless": false,
+    "startMinimized": true,
+    "locale": "zh-CN",
+    "slowMo": 80
+  },
+  "timeouts": {
+    "actionMs": 20000,
+    "navigationMs": 60000,
+    "blockRenderMs": 60000,
+    "siteCardMs": 30000,
+    "publicCheckMs": 30000
+  },
+  "paths": {
+    "stateFile": ".state/v3-page-address-confirmation-state.json",
+    "artifactsDir": "artifacts/v3-page-address-confirmation",
+    "reportsDir": "reports/v3-page-address-confirmation"
+  }
+}

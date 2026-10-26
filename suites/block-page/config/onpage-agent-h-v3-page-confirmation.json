@@ -1,0 +1,39 @@
+{
+  "baseConfig": "config/onpage-agent-h-v3-expansion.json",
+  "addressOverrides": "reports/v3-page-address-confirmation/v3-page-address-overrides.json",
+  "targetIds": [
+    "expand-components-001",
+    "expand-components-002",
+    "expand-components-003",
+    "expand-components-004",
+    "expand-components-007",
+    "expand-components-008",
+    "expand-components-011",
+    "expand-blocks-024",
+    "expand-blocks-031",
+    "expand-blocks-055",
+    "expand-blocks-057",
+    "expand-blocks-124",
+    "expand-blocks-125",
+    "expand-blocks-126",
+    "expand-blocks-127",
+    "expand-blocks-128",
+    "expand-blocks-129",
+    "expand-blocks-130",
+    "expand-blocks-131",
+    "expand-blocks-132"
+  ],
+  "paths": {
+    "userDataDir": ".auth/growth-engine-h",
+    "stateFile": ".state/growth-engine-h-v3-page-confirmation-state.json",
+    "artifactsDir": "artifacts/growth-engine-h-v3-page-confirmation",
+    "reportsDir": "reports/growth-engine-h-v3-page-confirmation"
+  },
+  "pageConfirmation": {
+    "partialFieldUpdates": true,
+    "recordUnmatchedSources": true,
+    "requireAddressOverride": true,
+    "forceSiteList": true,
+    "useAllCapturedItems": true
+  }
+}

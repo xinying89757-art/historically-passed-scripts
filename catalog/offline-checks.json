@@ -1,0 +1,207 @@
+{
+  "live_execution": false,
+  "node_version": "v24.14.1",
+  "tests": [
+    {
+      "suite": "block-page",
+      "test_files": 25,
+      "excluded_files": [
+        {
+          "file": "component-input.test.mjs",
+          "reason": "requires local input/config fixture"
+        },
+        {
+          "file": "editor-audit.test.mjs",
+          "reason": "browser fixture omitted from this offline pass"
+        },
+        {
+          "file": "ranking-input.test.mjs",
+          "reason": "requires local input/config fixture"
+        }
+      ],
+      "requires_private_data_test_titles": [
+        "4.0全量审计输入覆盖24页215个实际添加区块",
+        "4.0页面001生成14条H目标和2个不支持区块",
+        "4.0批量计划覆盖除首个试跑页外的23页、348个H目标和21个不支持区块",
+        "历史失败项任务严格覆盖16页、58对象和74处H",
+        "六组件复核严格限制为2页6个组件6处H",
+        "真实全量JSON契约与排除数量一致",
+        "旧映射导入、排名状态优先和H2数量一致",
+        "H2试跑选择所有有可达非排名页面的模板代表且不重复",
+        "GB18030真实CSV按分类筛选并保持原顺序"
+      ],
+      "exit_code": 0,
+      "counts": {
+        "tests": 133,
+        "pass": 132,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 1,
+        "todo": 0
+      },
+      "failures": [],
+      "duration_seconds": 0.62
+    },
+    {
+      "suite": "editor-3",
+      "test_files": 28,
+      "excluded_files": [
+        {
+          "file": "ai-lifecycle.test.mjs",
+          "reason": "requires local input/config fixture"
+        },
+        {
+          "file": "composite-category-linkage.test.mjs",
+          "reason": "browser fixture omitted from this offline pass"
+        },
+        {
+          "file": "config.test.mjs",
+          "reason": "requires local input/config fixture"
+        },
+        {
+          "file": "page-settings-ui.test.mjs",
+          "reason": "browser fixture omitted from this offline pass"
+        },
+        {
+          "file": "ranking-input.test.mjs",
+          "reason": "requires local input/config fixture"
+        }
+      ],
+      "requires_private_data_test_titles": [],
+      "exit_code": 0,
+      "counts": {
+        "tests": 184,
+        "pass": 184,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "failures": [],
+      "duration_seconds": 20.2
+    },
+    {
+      "suite": "ai-block",
+      "test_files": 26,
+      "excluded_files": [
+        {
+          "file": "ai-lifecycle.test.mjs",
+          "reason": "requires local input/config fixture"
+        },
+        {
+          "file": "composite-category-linkage.test.mjs",
+          "reason": "browser fixture omitted from this offline pass"
+        },
+        {
+          "file": "config.test.mjs",
+          "reason": "requires local input/config fixture"
+        },
+        {
+          "file": "page-settings-ui.test.mjs",
+          "reason": "browser fixture omitted from this offline pass"
+        }
+      ],
+      "requires_private_data_test_titles": [],
+      "exit_code": 0,
+      "counts": {
+        "tests": 181,
+        "pass": 181,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "failures": [],
+      "duration_seconds": 20.17
+    },
+    {
+      "suite": "llms-txt",
+      "test_files": 2,
+      "excluded_files": [
+        {
+          "file": "live-extended.test.mjs",
+          "reason": "live environment deliberately not executed"
+        },
+        {
+          "file": "live-p0.test.mjs",
+          "reason": "live environment deliberately not executed"
+        },
+        {
+          "file": "live-supplemental.test.mjs",
+          "reason": "live environment deliberately not executed"
+        }
+      ],
+      "requires_private_data_test_titles": [],
+      "exit_code": 1,
+      "counts": {
+        "tests": 3,
+        "pass": 2,
+        "fail": 1,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "failures": [
+        "拒绝缺少代理或无效地址"
+      ],
+      "duration_seconds": 0.06
+    },
+    {
+      "suite": "v4-portable",
+      "test_files": 4,
+      "excluded_files": [],
+      "requires_private_data_test_titles": [
+        "GB18030真实CSV按分类筛选并保持原顺序"
+      ],
+      "exit_code": 0,
+      "counts": {
+        "tests": 18,
+        "pass": 18,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0,
+        "todo": 0
+      },
+      "failures": [],
+      "duration_seconds": 0.18
+    },
+    {
+      "suite": "permissions",
+      "exit_code": 0,
+      "passed": 4
+    },
+    {
+      "suite": "permissions-current",
+      "exit_code": 0,
+      "passed": 4
+    },
+    {
+      "suite": "archive-config-guard",
+      "exit_code": 0,
+      "passed": 4
+    }
+  ],
+  "baseline_issue": {
+    "suite": "llms-txt",
+    "file": "test/config.test.mjs",
+    "confirmed_in_original_source": true,
+    "reason": "Validator allows an empty proxy for a direct connection; historical test expects a second error. Preserved without relabeling as passed."
+  },
+  "additional_checks": {
+    "typescript": {
+      "typescript_version": "5.7.3",
+      "files": 37,
+      "errors": []
+    },
+    "permissions_list_without_credentials": {
+      "permissions": 36,
+      "permissions-current": 36
+    },
+    "ai_dependency_lock_dry_run": "passed",
+    "live_product_execution": false,
+    "external_modules_for_offline_tests": [
+      "@oai/artifact-tool",
+      "@midscene/web"
+    ]
+  }
+}

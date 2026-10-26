@@ -1,0 +1,1091 @@
+{
+  "suite": "llms-registry",
+  "note": "结果与注册表需按所选批次配置；原始环境与登录态不归档。",
+  "evidence_version_caveat": "历史记录未包含可核对的源码提交哈希；此为来源历史证据，不是当前脱敏版本的 live 验证。",
+  "source_documents": [],
+  "related_suite_evidence": [],
+  "records": [
+    {
+      "source": "automation/llms-txt-ui-automation-20260910/results/current/playwright-results.json",
+      "source_sha256": "ff0fcb170c43cd5d9a1088102e84807e5140b5a5efecde7f4e00bd3e7d5fd538",
+      "status_histogram": {
+        "passed": 7
+      }
+    },
+    {
+      "source": "automation/llms-txt-ui-automation-20260910/results/execution-results.json",
+      "source_sha256": "4d63563c0ac42557b6f7071003ea1bece35ab6f5eba6a3b2a285f353c20c72cb",
+      "status_histogram": {
+        "通过": 32,
+        "环境阻塞": 23,
+        "自动化失败": 8
+      },
+      "run_id": "run-20260910-llms-txt-001",
+      "created_at": "2026-09-11T01:30:59.724Z",
+      "status_counts": {
+        "通过": 32,
+        "业务失败": 0,
+        "自动化失败": 8,
+        "环境阻塞": 23,
+        "待产品确认": 0,
+        "不适合UI自动化": 0,
+        "执行中断": 0
+      },
+      "cases": [
+        {
+          "case_id": "TC-0001",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0002",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0003",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0004",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0005",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0006",
+          "status": "自动化失败"
+        },
+        {
+          "case_id": "TC-0007",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0008",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0009",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0010",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0011",
+          "status": "自动化失败"
+        },
+        {
+          "case_id": "TC-0012",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0013",
+          "status": "自动化失败"
+        },
+        {
+          "case_id": "TC-0014",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0015",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0016",
+          "status": "自动化失败"
+        },
+        {
+          "case_id": "TC-0017",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0018",
+          "status": "自动化失败"
+        },
+        {
+          "case_id": "TC-0019",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0020",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0021",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0022",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0023",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0024",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0025",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0026",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0027",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0028",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0029",
+          "status": "自动化失败"
+        },
+        {
+          "case_id": "TC-0030",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0031",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0032",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0033",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0034",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0035",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0036",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0037",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0038",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0039",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0040",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0041",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0042",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0043",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0044",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0045",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0046",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0047",
+          "status": "自动化失败"
+        },
+        {
+          "case_id": "TC-0048",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0049",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0050",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0051",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0052",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0053",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0054",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0055",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0056",
+          "status": "自动化失败"
+        },
+        {
+          "case_id": "TC-0057",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0058",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0059",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0060",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0061",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0062",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0063",
+          "status": "环境阻塞"
+        }
+      ]
+    },
+    {
+      "source": "automation/llms-txt-ui-automation-20260910/results/validation-summary.json",
+      "source_sha256": "bc2580e0ccabc8bc0476daf93a75f1bd2c78c4f2fa93dafc5b8bbadb5f4d04c6",
+      "status_histogram": {},
+      "status_counts": {
+        "通过": 32,
+        "业务失败": 0,
+        "自动化失败": 8,
+        "环境阻塞": 23,
+        "待产品确认": 0,
+        "不适合UI自动化": 0,
+        "执行中断": 0
+      }
+    },
+    {
+      "source": "automation/llms-txt-ui-automation-20260910/v3-offline-acceptance/automation-handoff.acquired.v3.json",
+      "source_sha256": "531deb644f70d5bca3e19b1405dc54d97c66b5f58db9ef64d3421d8fb6216155",
+      "status_histogram": {
+        "verified": 29
+      },
+      "run_id": "run-20260910-llms-txt-001"
+    },
+    {
+      "source": "automation/llms-txt-ui-automation-20260910/v3-offline-acceptance/case-readiness.final.json",
+      "source_sha256": "af34765cb38054a23af4ce6a27dca39b6218c69a50ef5ab3d68229f2133348b7",
+      "status_histogram": {
+        "blocked": 58
+      },
+      "cases": [
+        {
+          "case_id": "TC-0001",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0002",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0003",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0004",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0005",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0006",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0007",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0008",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0009",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0010",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0011",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0012",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0013",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0014",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0015",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0016",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0017",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0018",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0019",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0020",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0021",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0022",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0023",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0024",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0025",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0026",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0027",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0028",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0029",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0030",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0035",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0036",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0037",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0039",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0040",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0041",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0042",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0043",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0044",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0045",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0046",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0047",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0048",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0049",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0050",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0051",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0052",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0053",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0054",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0055",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0056",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0057",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0058",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0059",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0060",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0061",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0062",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0063",
+          "status": "blocked"
+        }
+      ]
+    },
+    {
+      "source": "automation/llms-txt-ui-automation-20260910/v3-offline-acceptance/case-readiness.json",
+      "source_sha256": "1bb8fdcf0b708d130d16da25ed85d4787a169efa612a815e3a5b3a60c6966cea",
+      "status_histogram": {
+        "blocked": 58
+      },
+      "cases": [
+        {
+          "case_id": "TC-0001",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0002",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0003",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0004",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0005",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0006",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0007",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0008",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0009",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0010",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0011",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0012",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0013",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0014",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0015",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0016",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0017",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0018",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0019",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0020",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0021",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0022",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0023",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0024",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0025",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0026",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0027",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0028",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0029",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0030",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0035",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0036",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0037",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0039",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0040",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0041",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0042",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0043",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0044",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0045",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0046",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0047",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0048",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0049",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0050",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0051",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0052",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0053",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0054",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0055",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0056",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0057",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0058",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0059",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0060",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0061",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0062",
+          "status": "blocked"
+        },
+        {
+          "case_id": "TC-0063",
+          "status": "blocked"
+        }
+      ]
+    },
+    {
+      "source": "automation/llms-txt-ui-automation-20260910/v3-offline-acceptance/execution-results.v2.json",
+      "source_sha256": "cc9d0528ff39905d3caf73fb880cb54b473c6e8c2182df13aa8a8275ca111be9",
+      "status_histogram": {
+        "通过": 32,
+        "环境阻塞": 23,
+        "自动化失败": 8
+      },
+      "run_id": "run-20260910-llms-txt-001",
+      "created_at": "2026-09-11T01:30:59.724Z",
+      "status_counts": {
+        "通过": 32,
+        "业务失败": 0,
+        "自动化失败": 8,
+        "环境阻塞": 23,
+        "待产品确认": 0,
+        "不适合UI自动化": 0,
+        "执行中断": 0
+      },
+      "cases": [
+        {
+          "case_id": "TC-0001",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0002",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0003",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0004",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0005",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0006",
+          "status": "自动化失败"
+        },
+        {
+          "case_id": "TC-0007",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0008",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0009",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0010",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0011",
+          "status": "自动化失败"
+        },
+        {
+          "case_id": "TC-0012",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0013",
+          "status": "自动化失败"
+        },
+        {
+          "case_id": "TC-0014",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0015",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0016",
+          "status": "自动化失败"
+        },
+        {
+          "case_id": "TC-0017",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0018",
+          "status": "自动化失败"
+        },
+        {
+          "case_id": "TC-0019",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0020",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0021",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0022",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0023",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0024",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0025",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0026",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0027",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0028",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0029",
+          "status": "自动化失败"
+        },
+        {
+          "case_id": "TC-0030",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0031",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0032",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0033",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0034",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0035",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0036",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0037",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0038",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0039",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0040",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0041",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0042",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0043",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0044",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0045",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0046",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0047",
+          "status": "自动化失败"
+        },
+        {
+          "case_id": "TC-0048",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0049",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0050",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0051",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0052",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0053",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0054",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0055",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0056",
+          "status": "自动化失败"
+        },
+        {
+          "case_id": "TC-0057",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0058",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0059",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0060",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0061",
+          "status": "通过"
+        },
+        {
+          "case_id": "TC-0062",
+          "status": "环境阻塞"
+        },
+        {
+          "case_id": "TC-0063",
+          "status": "环境阻塞"
+        }
+      ]
+    },
+    {
+      "source": "automation/llms-txt-ui-automation-20260910/v3-offline-acceptance/fixture-readiness.final.json",
+      "source_sha256": "ffc3ee3c11f6f84347b33a615f788f0341bd400e14df441a94445f9bddf200f8",
+      "status_histogram": {
+        "blocked": 58
+      }
+    },
+    {
+      "source": "automation/llms-txt-ui-automation-20260910/v3-offline-acceptance/fixture-readiness.json",
+      "source_sha256": "2ebb2ccec19cae7aa40b488b4297f7d400bd509873f3b4df818b6afa60a671de",
+      "status_histogram": {
+        "blocked": 58
+      }
+    },
+    {
+      "source": "automation/llms-txt-ui-automation-20260910/v3-offline-acceptance/registry-lock.final.v3.json",
+      "source_sha256": "2f30ee08fa05cd9a713f45803602c8b4d8d320e96d475767c19340ca2380fc2a",
+      "status_histogram": {
+        "verified": 2
+      },
+      "run_id": "run-v3-final",
+      "created_at": "2026-09-11T02:20:09.717Z"
+    }
+  ]
+}

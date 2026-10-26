@@ -1,0 +1,17 @@
+{
+  "name": "leadong-playwright-login",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "领动自动登录、悬浮头像进入云平台及登录态复用",
+  "scripts": {
+    "login": "node login.mjs",
+    "login:keep-open": "node login.mjs --keep-open"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "dependencies": {
+    "playwright": "1.61.1"
+  }
+}

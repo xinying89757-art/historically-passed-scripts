@@ -1,0 +1,12 @@
+{
+  "suite": "ai-block",
+  "note": "来源 README 记载完整回归与专项通过，文章列表部分断言有局限。",
+  "evidence_version_caveat": "历史记录未包含可核对的源码提交哈希；此为来源历史证据，不是当前脱敏版本的 live 验证。",
+  "source_documents": [
+    "suites/ai-block/SOURCE-README.md"
+  ],
+  "related_suite_evidence": [
+    "editor-3"
+  ],
+  "records": []
+}

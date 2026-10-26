@@ -1,0 +1,13 @@
+{
+  "suite": "login-assets",
+  "note": "与旧版本代码有差异，来源文档及权限/编辑器历史流程可追溯。",
+  "evidence_version_caveat": "历史记录未包含可核对的源码提交哈希；此为来源历史证据，不是当前脱敏版本的 live 验证。",
+  "source_documents": [
+    "suites/login-assets/SOURCE-README.md"
+  ],
+  "related_suite_evidence": [
+    "permissions",
+    "editor-3"
+  ],
+  "records": []
+}

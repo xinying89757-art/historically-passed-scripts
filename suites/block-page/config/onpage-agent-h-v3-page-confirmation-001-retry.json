@@ -1,0 +1,20 @@
+{
+  "baseConfig": "config/onpage-agent-h-v3-expansion.json",
+  "addressOverrides": "reports/v3-page-address-confirmation/v3-page-address-overrides.json",
+  "targetIds": [
+    "expand-components-001"
+  ],
+  "paths": {
+    "userDataDir": ".auth/growth-engine-h",
+    "stateFile": ".state/growth-engine-h-v3-page-confirmation-001-retry-state.json",
+    "artifactsDir": "artifacts/growth-engine-h-v3-page-confirmation-001-retry",
+    "reportsDir": "reports/growth-engine-h-v3-page-confirmation-001-retry"
+  },
+  "pageConfirmation": {
+    "partialFieldUpdates": true,
+    "recordUnmatchedSources": true,
+    "requireAddressOverride": true,
+    "forceSiteList": true,
+    "useAllCapturedItems": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "proxy": "",
+  "urls": {
+    "login": "https://admin.example.invalid/login.html",
+    "cloudHome": "https://admin.example.invalid/website.html",
+    "taskList": "https://admin.example.invalid/task-list.html",
+    "agent": "http://admin.example.invalid/phoenix/website?module=agent"
+  },
+  "accounts": {
+    "user": {
+      "account": "",
+      "passwordEnv": "PHOENIX_USER_PASSWORD"
+    },
+    "designer": {
+      "account": "",
+      "passwordEnv": "PHOENIX_DESIGNER_PASSWORD",
+      "fallbackPasswordEnv": "PHOENIX_USER_PASSWORD"
+    },
+    "admin": {
+      "account": "",
+      "passwordEnv": "PHOENIX_ADMIN_PASSWORD"
+    }
+  },
+  "defaults": {
+    "designerName": "YOUR_TEST_ITEM",
+    "uploadFile": "input/example-upload.png",
+    "rejectAttachment": "input/example-upload.png",
+    "expectedCompletionDays": 7,
+    "feedback": "自动化流程验证：页面操作正常，设计服务已完成。",
+    "formText": "自动化测试资料",
+    "materialRejectReason": "自动化拒绝分支验证：请补充并修改建站资料。",
+    "acceptanceRejectReason": "自动化拒绝分支验证：请调整页面内容和视觉细节后重新提交。"
+  },
+  "sites": [
+    {
+      "name": "YOUR_TEST_SITE",
+      "frontUrl": "http://site.example.invalid",
+      "siteSettingId": "YOUR_TEST_ID",
+      "designId": "YOUR_TEST_ID",
+      "designComId": "YOUR_TEST_ID",
+      "organizationId": "YOUR_TEST_ID",
+      "companyId": "YOUR_TEST_ID",
+      "languageCode": "0",
+      "materialSectionLabels": [
+        "网站风格",
+        "首页内容",
+        "公司资料",
+        "产品资料",
+        "新闻资料",
+        "其他页面资料",
+        "联系资料",
+        "网站优化"
+      ]
+    }
+  ]
+}

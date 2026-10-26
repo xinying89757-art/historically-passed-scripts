@@ -1,0 +1,11 @@
+{
+  "name": "historical-source-channel",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "playwright": "1.61.1"
+  }
+}

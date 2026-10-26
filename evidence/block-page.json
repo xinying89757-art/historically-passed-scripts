@@ -1,0 +1,3245 @@
+{
+  "suite": "block-page",
+  "note": "包含历史已完成和失败/待处理分支；按 evidence 中逐项状态判断。",
+  "evidence_version_caveat": "历史记录未包含可核对的源码提交哈希；此为来源历史证据，不是当前脱敏版本的 live 验证。",
+  "source_documents": [
+    "suites/block-page/SOURCE-README.md"
+  ],
+  "related_suite_evidence": [],
+  "records": [
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v3-full-batch/20260824130303/final-issues-data.json",
+      "source_sha256": "5e0ccb09c64d26da1b6556a4cf5ac7c1c137c717b0f185f253383cea563bed9a",
+      "status_histogram": {},
+      "runId": "20260824130303",
+      "generatedAt": "2026-08-25T00:54:33.840Z",
+      "counts": {
+        "totalTasks": 96,
+        "processedPages": 93,
+        "completeTasks": 30,
+        "failedTasks": 63,
+        "pageNotFoundTasks": 3,
+        "issueBlocks": 252,
+        "readonlyItemsExcluded": 425,
+        "reviewRows": 171
+      }
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v3-full-batch/20260824130303/summary-paused-20260824/pause-state.json",
+      "source_sha256": "61586384520e4d7050fdcba061c01a6ea0d2122018774680997d1c2842dec4f9",
+      "status_histogram": {},
+      "run_id": "20260824130303",
+      "counts": {
+        "complete": 24,
+        "failed": 47,
+        "page_not_found": 3,
+        "planned": 22
+      }
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v3-page-confirmation/3.0新接口20页-运行状态.json",
+      "source_sha256": "f1e46b8515daea96eb17e4702f8aca96a2f29cf51568e2bc17a9f003c5c94ed8",
+      "status_histogram": {
+        "failed": 14,
+        "complete": 4
+      },
+      "updated_at": "2026-09-03T07:42:34.765Z",
+      "run_id": "20260903152808",
+      "created_at": "2026-09-03T06:52:20.567Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v3-page-confirmation/onpage-agent-v3-run-state.json",
+      "source_sha256": "f1e46b8515daea96eb17e4702f8aca96a2f29cf51568e2bc17a9f003c5c94ed8",
+      "status_histogram": {
+        "failed": 14,
+        "complete": 4
+      },
+      "updated_at": "2026-09-03T07:42:34.765Z",
+      "run_id": "20260903152808",
+      "created_at": "2026-09-03T06:52:20.567Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v3-page-confirmation-001-retry/3.0新接口20页-运行状态.json",
+      "source_sha256": "7c08fe981c31b89d98833e79f7e422e4b4c60f3954e69768d60061f502961f8b",
+      "status_histogram": {
+        "failed": 3
+      },
+      "updated_at": "2026-09-03T08:18:27.097Z",
+      "run_id": "20260903161759",
+      "created_at": "2026-09-03T08:00:14.635Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v3-page-confirmation-001-retry/onpage-agent-v3-run-state.json",
+      "source_sha256": "7c08fe981c31b89d98833e79f7e422e4b4c60f3954e69768d60061f502961f8b",
+      "status_histogram": {
+        "failed": 3
+      },
+      "updated_at": "2026-09-03T08:18:27.097Z",
+      "run_id": "20260903161759",
+      "created_at": "2026-09-03T08:00:14.635Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v3-page-confirmation-before-final-regression-20260903152808/3.0新接口20页-运行状态.json",
+      "source_sha256": "6d55bb1dc0e3fac64614dc938ddd97b9625c3dc0e07716fd9f12c86ce7622ac3",
+      "status_histogram": {
+        "failed": 3,
+        "complete": 4
+      },
+      "updated_at": "2026-09-03T07:26:25.570Z",
+      "run_id": "20260903145220",
+      "created_at": "2026-09-03T06:52:20.567Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v3-page-confirmation-before-final-regression-20260903152808/onpage-agent-v3-run-state.json",
+      "source_sha256": "6d55bb1dc0e3fac64614dc938ddd97b9625c3dc0e07716fd9f12c86ce7622ac3",
+      "status_histogram": {
+        "failed": 3,
+        "complete": 4
+      },
+      "updated_at": "2026-09-03T07:26:25.570Z",
+      "run_id": "20260903145220",
+      "created_at": "2026-09-03T06:52:20.567Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy/20260827205545/4.0增长引擎运行状态.json",
+      "source_sha256": "68c007a1dd473b26d9215747b6b3073720d32d471d59b76bba148dadfc7acbdc",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:12:46.851Z",
+      "run_id": "20260827205545",
+      "created_at": "2026-08-27T12:55:45.524Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy/4.0增长引擎运行状态.json",
+      "source_sha256": "68c007a1dd473b26d9215747b6b3073720d32d471d59b76bba148dadfc7acbdc",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:12:46.851Z",
+      "run_id": "20260827205545",
+      "created_at": "2026-08-27T12:55:45.524Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy/history/20260827203316/4.0增长引擎运行状态.json",
+      "source_sha256": "89ff9c88ee6bf7f19dbd1d9dd374f26727521d8e8b0750bea0eef3463eebc8cd",
+      "status_histogram": {
+        "skipped": 1,
+        "pending": 2
+      },
+      "updated_at": "2026-08-27T12:33:32.835Z",
+      "run_id": "20260827203316",
+      "created_at": "2026-08-27T12:33:16.519Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-002/20260827211457/4.0增长引擎运行状态.json",
+      "source_sha256": "90a25cecfd9ede65150c784bc595b23330a72bf33e754d925be45b7d9554a027",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 3
+      },
+      "updated_at": "2026-08-27T13:16:25.544Z",
+      "run_id": "20260827211457",
+      "created_at": "2026-08-27T13:14:57.055Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-002/4.0增长引擎运行状态.json",
+      "source_sha256": "90a25cecfd9ede65150c784bc595b23330a72bf33e754d925be45b7d9554a027",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 3
+      },
+      "updated_at": "2026-08-27T13:16:25.544Z",
+      "run_id": "20260827211457",
+      "created_at": "2026-08-27T13:14:57.055Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-003/20260827211627/4.0增长引擎运行状态.json",
+      "source_sha256": "8ce2a584e5e242dec80177203ab8876be817fe1cbdceea2e411d720538aba564",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:18:20.827Z",
+      "run_id": "20260827211627",
+      "created_at": "2026-08-27T13:16:27.901Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-003/4.0增长引擎运行状态.json",
+      "source_sha256": "8ce2a584e5e242dec80177203ab8876be817fe1cbdceea2e411d720538aba564",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:18:20.827Z",
+      "run_id": "20260827211627",
+      "created_at": "2026-08-27T13:16:27.901Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-004/20260827211823/4.0增长引擎运行状态.json",
+      "source_sha256": "6ecfdae45e69e7c2b0d84a7e522bf08c682d04363958aee60b443d78f2e2682b",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:20:12.459Z",
+      "run_id": "20260827211823",
+      "created_at": "2026-08-27T13:18:23.473Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-004/4.0增长引擎运行状态.json",
+      "source_sha256": "6ecfdae45e69e7c2b0d84a7e522bf08c682d04363958aee60b443d78f2e2682b",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:20:12.459Z",
+      "run_id": "20260827211823",
+      "created_at": "2026-08-27T13:18:23.473Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-005/20260827212015/4.0增长引擎运行状态.json",
+      "source_sha256": "9e04536d31ff092ed7cd42899b45cedb8b585de216432481729805ca3b332e92",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 3
+      },
+      "updated_at": "2026-08-27T13:21:49.336Z",
+      "run_id": "20260827212015",
+      "created_at": "2026-08-27T13:20:15.672Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-005/4.0增长引擎运行状态.json",
+      "source_sha256": "9e04536d31ff092ed7cd42899b45cedb8b585de216432481729805ca3b332e92",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 3
+      },
+      "updated_at": "2026-08-27T13:21:49.336Z",
+      "run_id": "20260827212015",
+      "created_at": "2026-08-27T13:20:15.672Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-006/20260827212151/4.0增长引擎运行状态.json",
+      "source_sha256": "cd4cebea6d46a7092d2ad9368dad9dbc7faf3c8a9fc77cfd262ee06968f27313",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:23:29.122Z",
+      "run_id": "20260827212151",
+      "created_at": "2026-08-27T13:21:51.761Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-006/4.0增长引擎运行状态.json",
+      "source_sha256": "cd4cebea6d46a7092d2ad9368dad9dbc7faf3c8a9fc77cfd262ee06968f27313",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:23:29.122Z",
+      "run_id": "20260827212151",
+      "created_at": "2026-08-27T13:21:51.761Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-007/20260827212331/4.0增长引擎运行状态.json",
+      "source_sha256": "7a02bdc9f1f61e8d30134a111b3e8f872f81e5e7d6761fc3290dfdd91902423c",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 3
+      },
+      "updated_at": "2026-08-27T13:25:01.047Z",
+      "run_id": "20260827212331",
+      "created_at": "2026-08-27T13:23:31.854Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-007/4.0增长引擎运行状态.json",
+      "source_sha256": "7a02bdc9f1f61e8d30134a111b3e8f872f81e5e7d6761fc3290dfdd91902423c",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 3
+      },
+      "updated_at": "2026-08-27T13:25:01.047Z",
+      "run_id": "20260827212331",
+      "created_at": "2026-08-27T13:23:31.854Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-008/20260827212502/4.0增长引擎运行状态.json",
+      "source_sha256": "d71f8afcbae8f116ddd89f8f0ceb6e19b3fd407c331cd77f1c4842ac5b8aa995",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:26:42.883Z",
+      "run_id": "20260827212502",
+      "created_at": "2026-08-27T13:25:02.818Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-008/4.0增长引擎运行状态.json",
+      "source_sha256": "d71f8afcbae8f116ddd89f8f0ceb6e19b3fd407c331cd77f1c4842ac5b8aa995",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:26:42.883Z",
+      "run_id": "20260827212502",
+      "created_at": "2026-08-27T13:25:02.818Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-009/20260827212645/4.0增长引擎运行状态.json",
+      "source_sha256": "9f32e99c4a6fb0ff2569ac69b80421a4ccf6bae2cc3e81a360732552c420fad3",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:28:23.511Z",
+      "run_id": "20260827212645",
+      "created_at": "2026-08-27T13:26:45.662Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-009/4.0增长引擎运行状态.json",
+      "source_sha256": "9f32e99c4a6fb0ff2569ac69b80421a4ccf6bae2cc3e81a360732552c420fad3",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:28:23.511Z",
+      "run_id": "20260827212645",
+      "created_at": "2026-08-27T13:26:45.662Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-010/20260827212826/4.0增长引擎运行状态.json",
+      "source_sha256": "eb0adde1e52b0d8737302931e3b024a00b09b761114718eec58d93edb251f93a",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:30:07.910Z",
+      "run_id": "20260827212826",
+      "created_at": "2026-08-27T13:28:26.137Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-010/4.0增长引擎运行状态.json",
+      "source_sha256": "eb0adde1e52b0d8737302931e3b024a00b09b761114718eec58d93edb251f93a",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:30:07.910Z",
+      "run_id": "20260827212826",
+      "created_at": "2026-08-27T13:28:26.137Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-011/20260827213010/4.0增长引擎运行状态.json",
+      "source_sha256": "9e053a34986744e343b21f0539714de7e0dd72d5d994fe319ba510d6d61e012f",
+      "status_histogram": {
+        "skipped": 1,
+        "pending": 4
+      },
+      "updated_at": "2026-08-27T13:30:20.677Z",
+      "run_id": "20260827213010",
+      "created_at": "2026-08-27T13:30:10.134Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-011/4.0增长引擎运行状态.json",
+      "source_sha256": "9e053a34986744e343b21f0539714de7e0dd72d5d994fe319ba510d6d61e012f",
+      "status_histogram": {
+        "skipped": 1,
+        "pending": 4
+      },
+      "updated_at": "2026-08-27T13:30:20.677Z",
+      "run_id": "20260827213010",
+      "created_at": "2026-08-27T13:30:10.134Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-012/20260827213021/4.0增长引擎运行状态.json",
+      "source_sha256": "cbc82d625ee4727f3b785659d4ecd56c649abee67e6202e6bba21d38b0cf0568",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:32:12.258Z",
+      "run_id": "20260827213021",
+      "created_at": "2026-08-27T13:30:21.057Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-012/4.0增长引擎运行状态.json",
+      "source_sha256": "cbc82d625ee4727f3b785659d4ecd56c649abee67e6202e6bba21d38b0cf0568",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:32:12.258Z",
+      "run_id": "20260827213021",
+      "created_at": "2026-08-27T13:30:21.057Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-013/20260827213215/4.0增长引擎运行状态.json",
+      "source_sha256": "60265a26aac08b51ec545bf0db3f4a0aa3943c2b2232ac5461c7512a8c37fef9",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:34:02.361Z",
+      "run_id": "20260827213215",
+      "created_at": "2026-08-27T13:32:15.190Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-013/4.0增长引擎运行状态.json",
+      "source_sha256": "60265a26aac08b51ec545bf0db3f4a0aa3943c2b2232ac5461c7512a8c37fef9",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:34:02.361Z",
+      "run_id": "20260827213215",
+      "created_at": "2026-08-27T13:32:15.190Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-014/20260827213405/4.0增长引擎运行状态.json",
+      "source_sha256": "0df9b6fca288dfc6de7a95d4d3daad75511e524e966fbf654dce596d8950d20e",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:35:54.107Z",
+      "run_id": "20260827213405",
+      "created_at": "2026-08-27T13:34:05.110Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-014/4.0增长引擎运行状态.json",
+      "source_sha256": "0df9b6fca288dfc6de7a95d4d3daad75511e524e966fbf654dce596d8950d20e",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:35:54.107Z",
+      "run_id": "20260827213405",
+      "created_at": "2026-08-27T13:34:05.110Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-015/20260827213557/4.0增长引擎运行状态.json",
+      "source_sha256": "e594221c6fbfa054d31553c4c4e35d2e29f2de814a855e35a8f25037eb3bc0f0",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:37:43.987Z",
+      "run_id": "20260827213557",
+      "created_at": "2026-08-27T13:35:57.414Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-015/4.0增长引擎运行状态.json",
+      "source_sha256": "e594221c6fbfa054d31553c4c4e35d2e29f2de814a855e35a8f25037eb3bc0f0",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:37:43.987Z",
+      "run_id": "20260827213557",
+      "created_at": "2026-08-27T13:35:57.414Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-016/20260827213746/4.0增长引擎运行状态.json",
+      "source_sha256": "1d00d0aff60f700b6fe1646882c5e7f95a8425ea4c8d67e5265c678ff9ab8efe",
+      "status_histogram": {
+        "skipped": 1
+      },
+      "updated_at": "2026-08-27T13:38:01.500Z",
+      "run_id": "20260827213746",
+      "created_at": "2026-08-27T13:37:46.339Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-016/4.0增长引擎运行状态.json",
+      "source_sha256": "1d00d0aff60f700b6fe1646882c5e7f95a8425ea4c8d67e5265c678ff9ab8efe",
+      "status_histogram": {
+        "skipped": 1
+      },
+      "updated_at": "2026-08-27T13:38:01.500Z",
+      "run_id": "20260827213746",
+      "created_at": "2026-08-27T13:37:46.339Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-017/20260827214729/4.0增长引擎运行状态.json",
+      "source_sha256": "3027cce39e3e79a90a6c083293346880f6d6eca310a139142f4d4ab102918ce7",
+      "status_histogram": {
+        "skipped": 1,
+        "pending": 4
+      },
+      "updated_at": "2026-08-27T13:47:40.171Z",
+      "run_id": "20260827214729",
+      "created_at": "2026-08-27T13:47:29.306Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-017/4.0增长引擎运行状态.json",
+      "source_sha256": "3027cce39e3e79a90a6c083293346880f6d6eca310a139142f4d4ab102918ce7",
+      "status_histogram": {
+        "skipped": 1,
+        "pending": 4
+      },
+      "updated_at": "2026-08-27T13:47:40.171Z",
+      "run_id": "20260827214729",
+      "created_at": "2026-08-27T13:47:29.306Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-018/20260827214740/4.0增长引擎运行状态.json",
+      "source_sha256": "e4343f531d1ad9b57295b4bac79b41584bc4e167c0b567599f33d66e9515ef2e",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:48:43.553Z",
+      "run_id": "20260827214740",
+      "created_at": "2026-08-27T13:47:40.506Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/gallery-018/4.0增长引擎运行状态.json",
+      "source_sha256": "e4343f531d1ad9b57295b4bac79b41584bc4e167c0b567599f33d66e9515ef2e",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:48:43.553Z",
+      "run_id": "20260827214740",
+      "created_at": "2026-08-27T13:47:40.506Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/image-text-001/20260827213801/4.0增长引擎运行状态.json",
+      "source_sha256": "9ff72d2ec7ece136cc74030d821c46350d953264ec6924d941aea155fbf6b045",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:39:29.428Z",
+      "run_id": "20260827213801",
+      "created_at": "2026-08-27T13:38:01.904Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/image-text-001/4.0增长引擎运行状态.json",
+      "source_sha256": "9ff72d2ec7ece136cc74030d821c46350d953264ec6924d941aea155fbf6b045",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:39:29.428Z",
+      "run_id": "20260827213801",
+      "created_at": "2026-08-27T13:38:01.904Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/image-text-002/20260827213932/4.0增长引擎运行状态.json",
+      "source_sha256": "71b91dc609268453b9d1b61da57b1cb98f8215451c0e7c9648a03aa294326755",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:41:07.340Z",
+      "run_id": "20260827213932",
+      "created_at": "2026-08-27T13:39:32.135Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/image-text-002/4.0增长引擎运行状态.json",
+      "source_sha256": "71b91dc609268453b9d1b61da57b1cb98f8215451c0e7c9648a03aa294326755",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:41:07.340Z",
+      "run_id": "20260827213932",
+      "created_at": "2026-08-27T13:39:32.135Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/image-text-003/20260827214109/4.0增长引擎运行状态.json",
+      "source_sha256": "e4a13f1f4ab8e077c8f81a37bfed72d0a87e5716cca01078e4913b3b3ace4ea1",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:42:48.676Z",
+      "run_id": "20260827214109",
+      "created_at": "2026-08-27T13:41:09.899Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/image-text-003/4.0增长引擎运行状态.json",
+      "source_sha256": "e4a13f1f4ab8e077c8f81a37bfed72d0a87e5716cca01078e4913b3b3ace4ea1",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:42:48.676Z",
+      "run_id": "20260827214109",
+      "created_at": "2026-08-27T13:41:09.899Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/image-text-004/20260827214252/4.0增长引擎运行状态.json",
+      "source_sha256": "7cb709a74a478f8cadc92c95ea9cddde6cbb18915cbff5987b4f28328fcc48e5",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 3
+      },
+      "updated_at": "2026-08-27T13:44:20.633Z",
+      "run_id": "20260827214252",
+      "created_at": "2026-08-27T13:42:52.037Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/image-text-004/4.0增长引擎运行状态.json",
+      "source_sha256": "7cb709a74a478f8cadc92c95ea9cddde6cbb18915cbff5987b4f28328fcc48e5",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 3
+      },
+      "updated_at": "2026-08-27T13:44:20.633Z",
+      "run_id": "20260827214252",
+      "created_at": "2026-08-27T13:42:52.037Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/image-text-005/20260827214422/4.0增长引擎运行状态.json",
+      "source_sha256": "c73b9b01919384bf991379c77052bc13409b8e33040dd9572910295e76cd28f7",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:46:05.903Z",
+      "run_id": "20260827214422",
+      "created_at": "2026-08-27T13:44:22.879Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/image-text-005/4.0增长引擎运行状态.json",
+      "source_sha256": "c73b9b01919384bf991379c77052bc13409b8e33040dd9572910295e76cd28f7",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:46:05.903Z",
+      "run_id": "20260827214422",
+      "created_at": "2026-08-27T13:44:22.879Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/image-text-006/20260827214608/4.0增长引擎运行状态.json",
+      "source_sha256": "43b5fd3b605d8a818bedd88d1cd6a712d91b70a3f1d31bd71d8bcc09c2e4632e",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 3
+      },
+      "updated_at": "2026-08-27T13:47:27.690Z",
+      "run_id": "20260827214608",
+      "created_at": "2026-08-27T13:46:08.700Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-proxy-batch/20260827211457/pages/image-text-006/4.0增长引擎运行状态.json",
+      "source_sha256": "43b5fd3b605d8a818bedd88d1cd6a712d91b70a3f1d31bd71d8bcc09c2e4632e",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 3
+      },
+      "updated_at": "2026-08-27T13:47:27.690Z",
+      "run_id": "20260827214608",
+      "created_at": "2026-08-27T13:46:08.700Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-refresh/4.0增长引擎运行状态.json",
+      "source_sha256": "0c6e7e5a8e221a32d75f76ad198be5b085b07ff9e189d19e93e404fcc8e83412",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2
+      },
+      "updated_at": "2026-08-27T07:45:42.310Z",
+      "run_id": "20260827154217",
+      "created_at": "2026-08-27T07:42:17.290Z"
+    },
+    {
+      "source": "block-page-automation/reports/growth-engine-h-v4-no-refresh-batch/20260827155943/pages/gallery-002/4.0增长引擎运行状态.json",
+      "source_sha256": "7c744441abf072e3370fbe90178a7cbb356006363a6270c993e1623bee98e1f6",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2
+      },
+      "updated_at": "2026-08-27T08:01:30.398Z",
+      "run_id": "20260827155943",
+      "created_at": "2026-08-27T07:59:43.757Z"
+    },
+    {
+      "source": "block-page-automation/reports/onpage-agent-h-v3/onpage-agent-v3-run-state.json",
+      "source_sha256": "3f92e83e1539620c5b247d33c97bbe7ebf705bcf81a06feff81e2219eb930447",
+      "status_histogram": {
+        "complete": 2,
+        "failed": 3
+      },
+      "updated_at": "2026-09-03T08:55:20.481Z",
+      "run_id": "20260903165020",
+      "created_at": "2026-09-03T08:50:20.942Z"
+    },
+    {
+      "source": "block-page-automation/reports/onpage-agent-h-v3-empty-text-retest/onpage-agent-v3-run-state.json",
+      "source_sha256": "0728ee4bcbf901ecb5140fdc9df22d13646f1e330f1000d3f42fe4d0a6efb9cd",
+      "status_histogram": {
+        "failed": 1
+      },
+      "updated_at": "2026-09-01T04:58:13.414Z",
+      "run_id": "20260901125736",
+      "created_at": "2026-09-01T04:57:36.449Z"
+    },
+    {
+      "source": "block-page-automation/reports/onpage-agent-h-v3-expansion/onpage-agent-v3-run-state.json",
+      "source_sha256": "f1a00725b0762b1a8cb996e2465def18234f21a4e2941dfd6166275c2d4e1d56",
+      "status_histogram": {
+        "complete": 65,
+        "failed": 16
+      },
+      "updated_at": "2026-09-01T09:13:44.658Z",
+      "run_id": "20260901163845",
+      "created_at": "2026-09-01T06:24:22.190Z"
+    },
+    {
+      "source": "block-page-automation/reports/onpage-agent-h-v3-history-regression/3.0新接口历史失败项-运行状态.json",
+      "source_sha256": "2e7a6fc66abdda7ce5768e0116cba5132d86004971246b62f9c8bba4e5571820",
+      "status_histogram": {
+        "complete": 11,
+        "failed": 5
+      },
+      "updated_at": "2026-09-08T06:52:13.840Z",
+      "run_id": "20260908142424",
+      "created_at": "2026-09-08T06:24:24.799Z"
+    },
+    {
+      "source": "block-page-automation/reports/onpage-agent-h-v3-history-regression/onpage-agent-v3-run-state.json",
+      "source_sha256": "7e1e718336976caec635914e31dff876b31045107c598aaf542ba2204b855260",
+      "status_histogram": {
+        "complete": 11,
+        "failed": 5
+      },
+      "updated_at": "2026-09-08T06:44:07.188Z",
+      "run_id": "20260908142424",
+      "created_at": "2026-09-08T06:24:24.799Z"
+    },
+    {
+      "source": "block-page-automation/reports/onpage-agent-h-v3-history-regression.before-target-scope-fix-20260908142417/onpage-agent-v3-run-state.json",
+      "source_sha256": "ed33b3f3357bffe6ce81c298fbcf9dc53de584f933e593240516e921dd1002ac",
+      "status_histogram": {
+        "complete": 2,
+        "pending": 14
+      },
+      "updated_at": "2026-09-08T06:23:25.689Z",
+      "run_id": "20260908141834",
+      "created_at": "2026-09-08T06:18:34.916Z"
+    },
+    {
+      "source": "block-page-automation/reports/onpage-agent-h-v3-live-details/3.0统一详情H真实页-运行状态.json",
+      "source_sha256": "83f76464c17e808291579330ae9a9ec4f2ef8957262a4ffea3e7812ef6988b7c",
+      "status_histogram": {
+        "complete": 6
+      },
+      "updated_at": "2026-09-03T03:08:15.779Z",
+      "run_id": "20260903110702",
+      "created_at": "2026-09-03T03:07:02.143Z"
+    },
+    {
+      "source": "block-page-automation/reports/onpage-agent-h-v3-live-pages/3.0新接口H真实页-运行状态.json",
+      "source_sha256": "f8721af20c8f6d05c779597bcb6731b0f0636d1bf3b6d56ceb498d86e1f49170",
+      "status_histogram": {
+        "pending": 5
+      },
+      "updated_at": "2026-09-03T02:38:26.027Z",
+      "run_id": "20260903103801",
+      "created_at": "2026-09-03T02:38:01.497Z"
+    },
+    {
+      "source": "block-page-automation/reports/onpage-agent-h-v3-live-video-details/3.0统一详情H真实页-运行状态.json",
+      "source_sha256": "446bd2050e5646a0ed6d061677688055c58d88cf609414d598d51016b9af4518",
+      "status_histogram": {
+        "complete": 2
+      },
+      "updated_at": "2026-09-03T03:54:48.794Z",
+      "run_id": "20260903115426",
+      "created_at": "2026-09-03T03:54:26.754Z"
+    },
+    {
+      "source": "block-page-automation/reports/onpage-agent-h-v3-six-components-regression/3.0新接口历史失败项-运行状态.json",
+      "source_sha256": "3b9ec742cc3ee94f197261fc4ece858d88ebb382d0cb156eda3fe6ce7f8d9ba1",
+      "status_histogram": {
+        "complete": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-09-09T06:12:32.787Z",
+      "run_id": "20260909140706",
+      "created_at": "2026-09-09T06:07:06.842Z"
+    },
+    {
+      "source": "block-page-automation/reports/onpage-agent-h-v3-six-components-regression/onpage-agent-v3-run-state.json",
+      "source_sha256": "6fd0b1f4aa2a31ddcf520884ef3575fd51bbf75eda723f94ea408c2123e1f966",
+      "status_histogram": {
+        "complete": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-09-09T06:09:20.971Z",
+      "run_id": "20260909140706",
+      "created_at": "2026-09-09T06:07:06.842Z"
+    },
+    {
+      "source": "block-page-automation/reports/onpage-agent-h-v3.before-interface-run-20260903165005/onpage-agent-v3-run-state.json",
+      "source_sha256": "c4edfa4e75ed6c1884952bf3e0eb40e0002a47f8a6318d2cdaba022e9c6656bc",
+      "status_histogram": {
+        "complete": 2,
+        "failed": 3
+      },
+      "updated_at": "2026-09-01T04:52:57.107Z",
+      "run_id": "20260901124259",
+      "created_at": "2026-09-01T04:42:59.445Z"
+    },
+    {
+      "source": "block-page-automation/reports/onpage-agent-tdk-v3-dual-regression/20260916055455/3.0TDK双页面-运行状态.json",
+      "source_sha256": "ecb49a86923d579d5083994d94ad4ef66025d17584d09d23a5d528e82690cecc",
+      "status_histogram": {
+        "complete": 1
+      },
+      "updated_at": "2026-09-16T05:55:00.145Z",
+      "run_id": "20260916055455",
+      "created_at": "2026-09-16T05:54:55.841Z"
+    },
+    {
+      "source": "block-page-automation/reports/onpage-agent-tdk-v3-dual-regression/20260916055838/3.0TDK双页面-运行状态.json",
+      "source_sha256": "d842f3b89dbb65ccd36b863f35c4838ab9e250838820b6e3559184c8eae6f976",
+      "status_histogram": {
+        "complete": 1
+      },
+      "updated_at": "2026-09-16T06:02:43.279Z",
+      "run_id": "20260916055838",
+      "created_at": "2026-09-16T05:58:38.458Z"
+    },
+    {
+      "source": "block-page-automation/reports/onpage-v3-history-h-seo-regression/h/3.0新接口历史失败项-运行状态.json",
+      "source_sha256": "7496bad0e8c4d9294b225e1d745a3b81c6435fe4b352eb5ac40c1a4f03639432",
+      "status_histogram": {
+        "complete": 13,
+        "failed": 4
+      },
+      "updated_at": "2026-09-17T02:43:01.001Z",
+      "run_id": "20260917103523",
+      "created_at": "2026-09-16T15:28:07.707Z"
+    },
+    {
+      "source": "block-page-automation/reports/onpage-v3-history-h-seo-regression/h/onpage-agent-v3-run-state.json",
+      "source_sha256": "34b13e8f9aaeea7420c0caf3805cf846c81587a089c96782c18d6680462bf044",
+      "status_histogram": {
+        "complete": 13,
+        "failed": 4
+      },
+      "updated_at": "2026-09-17T02:43:00.998Z",
+      "run_id": "20260917103523",
+      "created_at": "2026-09-16T15:28:07.707Z"
+    },
+    {
+      "source": "block-page-automation/reports/v3-full-heading/v3-final-summary.json",
+      "source_sha256": "2cac8ab17203bf5cbe19c99cc2fac99998292ea666d7829bd535f3627d18ffc7",
+      "status_histogram": {},
+      "updated_at": "2026-08-24T04:23:08.622Z",
+      "counts": {
+        "not_added": 127,
+        "configured_verified": 572,
+        "heading_failed": 5,
+        "unsupported_no_h_control": 10,
+        "existing_mapping_missing": 1,
+        "pending": 5
+      }
+    },
+    {
+      "source": "block-page-automation/reports/v3-online-heading/v3-online-heading-state.json",
+      "source_sha256": "188fb0c1664a6d2d2b29dfbe3d2f19f78f480315dcb69cb3d649b85acf9292b9",
+      "status_histogram": {
+        "heading_failed": 22
+      },
+      "updated_at": "2026-08-25T21:14:45.055Z",
+      "created_at": "2026-08-25T16:07:48.392Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260819143946/component-001.json",
+      "source_sha256": "7719cec221ed10605cd9219493644e2840f986a7eb9a4a6e40e2a8dc667dc758",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-19T06:40:44.547Z",
+      "run_id": "20260819143956",
+      "created_at": "2026-08-19T06:39:56.869Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260819143946/component-002.json",
+      "source_sha256": "194a5b60c932172028b705de25a7b8b7c1f6889e805c78ef5d8343b51ada442b",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-19T06:45:49.091Z",
+      "run_id": "20260819144057",
+      "created_at": "2026-08-19T06:40:57.532Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260821095751/component-003.json",
+      "source_sha256": "7b7477a6095049b19d5d3131729016d77a9c9879b8b7b0d7f95a8076db5adbfe",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-21T01:58:52.130Z",
+      "run_id": "20260821095804",
+      "created_at": "2026-08-21T01:58:04.467Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260821101138/component-004.json",
+      "source_sha256": "186048abd41a54b48fe70602a0078f3021e37cbe12d8231eaba09a7961dd10d7",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-21T02:12:53.160Z",
+      "run_id": "20260821101153",
+      "created_at": "2026-08-21T02:11:53.218Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260821101138/component-005.json",
+      "source_sha256": "958e148e9c8772b8c2b5ace01f9feb96d55638d1916b41f9e667826b05371d7c",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-21T02:14:05.958Z",
+      "run_id": "20260821101310",
+      "created_at": "2026-08-21T02:13:10.062Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260821101138/component-006.json",
+      "source_sha256": "f5f25dff508b3ec623a6a8dcfeec46b36fd050140641b2a6a2f48e9e708942f1",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-21T02:15:11.440Z",
+      "run_id": "20260821101422",
+      "created_at": "2026-08-21T02:14:22.876Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260821101138/component-007.json",
+      "source_sha256": "37fb9e6bbfa3fcad8d71d8150f7a39ec942399511e761e34a3ce53e5be0c1e0a",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-21T02:16:21.607Z",
+      "run_id": "20260821101527",
+      "created_at": "2026-08-21T02:15:27.113Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260821101138/component-008.json",
+      "source_sha256": "34650f6ecc146a763ad847e710a4e73781f9f00d868437819ca36d246a488d15",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-21T02:17:03.926Z",
+      "run_id": "20260821101634",
+      "created_at": "2026-08-21T02:16:34.136Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260821101138/component-009.json",
+      "source_sha256": "c6978984d41d3a7703ed6f144bbb52a1c8ed97335ce0a9c7333f23b9f5514713",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-21T02:25:32.166Z",
+      "run_id": "20260821101720",
+      "created_at": "2026-08-21T02:17:20.565Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260821101138/component-010.json",
+      "source_sha256": "48fbdc0128e2229e177d16778ef378d49d284647e0aa333b10bb45379f103927",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-21T02:25:57.765Z",
+      "run_id": "20260821101848",
+      "created_at": "2026-08-21T02:18:48.129Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260821101138/component-011.json",
+      "source_sha256": "1c5965d411d844173afd79ffba64920279c18b19e98778085977819167e838fb",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-21T02:26:15.309Z",
+      "run_id": "20260821102050",
+      "created_at": "2026-08-21T02:20:50.668Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260821102838/block-001.json",
+      "source_sha256": "9d487b52c9b9a00846d3119125fb327b67680ad0387719f7d78c6661cbbe1f8b",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-21T02:31:57.426Z",
+      "run_id": "20260821102852",
+      "created_at": "2026-08-21T02:28:52.996Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260821103234/block-002.json",
+      "source_sha256": "86bf91d49577626eea48a5bee83fe26ad271c249dc8fde8d955fff21c5aa5c46",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-21T02:33:26.581Z",
+      "run_id": "20260821103246",
+      "created_at": "2026-08-21T02:32:46.206Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260821103234/block-003.json",
+      "source_sha256": "67df9f81fe69dd40e80144ab8f86a7d09aba25d85e8d682f47b7df1259e363e4",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-21T02:35:07.315Z",
+      "run_id": "20260821103342",
+      "created_at": "2026-08-21T02:33:42.471Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260821103234/block-004.json",
+      "source_sha256": "7b02deef4e52aa345a3ce81e0e1b75eac1d43854c2c1b290ad4c725104476876",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-21T02:36:50.630Z",
+      "run_id": "20260821103524",
+      "created_at": "2026-08-21T02:35:24.249Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260821103234/block-005.json",
+      "source_sha256": "134974d146442b8b001a1416ee4fb81dbdddb0623466f4230b4bac2e26aa125c",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-21T02:44:11.569Z",
+      "run_id": "20260821103707",
+      "created_at": "2026-08-21T02:37:07.331Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260821103234/block-006.json",
+      "source_sha256": "27d6aae36aebf5bb113120b9d9bae068845d2857bd46933b26e279d562f3176a",
+      "status_histogram": {
+        "failed": 1,
+        "verified": 1
+      },
+      "updated_at": "2026-08-21T02:39:00.387Z",
+      "run_id": "20260821103805",
+      "created_at": "2026-08-21T02:38:05.980Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260821103234/block-008.json",
+      "source_sha256": "36b00445e6cd87a82f5e763f9eafb49f0f62effdfc99e64d161cc42d085acb9e",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-21T02:40:56.876Z",
+      "run_id": "20260821103928",
+      "created_at": "2026-08-21T02:39:28.804Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-pages/20260821103234/block-009.json",
+      "source_sha256": "588d4bfc4b8ada9b048761a74b55f71a4011b19028ad2eec1ad333e1b6ea6d8b",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-21T02:41:43.037Z",
+      "run_id": "20260821104112",
+      "created_at": "2026-08-21T02:41:12.014Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-batch-run-state.json",
+      "source_sha256": "900e02afb459e68f7ab5d402978bad021aca1bb4d6078a553afc88e944135732",
+      "status_histogram": {
+        "complete": 6,
+        "failed": 2
+      },
+      "updated_at": "2026-08-21T02:44:11.754Z",
+      "run_id": "20260821103234",
+      "created_at": "2026-08-21T02:32:34.431Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-run-state.json",
+      "source_sha256": "e0e1643ff5a9c4932c9e8d8d38d2fddb86a547ab17e5544c9d020edf43c68911",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-19T06:21:49.366Z",
+      "run_id": "20260819141605",
+      "created_at": "2026-08-19T06:16:05.983Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-batch-state.json",
+      "source_sha256": "359d19f6ef1b8a1c58f73b6e4c40a29fb135c40189f75aece073c74e41fe7d43",
+      "status_histogram": {
+        "complete": 30,
+        "failed": 63
+      },
+      "updated_at": "2026-08-25T00:54:07.363Z",
+      "run_id": "20260824130303",
+      "created_at": "2026-08-24T05:03:03.426Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-batch-state.paused-20260824.json",
+      "source_sha256": "9cc5749970858a6629ed641915dd0bd96faf6515888ff669c09b3919cce9441c",
+      "status_histogram": {
+        "complete": 24,
+        "failed": 47
+      },
+      "updated_at": "2026-08-24T07:53:21.481Z",
+      "run_id": "20260824130303",
+      "created_at": "2026-08-24T05:03:03.426Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824125857/block-001.json",
+      "source_sha256": "db944ea02897c86c49802bd6950fb1ae64a1b38a71f2702b21ec18f576c7c5d6",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T05:02:10.594Z",
+      "run_id": "20260824125911",
+      "created_at": "2026-08-24T04:59:11.874Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-001.json",
+      "source_sha256": "ad4411a36cb47359d832aafbf1fcdc11c66fdfa0b53ef4f8ef40ec5acbe322b9",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T09:54:07.949Z",
+      "run_id": "20260824130322",
+      "created_at": "2026-08-24T05:03:22.670Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-002.json",
+      "source_sha256": "d04295b030631b2957efb48f1da8bc22136d4b2c23c37f84b55e897dfaa95331",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T09:55:02.873Z",
+      "run_id": "20260824130546",
+      "created_at": "2026-08-24T05:05:46.800Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-003.json",
+      "source_sha256": "24261f5af8f2c73864aa67df87b214c7d646433b6342575b5329738210bb0351",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T09:55:20.483Z",
+      "run_id": "20260824130812",
+      "created_at": "2026-08-24T05:08:12.922Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-004.json",
+      "source_sha256": "bca1e70e5085bb9a7062ab3028ba2be79af8816dd2197b1d21a806d21cdf1883",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T09:55:53.116Z",
+      "run_id": "20260824131107",
+      "created_at": "2026-08-24T05:11:07.016Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-005.json",
+      "source_sha256": "130c398916e227a12f2520ae7993675c233b04f0a5f0dddf9eaef92fc2da7f86",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:41:52.573Z",
+      "run_id": "20260824131819",
+      "created_at": "2026-08-24T05:18:19.098Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-006.json",
+      "source_sha256": "371e6bacb6f51f6ab94955861bfa14b8b527d7fecbd82004b5cb852f1f5c438d",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T05:22:53.783Z",
+      "run_id": "20260824132020",
+      "created_at": "2026-08-24T05:20:20.112Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-007.json",
+      "source_sha256": "81efb1463195f324d5639d1f5fa05403c31b1ac8923959bea0692e919163b315",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:42:07.913Z",
+      "run_id": "20260824132309",
+      "created_at": "2026-08-24T05:23:09.982Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-008.json",
+      "source_sha256": "0b82c43adf1c403387e3d049bb9f8da25b256d6c2fb7cdab4001289839bfa1d1",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T05:28:10.535Z",
+      "run_id": "20260824132637",
+      "created_at": "2026-08-24T05:26:37.886Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-009.json",
+      "source_sha256": "893d8b29e11964a08c9f8c55450b97175b90e37e4c293f3b6a7b7630c93a2ef1",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:42:19.763Z",
+      "run_id": "20260824132827",
+      "created_at": "2026-08-24T05:28:27.501Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-010.json",
+      "source_sha256": "0e44ede4b53f4dc91a5188b99b3ec209c3a51be3e128d87df9443f44a499600b",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T08:43:40.964Z",
+      "run_id": "20260824133123",
+      "created_at": "2026-08-24T05:31:23.621Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-011.json",
+      "source_sha256": "9eccb55fba591f9c7549f2628f6db6818fb6a278d625e85549913efaaee66459",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:43:54.625Z",
+      "run_id": "20260824133213",
+      "created_at": "2026-08-24T05:32:13.503Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-012.json",
+      "source_sha256": "3f79d117210b267104045ea731b6afcdfdb980f45e5be555cd2a61c03b9cb98f",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T05:36:16.511Z",
+      "run_id": "20260824133529",
+      "created_at": "2026-08-24T05:35:29.812Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-013.json",
+      "source_sha256": "8fe77bc05e449fa2d7205dc323474ab1fde23dc07cd5bf4031dc2f3811f8a971",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:44:07.139Z",
+      "run_id": "20260824133630",
+      "created_at": "2026-08-24T05:36:30.118Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-014.json",
+      "source_sha256": "ffda00a20f22b9ba90c0c1f4193c57e6e7535232774e110e023f50b9c678073a",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:44:19.990Z",
+      "run_id": "20260824133919",
+      "created_at": "2026-08-24T05:39:19.355Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-016.json",
+      "source_sha256": "4b14eaa4983f0a8b091624e1030a37d847cc3a3dab71a118c0c2305056434f31",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:44:31.275Z",
+      "run_id": "20260824134227",
+      "created_at": "2026-08-24T05:42:27.006Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-017.json",
+      "source_sha256": "8d44aff5ecf1e4cd9132f5b72a984d89d0f62b44712fc589c88bc9910892de3b",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T05:46:19.577Z",
+      "run_id": "20260824134532",
+      "created_at": "2026-08-24T05:45:32.864Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-018.json",
+      "source_sha256": "917cba70de3ad1a10ec01be7e824a9c587272659bf2afa2557fce0d3f1827f28",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T05:46:59.705Z",
+      "run_id": "20260824134632",
+      "created_at": "2026-08-24T05:46:32.590Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-019.json",
+      "source_sha256": "27e85953eead401af154cc69668dc0caf1a9bcdd13f95d3eea6786a8ade8e21c",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:44:42.739Z",
+      "run_id": "20260824134713",
+      "created_at": "2026-08-24T05:47:13.038Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-020.json",
+      "source_sha256": "2bcaf6e228487189304557ba8f9fa9f3e7fdc25856bc2434aff62f94d1b6e49a",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:44:53.507Z",
+      "run_id": "20260824135015",
+      "created_at": "2026-08-24T05:50:15.326Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-021.json",
+      "source_sha256": "bf3ab2d9b554b8adfbf53b5ef09ecef2814f87014ca08f8be94f9c628399bc71",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:45:04.724Z",
+      "run_id": "20260824135327",
+      "created_at": "2026-08-24T05:53:27.170Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-022.json",
+      "source_sha256": "9e4aba3046670fb1b9626b2562f2651fad9bd33364b402178a2ed1dc98d29dde",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T05:57:17.920Z",
+      "run_id": "20260824135631",
+      "created_at": "2026-08-24T05:56:31.694Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-023.json",
+      "source_sha256": "2cc6afcd6ba70bc435e7f80ad05f69997899c6229369f1e1d6a14aaae9c9ddf6",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T05:58:19.965Z",
+      "run_id": "20260824135733",
+      "created_at": "2026-08-24T05:57:33.234Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-024.json",
+      "source_sha256": "d50b26d82c3aaa54c11c652eaad316967de41595cc8f7c70d4a8a123400ec1ec",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T05:59:17.316Z",
+      "run_id": "20260824135832",
+      "created_at": "2026-08-24T05:58:32.892Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-025.json",
+      "source_sha256": "9ed5dc5cc8bfd674a4d69d0ae1b905028c7b5f70963168831b9afe5cc89f9a55",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T08:46:02.568Z",
+      "run_id": "20260824135932",
+      "created_at": "2026-08-24T05:59:32.527Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-026.json",
+      "source_sha256": "fc7d29b4bee7d53231c6a2c29eb2b38e7b10f8c52d1cb89c641fe40e24a03f82",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T06:01:09.574Z",
+      "run_id": "20260824140021",
+      "created_at": "2026-08-24T06:00:21.936Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-027.json",
+      "source_sha256": "3e4cba8cfbb4a87a0d6af7ccc1c637d65e62a6dbfb404c1916a7595720b8ac93",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T06:01:55.363Z",
+      "run_id": "20260824140123",
+      "created_at": "2026-08-24T06:01:23.421Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-028.json",
+      "source_sha256": "c92c88030f5371abe9ea4619a06edb740a3fa62d6f204141ede319906cf11a75",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:46:15.688Z",
+      "run_id": "20260824140209",
+      "created_at": "2026-08-24T06:02:09.190Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-029.json",
+      "source_sha256": "c6c8f517622b58a1a4b4da4c2640777cfbeffbf37aaef4bb4fd95b6f0bc53b27",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:46:26.624Z",
+      "run_id": "20260824140523",
+      "created_at": "2026-08-24T06:05:23.251Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-030.json",
+      "source_sha256": "5396618f3105846b4699e40e168256ac3bff888a297ef025af9f46b409abe5c6",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T06:09:32.863Z",
+      "run_id": "20260824140839",
+      "created_at": "2026-08-24T06:08:39.608Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-031.json",
+      "source_sha256": "a6ff77aa31d6a8b5b069798427fae23f4ccb52b3c88860c64f180a8f4496341d",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:46:39.755Z",
+      "run_id": "20260824140946",
+      "created_at": "2026-08-24T06:09:46.929Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-032.json",
+      "source_sha256": "5bdc0d09af130838de0303c56c665caeb6a79d637d8842e1b12e7c7fb37936bc",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T06:13:38.153Z",
+      "run_id": "20260824141244",
+      "created_at": "2026-08-24T06:12:44.350Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-033.json",
+      "source_sha256": "0546922a1b99a79229463c4a9342ce01cac483efdbf7f25db61a55e11d3e5945",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:46:50.956Z",
+      "run_id": "20260824141354",
+      "created_at": "2026-08-24T06:13:54.248Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-035.json",
+      "source_sha256": "b5477ea6059dd472f0c25a82268962af36d0c765e229a0cbcd6ab7433b88f359",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:47:01.506Z",
+      "run_id": "20260824141715",
+      "created_at": "2026-08-24T06:17:15.307Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-037.json",
+      "source_sha256": "e691f78af0c80fc574bd2b3601704679b1b5e3bb4544c1a32e7fd360311e6dff",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:47:12.742Z",
+      "run_id": "20260824142026",
+      "created_at": "2026-08-24T06:20:26.648Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-038.json",
+      "source_sha256": "8e41c6422c9820cc19728e262cf43af76e57ea08175916144ff3e23003bfd21d",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:48:37.400Z",
+      "run_id": "20260824142325",
+      "created_at": "2026-08-24T06:23:25.903Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-039.json",
+      "source_sha256": "b3a8e3e8832db0c196509fb4d4e48e5595399741e3937965c0a720b0eaa42c8f",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:48:49.989Z",
+      "run_id": "20260824142502",
+      "created_at": "2026-08-24T06:25:02.387Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-040.json",
+      "source_sha256": "5db2ed010defd120bd3d16d70e39aaaa9adb2c006748ae162dc65dccd18bc632",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:49:00.337Z",
+      "run_id": "20260824142803",
+      "created_at": "2026-08-24T06:28:03.019Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-041.json",
+      "source_sha256": "2fcc36acb99311a0d08390d856ec545138676e957228ecb4053c51d76fe56564",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:49:10.705Z",
+      "run_id": "20260824143111",
+      "created_at": "2026-08-24T06:31:11.700Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-042.json",
+      "source_sha256": "bdad4242bd7b5358bc9d5a3b148771c31520d70d935f5b8afe2d5cdb9af89ae4",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:49:21.019Z",
+      "run_id": "20260824143447",
+      "created_at": "2026-08-24T06:34:47.519Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-043.json",
+      "source_sha256": "e933b07bd11742da4e011957131093ae730d17d257b4bb512a186c4f9cc14c34",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T06:38:35.127Z",
+      "run_id": "20260824143745",
+      "created_at": "2026-08-24T06:37:45.764Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-044.json",
+      "source_sha256": "70c464bd6f5a65fa67e69ea4df88c45dde17786db8b4a469b38de613d35c6013",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:49:31.488Z",
+      "run_id": "20260824143849",
+      "created_at": "2026-08-24T06:38:49.890Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-045.json",
+      "source_sha256": "1bb6dac96b130b271ed72e605ff184cce541056260c532063508a747feeb5538",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T06:42:42.580Z",
+      "run_id": "20260824144156",
+      "created_at": "2026-08-24T06:41:56.133Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-046.json",
+      "source_sha256": "59b31d143ac991cc852d6bfb53c596f9a2caa0b3e41c2c48e21fddc398f4ce2b",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:49:42.742Z",
+      "run_id": "20260824144257",
+      "created_at": "2026-08-24T06:42:57.340Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-047.json",
+      "source_sha256": "1081ed720a3ce6805915f270cbe65b388c584340c55e7338d4f2b6a3f11eca0e",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T06:46:48.107Z",
+      "run_id": "20260824144600",
+      "created_at": "2026-08-24T06:46:00.214Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-048.json",
+      "source_sha256": "accdfe3f841a11c00bc34aa4bce2554ac81a2c42bc5b5acdd49af286c39d9e38",
+      "status_histogram": {
+        "pending": 2
+      },
+      "updated_at": "2026-08-24T08:49:54.192Z",
+      "run_id": "20260824144703",
+      "created_at": "2026-08-24T06:47:03.567Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-049.json",
+      "source_sha256": "28a05b29e575c392dc785d851d72be07deefa86309ff803b51552e7df379b940",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:50:04.440Z",
+      "run_id": "20260824144842",
+      "created_at": "2026-08-24T06:48:42.431Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-050.json",
+      "source_sha256": "78910058c7b1df8a0adcc3d81db357fda9f10081edcfd5a3af448318c023966f",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T06:52:24.204Z",
+      "run_id": "20260824145141",
+      "created_at": "2026-08-24T06:51:41.247Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-051.json",
+      "source_sha256": "2cfabfb7dc16b07aed13e20f4c73873d64e8298488424cd10630782b0957f80a",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:50:14.791Z",
+      "run_id": "20260824145237",
+      "created_at": "2026-08-24T06:52:37.501Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-052.json",
+      "source_sha256": "65bf721866a9859e69e533c19e0f78bc2f70476dfbf1d46c7d247fa3c49eb8bf",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T06:56:37.100Z",
+      "run_id": "20260824145542",
+      "created_at": "2026-08-24T06:55:42.583Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-053.json",
+      "source_sha256": "b290c0552b66a49d089a9ad0eb09f59a9d60dd983d1eacd671bfea2920bf1bfc",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:50:25.354Z",
+      "run_id": "20260824145650",
+      "created_at": "2026-08-24T06:56:50.915Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-054.json",
+      "source_sha256": "10572b4ebc7d209ac2ba6e0a2463aeb97163936bcaf1d1cb66312b45b3ac98d2",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:50:36.336Z",
+      "run_id": "20260824145957",
+      "created_at": "2026-08-24T06:59:57.467Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-055.json",
+      "source_sha256": "116722a255d690b92f3f38b1ca05bf5a34b4686563637c7f4267eb0c6392cea1",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:50:49.335Z",
+      "run_id": "20260824150259",
+      "created_at": "2026-08-24T07:02:59.888Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-056.json",
+      "source_sha256": "4e6b525a15978fe74e380c502bcbd02d047d6fef033fd1456bc7ea5e4c2e2285",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T07:06:52.068Z",
+      "run_id": "20260824150600",
+      "created_at": "2026-08-24T07:06:00.541Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-057.json",
+      "source_sha256": "a942689ce959ee12a85034fe1a849630a2852d68bd739b94b5f9ea61bc9895b7",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:51:00.490Z",
+      "run_id": "20260824150708",
+      "created_at": "2026-08-24T07:07:08.129Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-058.json",
+      "source_sha256": "0f2b44310f3a4bc663e5c84a616e34b988451698cc41680abd589e372b8f520c",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:51:11.906Z",
+      "run_id": "20260824151023",
+      "created_at": "2026-08-24T07:10:23.476Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-059.json",
+      "source_sha256": "ed37599be15efd6b61333f8ca26f9114f1320f861aca74db5d3540411e8be0cb",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:53:53.064Z",
+      "run_id": "20260824151344",
+      "created_at": "2026-08-24T07:13:44.774Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-060.json",
+      "source_sha256": "6aecd889a1f41f81343c4333880f031d6c0527b098acbaea52a0538a9924cfb8",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:54:08.038Z",
+      "run_id": "20260824151527",
+      "created_at": "2026-08-24T07:15:27.267Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-061.json",
+      "source_sha256": "05bbfad09eecddcbafac2e4cdee4452cfcec3401c42f287d797ae4170695feb3",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T07:18:47.842Z",
+      "run_id": "20260824151821",
+      "created_at": "2026-08-24T07:18:21.109Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-062.json",
+      "source_sha256": "162b14b999fa5d1851a283db2d24df9cfced2ce614dfd496a9051db09adef38a",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T07:20:01.218Z",
+      "run_id": "20260824151902",
+      "created_at": "2026-08-24T07:19:02.861Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-063.json",
+      "source_sha256": "c0cdbde068aa6e2642f2ff416b2aa36ae9f66016204b03123266badd05d3da85",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:54:43.451Z",
+      "run_id": "20260824152015",
+      "created_at": "2026-08-24T07:20:15.522Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-064.json",
+      "source_sha256": "918a972ebf9bfee4251daea29a24097f9380970263acada4b0a9177be4ffa468",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:54:54.935Z",
+      "run_id": "20260824152317",
+      "created_at": "2026-08-24T07:23:17.137Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-065.json",
+      "source_sha256": "0cddf3096cf90cab6a96026643fef8d8bd05c72cdf3719f21f53ec38ce2b5b7f",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T07:27:39.271Z",
+      "run_id": "20260824152646",
+      "created_at": "2026-08-24T07:26:46.600Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-066.json",
+      "source_sha256": "ee730a554d35141cfded4275a8c8d4dff22bc64315e48eb2b4e2e887d124c920",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:55:06.487Z",
+      "run_id": "20260824152755",
+      "created_at": "2026-08-24T07:27:55.944Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-067.json",
+      "source_sha256": "014cbc7aa5c994f6475f7e93a0c659068fb1c289bad1569c908f2b3b6a7f28a9",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:55:17.402Z",
+      "run_id": "20260824153111",
+      "created_at": "2026-08-24T07:31:11.610Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-068.json",
+      "source_sha256": "556931bf69d47f37a1df3cc45731e84e90f1a486795b83f42d1c389b96298f31",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:55:29.719Z",
+      "run_id": "20260824153429",
+      "created_at": "2026-08-24T07:34:29.987Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-069.json",
+      "source_sha256": "81b0545094e05d731b98de63474e54ea0060904bcadfc5ada65b5a7dcee435ae",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:56:27.329Z",
+      "run_id": "20260824153747",
+      "created_at": "2026-08-24T07:37:47.750Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-070.json",
+      "source_sha256": "ba190f11550671188fe849ebaed9a5ae75bf4ebd405f3ea12133e5697627488a",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:56:42.037Z",
+      "run_id": "20260824153852",
+      "created_at": "2026-08-24T07:38:52.792Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-071.json",
+      "source_sha256": "3264ccbd2a547e79ff3c8257ba056feb9c7768ea95a3c366a3115df72b927c8e",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T07:43:05.130Z",
+      "run_id": "20260824154213",
+      "created_at": "2026-08-24T07:42:13.490Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-072.json",
+      "source_sha256": "d6d04006088250c00408f1e5b6a3570254b5f6f6c607ee2511a4a8b18d9c3871",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:56:53.565Z",
+      "run_id": "20260824154317",
+      "created_at": "2026-08-24T07:43:17.899Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-073.json",
+      "source_sha256": "0878022b5f1fe6c9da558a335f1c87e1938cb61f26217f5b6e6a462ba535b559",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:57:05.986Z",
+      "run_id": "20260824154624",
+      "created_at": "2026-08-24T07:46:24.569Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-074.json",
+      "source_sha256": "699194feca2fdc73718d8b0e508e83b12f943490d4ee0937982946c960ce3804",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T08:57:18.352Z",
+      "run_id": "20260824154944",
+      "created_at": "2026-08-24T07:49:44.165Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-075.json",
+      "source_sha256": "4d52764cf2d1e10a0a6f02a48763c59060b4acc11530a827ed9903080a7b753a",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T09:00:06.671Z",
+      "run_id": "20260824165730",
+      "created_at": "2026-08-24T08:57:30.354Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-076.json",
+      "source_sha256": "d9f74bdd44455cca6e2a483f7d44d9dc492a7c4b56208033c62172c32b8a0c5f",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T09:03:07.823Z",
+      "run_id": "20260824170023",
+      "created_at": "2026-08-24T09:00:23.351Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-077.json",
+      "source_sha256": "81e6800fe619badd0098515a532b5f3abfba2eb97d4f55f36b7dceb91ad8b7f9",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T09:04:16.788Z",
+      "run_id": "20260824170325",
+      "created_at": "2026-08-24T09:03:25.303Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-078.json",
+      "source_sha256": "6162968c5f32c3c6f69bad02ca459077babac7c492f30158fad9266cb70e36cf",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T09:07:25.919Z",
+      "run_id": "20260824170430",
+      "created_at": "2026-08-24T09:04:30.584Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-079.json",
+      "source_sha256": "2812b081bf89009f56930bc92a346b88551888453c798c30eef33c4263f473bc",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T09:10:28.438Z",
+      "run_id": "20260824170743",
+      "created_at": "2026-08-24T09:07:43.138Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-080.json",
+      "source_sha256": "549878e4b30d19a573019da9dca37cb4ee2fef114af131ac0bfa57148738be40",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T09:13:41.478Z",
+      "run_id": "20260824171050",
+      "created_at": "2026-08-24T09:10:50.201Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-081.json",
+      "source_sha256": "7086911124657ffa03059d46f0a6f9e7eed035677c01c88eab7c3cd15f06ba84",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T09:16:37.061Z",
+      "run_id": "20260824171356",
+      "created_at": "2026-08-24T09:13:56.764Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-082.json",
+      "source_sha256": "80d02439dd9fd63d27c6fb1d2c850ea53639e68a6b3019e25fd298f8c76ee2d0",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T09:17:44.583Z",
+      "run_id": "20260824171651",
+      "created_at": "2026-08-24T09:16:51.495Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-083.json",
+      "source_sha256": "1fbd0f8a1b2e7a34406799f91ae47183b5f358b723b1242770674c3544c1f67e",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T09:21:20.478Z",
+      "run_id": "20260824171758",
+      "created_at": "2026-08-24T09:17:58.792Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-084.json",
+      "source_sha256": "7b1ba1f819414282ddef431d19ce6efa83251f98a4c1d5bf27298030cf2840e8",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-24T09:22:34.088Z",
+      "run_id": "20260824172137",
+      "created_at": "2026-08-24T09:21:37.659Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-085.json",
+      "source_sha256": "e0d3818dd5ae15896c98b2bef9993a436f3618672104cd69fe0cfc05860491ec",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T09:23:33.784Z",
+      "run_id": "20260824172248",
+      "created_at": "2026-08-24T09:22:48.466Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-086.json",
+      "source_sha256": "7b6d6a8294262bc87e4fc1d12b5e296ac918dbcc211407c4e8708ed6bddb78bd",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-24T09:24:20.183Z",
+      "run_id": "20260824172347",
+      "created_at": "2026-08-24T09:23:47.579Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-087.json",
+      "source_sha256": "beabc4f901d651d91528abca084f7f0cebf3508f42e7f25ef5c8e9f866fb9d20",
+      "status_histogram": {
+        "pending": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-25T00:51:51.783Z",
+      "run_id": "20260824172434",
+      "created_at": "2026-08-24T09:24:34.514Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-088.json",
+      "source_sha256": "00e14dea2dc6ec6aa0d75c3e480bfa4276b60b13685b4f00adb9c1acd9a26e24",
+      "status_histogram": {
+        "pending": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-25T00:52:11.305Z",
+      "run_id": "20260824172708",
+      "created_at": "2026-08-24T09:27:08.599Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-089.json",
+      "source_sha256": "9e133e57ff5d251a33fa0f16faac91e9c6a7fb00b9d2a9567f436773827fff1b",
+      "status_histogram": {
+        "pending": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-25T00:52:25.721Z",
+      "run_id": "20260824172916",
+      "created_at": "2026-08-24T09:29:16.602Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-090.json",
+      "source_sha256": "11053c30232de88e67be3d85b23211011b9793622e8a8b40d98d7110777b8081",
+      "status_histogram": {
+        "pending": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-25T00:52:39.894Z",
+      "run_id": "20260824173125",
+      "created_at": "2026-08-24T09:31:25.578Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-091.json",
+      "source_sha256": "690cd2c8a49455b94cb90d77c16564d7c484da5a083d6b3f9729365d4f902dd1",
+      "status_histogram": {
+        "pending": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-25T00:52:54.312Z",
+      "run_id": "20260824173336",
+      "created_at": "2026-08-24T09:33:36.716Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-092.json",
+      "source_sha256": "c79e1eacbcb6c026f1366f5614837ea7d9391ad223cf6b9426e2245bdb0ef1c7",
+      "status_histogram": {
+        "pending": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-25T00:53:08.643Z",
+      "run_id": "20260824173544",
+      "created_at": "2026-08-24T09:35:44.286Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-093.json",
+      "source_sha256": "617ee267cd48807767bad7f0ac461b86cacfb7e8d4766cc2dd8fe2b0921d68d6",
+      "status_histogram": {
+        "pending": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-25T00:53:28.346Z",
+      "run_id": "20260824173752",
+      "created_at": "2026-08-24T09:37:52.299Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-094.json",
+      "source_sha256": "4a3d3ec30e458d41826b2cc2971f7e62e65450c9d3539b43fc888480ae5f0b99",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-25T00:53:41.598Z",
+      "run_id": "20260824173956",
+      "created_at": "2026-08-24T09:39:56.908Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-095.json",
+      "source_sha256": "c8210a319f3da85d02997eeccb4c28f47a47eb4ecab45d66911b8d96a9eaf5ae",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-25T00:53:54.474Z",
+      "run_id": "20260824174246",
+      "created_at": "2026-08-24T09:42:46.722Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-full-pages/20260824130303/block-096.json",
+      "source_sha256": "c378225fe22713367e8154bd8d45e9a984560dcab9b64efc3767162fafcfec86",
+      "status_histogram": {
+        "verified": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-08-25T00:54:07.212Z",
+      "run_id": "20260824174529",
+      "created_at": "2026-08-24T09:45:29.406Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-old-interface-regression-batch-state.json",
+      "source_sha256": "4d8696cc5ae1dc7d077bd4aee2e4a6f1cccc78736bdf06cf5dfaea96f4019a9d",
+      "status_histogram": {
+        "failed": 7
+      },
+      "updated_at": "2026-09-01T09:53:34.629Z",
+      "run_id": "20260901174416",
+      "created_at": "2026-09-01T09:44:16.681Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-old-interface-regression-pages/20260901174416/block-008.json",
+      "source_sha256": "44d61df97ee83bfa961d33c61bef7007b7192bef7ec4e0cbbc8a7a3474364155",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-09-01T09:46:05.084Z",
+      "run_id": "20260901174433",
+      "created_at": "2026-09-01T09:44:33.140Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-old-interface-regression-pages/20260901174416/block-017.json",
+      "source_sha256": "f5adfc3a5b4baa828e9e6b5991a9251f6283af22e1e7247ef44edeb91d2eef3a",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-09-01T09:47:48.568Z",
+      "run_id": "20260901174624",
+      "created_at": "2026-09-01T09:46:24.133Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-old-interface-regression-pages/20260901174416/block-025.json",
+      "source_sha256": "c41770798c34acb940da2652e089cc783df7206f35121b59e8ad2a11c54a92b2",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-09-01T09:49:35.724Z",
+      "run_id": "20260901174805",
+      "created_at": "2026-09-01T09:48:05.676Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-old-interface-regression-pages/20260901174416/block-045.json",
+      "source_sha256": "acf211a1c9c3b9752ed611f7011d5e21174cfd986cc1e9c262af61b18ae00221",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-09-01T09:50:33.060Z",
+      "run_id": "20260901174952",
+      "created_at": "2026-09-01T09:49:52.579Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-old-interface-regression-pages/20260901174416/block-085.json",
+      "source_sha256": "cb6fa12c367fb18a5b039e26e2fcaa1167b85c700f9d8f4f675bd4b272495cf2",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-09-01T09:51:29.572Z",
+      "run_id": "20260901175050",
+      "created_at": "2026-09-01T09:50:50.065Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-old-interface-regression-pages/20260901174416/block-086.json",
+      "source_sha256": "1d5efa0d8e06bcbbf4ae559faf31b536a654d04d1a01f0d8c101517c7322ada4",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-09-01T09:52:16.245Z",
+      "run_id": "20260901175146",
+      "created_at": "2026-09-01T09:51:46.759Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-old-interface-regression-pages/20260901174416/block-095.json",
+      "source_sha256": "484f164c62e158903c70d2e4991d1b7031ef8fa7a0fb5c974f88a38a502a0bca",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-09-01T09:53:33.691Z",
+      "run_id": "20260901175233",
+      "created_at": "2026-09-01T09:52:33.345Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-online-audit-state.json",
+      "source_sha256": "9b6910bb4ff707298f66fcd872337803636e1a991f477b33c0325dc67c58fc20",
+      "status_histogram": {
+        "complete": 13
+      },
+      "updated_at": "2026-08-26T03:11:44.083Z",
+      "run_id": "20260826104236",
+      "created_at": "2026-08-26T02:42:36.052Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-page-confirmation-001-retry-state.before-retry-20260903160304.json",
+      "source_sha256": "d3b40403f66b150e5524415ee14b667ac03c794337df7b63d832b5ae53bdf359",
+      "status_histogram": {
+        "failed": 1
+      },
+      "updated_at": "2026-09-03T08:01:07.696Z",
+      "run_id": "20260903160014",
+      "created_at": "2026-09-03T08:00:14.635Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-page-confirmation-001-retry-state.before-retry-20260903161759.json",
+      "source_sha256": "0e5338c4e65839625ecd46f8278631291ded171a5682682987037fa5e6135fa1",
+      "status_histogram": {
+        "failed": 2
+      },
+      "updated_at": "2026-09-03T08:03:35.420Z",
+      "run_id": "20260903160304",
+      "created_at": "2026-09-03T08:00:14.635Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-page-confirmation-001-retry-state.json",
+      "source_sha256": "7c08fe981c31b89d98833e79f7e422e4b4c60f3954e69768d60061f502961f8b",
+      "status_histogram": {
+        "failed": 3
+      },
+      "updated_at": "2026-09-03T08:18:27.097Z",
+      "run_id": "20260903161759",
+      "created_at": "2026-09-03T08:00:14.635Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-page-confirmation-state.before-final-regression-20260903152808.json",
+      "source_sha256": "6d55bb1dc0e3fac64614dc938ddd97b9625c3dc0e07716fd9f12c86ce7622ac3",
+      "status_histogram": {
+        "failed": 3,
+        "complete": 4
+      },
+      "updated_at": "2026-09-03T07:26:25.570Z",
+      "run_id": "20260903145220",
+      "created_at": "2026-09-03T06:52:20.567Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-page-confirmation-state.before-force-site-list-20260903143834.json",
+      "source_sha256": "ed473488c1e8e162bca87185f10bef80993980003f63e0349c61ac7824a00856",
+      "status_histogram": {
+        "complete": 1,
+        "pending": 18
+      },
+      "updated_at": "2026-09-03T06:34:49.718Z",
+      "run_id": "20260903143122",
+      "created_at": "2026-09-03T06:31:22.429Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-page-confirmation-state.before-retry-20260903150559.json",
+      "source_sha256": "a533b79b00694b9049bd9a5fd81932db0412f9fb734ffb50dc5b03605e366124",
+      "status_histogram": {
+        "failed": 3,
+        "complete": 4
+      },
+      "updated_at": "2026-09-03T07:01:24.553Z",
+      "run_id": "20260903145220",
+      "created_at": "2026-09-03T06:52:20.567Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-page-confirmation-state.before-retry-20260903152808.json",
+      "source_sha256": "6d55bb1dc0e3fac64614dc938ddd97b9625c3dc0e07716fd9f12c86ce7622ac3",
+      "status_histogram": {
+        "failed": 3,
+        "complete": 4
+      },
+      "updated_at": "2026-09-03T07:26:25.570Z",
+      "run_id": "20260903145220",
+      "created_at": "2026-09-03T06:52:20.567Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-page-confirmation-state.before-site-name-fix-20260903143800.json",
+      "source_sha256": "5b345bb45ea2e1a069d481417e41d131f8f938f6fe2fe46a499dbc1cf68ba8b0",
+      "status_histogram": {
+        "pending": 15
+      },
+      "updated_at": "2026-09-03T06:30:10.679Z",
+      "run_id": "20260903142937",
+      "created_at": "2026-09-03T06:29:37.598Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-page-confirmation-state.interrupted-20260903144640.json",
+      "source_sha256": "84d9932294314dce23b697a2513a0338d72c08babf15f5983978d9e893b4084a",
+      "status_histogram": {
+        "failed": 3,
+        "complete": 3,
+        "pending": 13
+      },
+      "updated_at": "2026-09-03T06:46:26.266Z",
+      "run_id": "20260903144055",
+      "created_at": "2026-09-03T06:40:55.805Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-page-confirmation-state.json",
+      "source_sha256": "f1e46b8515daea96eb17e4702f8aca96a2f29cf51568e2bc17a9f003c5c94ed8",
+      "status_histogram": {
+        "failed": 14,
+        "complete": 4
+      },
+      "updated_at": "2026-09-03T07:42:34.765Z",
+      "run_id": "20260903152808",
+      "created_at": "2026-09-03T06:52:20.567Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-page-confirmation-state.poc-20260903144055.json",
+      "source_sha256": "3e2d5c1794fa2c55fc6ff37693c9b46d764254ecdedae4c8e3f5177b74f26766",
+      "status_histogram": {
+        "failed": 1,
+        "pending": 19
+      },
+      "updated_at": "2026-09-03T06:39:03.941Z",
+      "run_id": "20260903143834",
+      "created_at": "2026-09-03T06:38:34.791Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-page-confirmation-state.pre-all-captured-20260903145220.json",
+      "source_sha256": "a21e1eb6d52a7c8ef9d986d7178f25699d7b6103a860e57235c6e237abf700d8",
+      "status_histogram": {
+        "failed": 1,
+        "pending": 19
+      },
+      "updated_at": "2026-09-03T06:51:18.360Z",
+      "run_id": "20260903145052",
+      "created_at": "2026-09-03T06:50:52.077Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-page-confirmation-state.retry-20260903145051.json",
+      "source_sha256": "d03504757f9df451f04125292e7a9a41b3c571d0ecbbe4abb93021dc340191bf",
+      "status_histogram": {
+        "failed": 2,
+        "complete": 1,
+        "pending": 16
+      },
+      "updated_at": "2026-09-03T06:49:14.097Z",
+      "run_id": "20260903144640",
+      "created_at": "2026-09-03T06:46:40.963Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-preview-pilot-state.json",
+      "source_sha256": "c63d9748ce159830ec278aa44f78e39874c9105bfca8ea2fddd53b18fa408672",
+      "status_histogram": {
+        "verified": 2
+      },
+      "updated_at": "2026-08-27T06:41:14.336Z",
+      "run_id": "20260827144027",
+      "created_at": "2026-08-27T06:40:27.704Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v3-readonly-recheck-state.json",
+      "source_sha256": "5a248945a881dce2a436c0f077a708a8194a9863be5fd6995e459bd3bd1ca5cf",
+      "status_histogram": {
+        "complete": 17
+      },
+      "updated_at": "2026-08-25T09:34:44.733Z",
+      "run_id": "20260825173000",
+      "created_at": "2026-08-25T09:25:27.367Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-batch-state.json",
+      "source_sha256": "84b24278656bee218f7dda884a24e3c9680c72300e109716df6da4dddfe7be59",
+      "status_histogram": {
+        "complete": 1
+      },
+      "updated_at": "2026-08-21T05:32:00.716Z",
+      "run_id": "20260821123246",
+      "created_at": "2026-08-21T04:32:46.335Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-current-audit-20260825205000.json",
+      "source_sha256": "344c28d461de906dccfedbef4bf183e35d45ba9bb6dc1a955d2b11c65811865f",
+      "status_histogram": {
+        "pending": 228
+      },
+      "updated_at": "2026-08-25T12:55:10.354Z",
+      "run_id": "20260825205000",
+      "created_at": "2026-08-25T12:55:10.354Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-current-audit-20260825210000.json",
+      "source_sha256": "86a6628d00504e0fc43eebed66e6fb9b1293cd00382c1ba490a9ab6446f9a82e",
+      "status_histogram": {
+        "pending": 228
+      },
+      "updated_at": "2026-08-25T12:59:38.706Z",
+      "run_id": "20260825210000",
+      "created_at": "2026-08-25T12:59:38.706Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-current-audit-20260825210500.json",
+      "source_sha256": "155c4742be763e76f7fcdc2872c0180278e79fdb7adcf0a298cdab536f028e87",
+      "status_histogram": {
+        "pending": 228
+      },
+      "updated_at": "2026-08-25T13:00:30.613Z",
+      "run_id": "20260825210500",
+      "created_at": "2026-08-25T13:00:30.613Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-current-audit-20260825211500.json",
+      "source_sha256": "3d154d668dc7cb75ad36096298ff7fe2b9a7ff331ad66bb3e750523d4d2d5c31",
+      "status_histogram": {
+        "pending": 228
+      },
+      "updated_at": "2026-08-25T13:05:27.912Z",
+      "run_id": "20260825211500",
+      "created_at": "2026-08-25T13:05:27.912Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-current-audit-20260825212000.json",
+      "source_sha256": "466286e33818cc054bd12bf25a9664789090cedec1d48ca1f19ffe007415e467",
+      "status_histogram": {
+        "complete": 21
+      },
+      "updated_at": "2026-08-25T13:06:14.689Z",
+      "run_id": "20260825212000",
+      "created_at": "2026-08-25T13:06:14.689Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/gallery-002.json",
+      "source_sha256": "90a25cecfd9ede65150c784bc595b23330a72bf33e754d925be45b7d9554a027",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 3
+      },
+      "updated_at": "2026-08-27T13:16:25.544Z",
+      "run_id": "20260827211457",
+      "created_at": "2026-08-27T13:14:57.055Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/gallery-003.json",
+      "source_sha256": "8ce2a584e5e242dec80177203ab8876be817fe1cbdceea2e411d720538aba564",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:18:20.827Z",
+      "run_id": "20260827211627",
+      "created_at": "2026-08-27T13:16:27.901Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/gallery-004.json",
+      "source_sha256": "6ecfdae45e69e7c2b0d84a7e522bf08c682d04363958aee60b443d78f2e2682b",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:20:12.459Z",
+      "run_id": "20260827211823",
+      "created_at": "2026-08-27T13:18:23.473Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/gallery-005.json",
+      "source_sha256": "9e04536d31ff092ed7cd42899b45cedb8b585de216432481729805ca3b332e92",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 3
+      },
+      "updated_at": "2026-08-27T13:21:49.336Z",
+      "run_id": "20260827212015",
+      "created_at": "2026-08-27T13:20:15.672Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/gallery-006.json",
+      "source_sha256": "cd4cebea6d46a7092d2ad9368dad9dbc7faf3c8a9fc77cfd262ee06968f27313",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:23:29.122Z",
+      "run_id": "20260827212151",
+      "created_at": "2026-08-27T13:21:51.761Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/gallery-007.json",
+      "source_sha256": "7a02bdc9f1f61e8d30134a111b3e8f872f81e5e7d6761fc3290dfdd91902423c",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 3
+      },
+      "updated_at": "2026-08-27T13:25:01.047Z",
+      "run_id": "20260827212331",
+      "created_at": "2026-08-27T13:23:31.854Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/gallery-008.json",
+      "source_sha256": "d71f8afcbae8f116ddd89f8f0ceb6e19b3fd407c331cd77f1c4842ac5b8aa995",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:26:42.883Z",
+      "run_id": "20260827212502",
+      "created_at": "2026-08-27T13:25:02.818Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/gallery-009.json",
+      "source_sha256": "9f32e99c4a6fb0ff2569ac69b80421a4ccf6bae2cc3e81a360732552c420fad3",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:28:23.511Z",
+      "run_id": "20260827212645",
+      "created_at": "2026-08-27T13:26:45.662Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/gallery-010.json",
+      "source_sha256": "eb0adde1e52b0d8737302931e3b024a00b09b761114718eec58d93edb251f93a",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:30:07.910Z",
+      "run_id": "20260827212826",
+      "created_at": "2026-08-27T13:28:26.137Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/gallery-011.json",
+      "source_sha256": "9e053a34986744e343b21f0539714de7e0dd72d5d994fe319ba510d6d61e012f",
+      "status_histogram": {
+        "skipped": 1,
+        "pending": 4
+      },
+      "updated_at": "2026-08-27T13:30:20.677Z",
+      "run_id": "20260827213010",
+      "created_at": "2026-08-27T13:30:10.134Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/gallery-012.json",
+      "source_sha256": "cbc82d625ee4727f3b785659d4ecd56c649abee67e6202e6bba21d38b0cf0568",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:32:12.258Z",
+      "run_id": "20260827213021",
+      "created_at": "2026-08-27T13:30:21.057Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/gallery-013.json",
+      "source_sha256": "60265a26aac08b51ec545bf0db3f4a0aa3943c2b2232ac5461c7512a8c37fef9",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:34:02.361Z",
+      "run_id": "20260827213215",
+      "created_at": "2026-08-27T13:32:15.190Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/gallery-014.json",
+      "source_sha256": "0df9b6fca288dfc6de7a95d4d3daad75511e524e966fbf654dce596d8950d20e",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:35:54.107Z",
+      "run_id": "20260827213405",
+      "created_at": "2026-08-27T13:34:05.110Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/gallery-015.json",
+      "source_sha256": "e594221c6fbfa054d31553c4c4e35d2e29f2de814a855e35a8f25037eb3bc0f0",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:37:43.987Z",
+      "run_id": "20260827213557",
+      "created_at": "2026-08-27T13:35:57.414Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/gallery-016.json",
+      "source_sha256": "1d00d0aff60f700b6fe1646882c5e7f95a8425ea4c8d67e5265c678ff9ab8efe",
+      "status_histogram": {
+        "skipped": 1
+      },
+      "updated_at": "2026-08-27T13:38:01.500Z",
+      "run_id": "20260827213746",
+      "created_at": "2026-08-27T13:37:46.339Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/gallery-017.json",
+      "source_sha256": "3027cce39e3e79a90a6c083293346880f6d6eca310a139142f4d4ab102918ce7",
+      "status_histogram": {
+        "skipped": 1,
+        "pending": 4
+      },
+      "updated_at": "2026-08-27T13:47:40.171Z",
+      "run_id": "20260827214729",
+      "created_at": "2026-08-27T13:47:29.306Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/gallery-018.json",
+      "source_sha256": "e4343f531d1ad9b57295b4bac79b41584bc4e167c0b567599f33d66e9515ef2e",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:48:43.553Z",
+      "run_id": "20260827214740",
+      "created_at": "2026-08-27T13:47:40.506Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/image-text-001.json",
+      "source_sha256": "9ff72d2ec7ece136cc74030d821c46350d953264ec6924d941aea155fbf6b045",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:39:29.428Z",
+      "run_id": "20260827213801",
+      "created_at": "2026-08-27T13:38:01.904Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/image-text-002.json",
+      "source_sha256": "71b91dc609268453b9d1b61da57b1cb98f8215451c0e7c9648a03aa294326755",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:41:07.340Z",
+      "run_id": "20260827213932",
+      "created_at": "2026-08-27T13:39:32.135Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/image-text-003.json",
+      "source_sha256": "e4a13f1f4ab8e077c8f81a37bfed72d0a87e5716cca01078e4913b3b3ace4ea1",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:42:48.676Z",
+      "run_id": "20260827214109",
+      "created_at": "2026-08-27T13:41:09.899Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/image-text-004.json",
+      "source_sha256": "7cb709a74a478f8cadc92c95ea9cddde6cbb18915cbff5987b4f28328fcc48e5",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 3
+      },
+      "updated_at": "2026-08-27T13:44:20.633Z",
+      "run_id": "20260827214252",
+      "created_at": "2026-08-27T13:42:52.037Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/image-text-005.json",
+      "source_sha256": "c73b9b01919384bf991379c77052bc13409b8e33040dd9572910295e76cd28f7",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:46:05.903Z",
+      "run_id": "20260827214422",
+      "created_at": "2026-08-27T13:44:22.879Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-pages/20260827211457/image-text-006.json",
+      "source_sha256": "43b5fd3b605d8a818bedd88d1cd6a712d91b70a3f1d31bd71d8bcc09c2e4632e",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 3
+      },
+      "updated_at": "2026-08-27T13:47:27.690Z",
+      "run_id": "20260827214608",
+      "created_at": "2026-08-27T13:46:08.700Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-proxy-state.json",
+      "source_sha256": "68c007a1dd473b26d9215747b6b3073720d32d471d59b76bba148dadfc7acbdc",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-27T13:12:46.851Z",
+      "run_id": "20260827205545",
+      "created_at": "2026-08-27T12:55:45.524Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-refresh-pages/20260827155943/gallery-002.json",
+      "source_sha256": "7c744441abf072e3370fbe90178a7cbb356006363a6270c993e1623bee98e1f6",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2
+      },
+      "updated_at": "2026-08-27T08:01:30.398Z",
+      "run_id": "20260827155943",
+      "created_at": "2026-08-27T07:59:43.757Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-no-refresh-state.json",
+      "source_sha256": "1ca183f9affc167f1fc59ad1c76912bc8c4ba10846deeccc028f9e0f4e012de6",
+      "status_histogram": {
+        "skipped": 1,
+        "verified": 2
+      },
+      "updated_at": "2026-08-27T07:45:42.310Z",
+      "run_id": "20260827154217",
+      "created_at": "2026-08-27T07:42:17.290Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/gallery-002.json",
+      "source_sha256": "d13385c345f78df1ddeb882372de4a654d82092d92ad97bf2309637919cab42e",
+      "status_histogram": {
+        "verified": 3
+      },
+      "updated_at": "2026-08-21T05:32:00.700Z",
+      "run_id": "20260821123246",
+      "created_at": "2026-08-21T04:32:46.341Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/gallery-003.json",
+      "source_sha256": "1e0b4d7748a894faf5021e1021c3a12f68a2793c7b1eb7f58c4772a9d8cc3b08",
+      "status_histogram": {
+        "verified": 3
+      },
+      "updated_at": "2026-08-21T04:37:45.583Z",
+      "run_id": "20260821123518",
+      "created_at": "2026-08-21T04:35:18.193Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/gallery-004.json",
+      "source_sha256": "8b65d54506078791745cc8dd3859692ade37aeaf261add69abe386d7bc7980b4",
+      "status_histogram": {
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-21T04:40:12.269Z",
+      "run_id": "20260821123748",
+      "created_at": "2026-08-21T04:37:48.559Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/gallery-005.json",
+      "source_sha256": "b002a5033f0b5fe71c8f1281b8fc87dd6036afc803f2b3a9b16e1722e77a2b6f",
+      "status_histogram": {
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-21T05:32:00.704Z",
+      "run_id": "20260821124015",
+      "created_at": "2026-08-21T04:40:15.995Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/gallery-006.json",
+      "source_sha256": "9bb0498fbe500b3ec6656991d46f17862b27e3886e4e979330a9596e785ad3e8",
+      "status_histogram": {
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-21T05:32:00.705Z",
+      "run_id": "20260821124241",
+      "created_at": "2026-08-21T04:42:41.063Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/gallery-007.json",
+      "source_sha256": "eded9279efe6cc0254f4c018edd1aa772ce0455a8484ab68d5ea4105c128a222",
+      "status_histogram": {
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-21T05:32:00.705Z",
+      "run_id": "20260821124444",
+      "created_at": "2026-08-21T04:44:44.863Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/gallery-008.json",
+      "source_sha256": "d398b075bc89fe0165071ce210c365d455dc898464144ed82ce9e41c644a8919",
+      "status_histogram": {
+        "verified": 3
+      },
+      "updated_at": "2026-08-21T05:32:00.706Z",
+      "run_id": "20260821124716",
+      "created_at": "2026-08-21T04:47:16.224Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/gallery-009.json",
+      "source_sha256": "fe276fc00072ac2baa31cc1bbe5842752ae987db061d61165c91225adeb839e1",
+      "status_histogram": {
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-21T04:51:43.436Z",
+      "run_id": "20260821124933",
+      "created_at": "2026-08-21T04:49:33.838Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/gallery-010.json",
+      "source_sha256": "b322a9d9db838f6c00a295187feab91945f56106c4a2e7f07b592d0b688d89c6",
+      "status_histogram": {
+        "verified": 3
+      },
+      "updated_at": "2026-08-21T04:53:58.501Z",
+      "run_id": "20260821125146",
+      "created_at": "2026-08-21T04:51:46.351Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/gallery-011.json",
+      "source_sha256": "fcf7698e382f045433838671632e2e8211b88b388f297665c5e729d360c35688",
+      "status_histogram": {
+        "pending": 3
+      },
+      "updated_at": "2026-08-21T05:17:51.230Z",
+      "run_id": "20260821125401",
+      "created_at": "2026-08-21T04:54:01.258Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/gallery-012.json",
+      "source_sha256": "59dc4db7b5775bb4538ea5985e3a70ddc61219a487981dce7e46492501b41fc0",
+      "status_histogram": {
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-21T04:56:21.887Z",
+      "run_id": "20260821125409",
+      "created_at": "2026-08-21T04:54:09.916Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/gallery-013.json",
+      "source_sha256": "4392d845fbf6570eaddbc4b7f7ad8c58a89ccb0a8ab5fffea2b5090b576778d1",
+      "status_histogram": {
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-21T04:58:19.337Z",
+      "run_id": "20260821125624",
+      "created_at": "2026-08-21T04:56:24.699Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/gallery-014.json",
+      "source_sha256": "bc59bac46be8169221ecb0f25c8931636aa9f6cb00e0b07c77acc00c17c7f2ed",
+      "status_histogram": {
+        "verified": 3
+      },
+      "updated_at": "2026-08-21T05:00:34.616Z",
+      "run_id": "20260821125821",
+      "created_at": "2026-08-21T04:58:21.958Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/gallery-015.json",
+      "source_sha256": "7cd9456156edbbc4757b17d25515cf619766bdb15f38fe3c87265395f9fc0db7",
+      "status_histogram": {
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-21T05:02:52.496Z",
+      "run_id": "20260821130037",
+      "created_at": "2026-08-21T05:00:37.776Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/gallery-016.json",
+      "source_sha256": "8f91bae972376360e8aeafde6f6f545aadba4e90c43524c55cf81eaed36e2f0f",
+      "status_histogram": {
+        "verified": 1
+      },
+      "updated_at": "2026-08-21T05:03:14.306Z",
+      "run_id": "20260821130255",
+      "created_at": "2026-08-21T05:02:55.154Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/gallery-017.json",
+      "source_sha256": "9aeea4302f77befe130053b81603953f23e6e02eb7129062597aadec9baa7ec7",
+      "status_histogram": {
+        "pending": 3
+      },
+      "updated_at": "2026-08-21T05:17:59.002Z",
+      "run_id": "20260821131606",
+      "created_at": "2026-08-21T05:16:06.315Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/gallery-018.json",
+      "source_sha256": "ce344edcb8f59272e683cbb879da9895c8733e15cb354dae7ee84fcac8a73395",
+      "status_histogram": {
+        "pending": 3
+      },
+      "updated_at": "2026-08-21T05:20:30.678Z",
+      "run_id": "20260821131614",
+      "created_at": "2026-08-21T05:16:14.579Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/image-text-001.json",
+      "source_sha256": "bf99fe366417b12b523e0cc9f008ca7286fe01d2c3604cd41420e43484d91a6e",
+      "status_histogram": {
+        "verified": 3
+      },
+      "updated_at": "2026-08-21T05:05:08.801Z",
+      "run_id": "20260821130314",
+      "created_at": "2026-08-21T05:03:14.685Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/image-text-002.json",
+      "source_sha256": "55a05222f6acd5a080d7ad61edb028d96ec30b3aaeef41fd0ece23f8302e43e4",
+      "status_histogram": {
+        "verified": 3
+      },
+      "updated_at": "2026-08-21T05:32:00.708Z",
+      "run_id": "20260821130511",
+      "created_at": "2026-08-21T05:05:11.617Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/image-text-003.json",
+      "source_sha256": "4cd4463c15bce2c8b601c4590194551c6be731c9b8fbc19efd7e6404fcd212aa",
+      "status_histogram": {
+        "verified": 3
+      },
+      "updated_at": "2026-08-21T05:32:00.710Z",
+      "run_id": "20260821130726",
+      "created_at": "2026-08-21T05:07:26.686Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/image-text-004.json",
+      "source_sha256": "e7d89907338c5524773b8459ffdcdb09738fde14006ccb23161c1283de29a0ea",
+      "status_histogram": {
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-21T05:32:00.715Z",
+      "run_id": "20260821130933",
+      "created_at": "2026-08-21T05:09:33.285Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/image-text-005.json",
+      "source_sha256": "f4277de405e958148b45c4a2f751f4d99ad656abdd495b61e84ca8a30cf2a4c2",
+      "status_histogram": {
+        "verified": 3
+      },
+      "updated_at": "2026-08-21T05:13:59.199Z",
+      "run_id": "20260821131140",
+      "created_at": "2026-08-21T05:11:40.082Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-pages/20260821123246/image-text-006.json",
+      "source_sha256": "9fcc55fec5c7b8c9fa0073d7d1a89048f5ca4dd105b3a8c64a1569c9344553f6",
+      "status_histogram": {
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-21T05:16:04.096Z",
+      "run_id": "20260821131402",
+      "created_at": "2026-08-21T05:14:02.011Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-state.json",
+      "source_sha256": "765d9560b44f2d6d02e9397be2b6628426a77eb1c219d6d0b6be3a4455a1954d",
+      "status_histogram": {
+        "verified": 2,
+        "failed": 1
+      },
+      "updated_at": "2026-08-21T03:59:24.124Z",
+      "run_id": "20260821115703",
+      "created_at": "2026-08-21T03:57:03.001Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-supplement-audit-20260825223000.json",
+      "source_sha256": "6405e1813d5ed495215e6b76bcf408b29c64325ae3b619fa3bd9a5a85054e5f2",
+      "status_histogram": {
+        "complete": 21
+      },
+      "updated_at": "2026-08-25T15:04:55.149Z",
+      "run_id": "20260825223000",
+      "created_at": "2026-08-25T15:04:55.149Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-supplement-audit-20260826150000.json",
+      "source_sha256": "27a757de850ea241250acf2480f3f898fdbda84429d018b451af61c7688fc8e1",
+      "status_histogram": {
+        "complete": 3
+      },
+      "updated_at": "2026-08-26T06:29:09.478Z",
+      "run_id": "20260826150000",
+      "created_at": "2026-08-26T06:29:09.478Z"
+    },
+    {
+      "source": "block-page-automation/.state/growth-engine-h-v4-supplement-audit-20260826151000.json",
+      "source_sha256": "1ba3addcdcfd599b9ba147d72ae90fc2d772bf53d2f3b765b62ab8270f86e611",
+      "status_histogram": {
+        "complete": 21
+      },
+      "updated_at": "2026-08-26T06:32:28.442Z",
+      "run_id": "20260826151000",
+      "created_at": "2026-08-26T06:32:28.442Z"
+    },
+    {
+      "source": "block-page-automation/.state/history/growth-engine-h-v4-no-proxy-state-20260827203316.json",
+      "source_sha256": "6cf4dcfa4a5afc70ec13dcd056f893aa5674fb824c090d54f6292b5f2d739be4",
+      "status_histogram": {
+        "skipped": 1,
+        "pending": 2
+      },
+      "updated_at": "2026-08-27T12:33:32.835Z",
+      "run_id": "20260827203316",
+      "created_at": "2026-08-27T12:33:16.519Z"
+    },
+    {
+      "source": "block-page-automation/.state/onpage-agent-h-v3-empty-text-retest-state.json",
+      "source_sha256": "0728ee4bcbf901ecb5140fdc9df22d13646f1e330f1000d3f42fe4d0a6efb9cd",
+      "status_histogram": {
+        "failed": 1
+      },
+      "updated_at": "2026-09-01T04:58:13.414Z",
+      "run_id": "20260901125736",
+      "created_at": "2026-09-01T04:57:36.449Z"
+    },
+    {
+      "source": "block-page-automation/.state/onpage-agent-h-v3-expansion-state.before-retry-20260901163845.json",
+      "source_sha256": "9501eee1024d446cf7e48db8e821e6a6728019c22b204f890865ab101b2b66d8",
+      "status_histogram": {
+        "complete": 65,
+        "failed": 8
+      },
+      "updated_at": "2026-09-01T08:30:24.783Z",
+      "run_id": "20260901142422",
+      "created_at": "2026-09-01T06:24:22.190Z"
+    },
+    {
+      "source": "block-page-automation/.state/onpage-agent-h-v3-expansion-state.before-timeout.json",
+      "source_sha256": "7f3bbb5acd200aeb88d894fda6b9c64d58f900bfebabdeeef188c4be2d505a86",
+      "status_histogram": {
+        "complete": 65,
+        "failed": 5,
+        "pending": 22
+      },
+      "updated_at": "2026-09-01T08:12:42.844Z",
+      "run_id": "20260901142422",
+      "created_at": "2026-09-01T06:24:22.190Z"
+    },
+    {
+      "source": "block-page-automation/.state/onpage-agent-h-v3-expansion-state.json",
+      "source_sha256": "f1a00725b0762b1a8cb996e2465def18234f21a4e2941dfd6166275c2d4e1d56",
+      "status_histogram": {
+        "complete": 65,
+        "failed": 16
+      },
+      "updated_at": "2026-09-01T09:13:44.658Z",
+      "run_id": "20260901163845",
+      "created_at": "2026-09-01T06:24:22.190Z"
+    },
+    {
+      "source": "block-page-automation/.state/onpage-agent-h-v3-expansion-state.pre-site-migration.json",
+      "source_sha256": "0215e1452a1a9ad08182872048dcf7ddaa51e589bdb95b690eca8c39e393e06e",
+      "status_histogram": {
+        "complete": 65,
+        "failed": 8
+      },
+      "updated_at": "2026-09-01T08:29:25.581Z",
+      "run_id": "20260901142422",
+      "created_at": "2026-09-01T06:24:22.190Z"
+    },
+    {
+      "source": "block-page-automation/.state/onpage-agent-h-v3-history-regression-state.before-target-scope-fix-20260908142417.json",
+      "source_sha256": "ed33b3f3357bffe6ce81c298fbcf9dc53de584f933e593240516e921dd1002ac",
+      "status_histogram": {
+        "complete": 2,
+        "pending": 14
+      },
+      "updated_at": "2026-09-08T06:23:25.689Z",
+      "run_id": "20260908141834",
+      "created_at": "2026-09-08T06:18:34.916Z"
+    },
+    {
+      "source": "block-page-automation/.state/onpage-agent-h-v3-history-regression-state.json",
+      "source_sha256": "2e7a6fc66abdda7ce5768e0116cba5132d86004971246b62f9c8bba4e5571820",
+      "status_histogram": {
+        "complete": 11,
+        "failed": 5
+      },
+      "updated_at": "2026-09-08T06:52:13.840Z",
+      "run_id": "20260908142424",
+      "created_at": "2026-09-08T06:24:24.799Z"
+    },
+    {
+      "source": "block-page-automation/.state/onpage-agent-h-v3-live-details-state.json",
+      "source_sha256": "83f76464c17e808291579330ae9a9ec4f2ef8957262a4ffea3e7812ef6988b7c",
+      "status_histogram": {
+        "complete": 6
+      },
+      "updated_at": "2026-09-03T03:08:15.779Z",
+      "run_id": "20260903110702",
+      "created_at": "2026-09-03T03:07:02.143Z"
+    },
+    {
+      "source": "block-page-automation/.state/onpage-agent-h-v3-live-pages-state.json",
+      "source_sha256": "f8721af20c8f6d05c779597bcb6731b0f0636d1bf3b6d56ceb498d86e1f49170",
+      "status_histogram": {
+        "pending": 5
+      },
+      "updated_at": "2026-09-03T02:38:26.027Z",
+      "run_id": "20260903103801",
+      "created_at": "2026-09-03T02:38:01.497Z"
+    },
+    {
+      "source": "block-page-automation/.state/onpage-agent-h-v3-live-video-details-state.json",
+      "source_sha256": "446bd2050e5646a0ed6d061677688055c58d88cf609414d598d51016b9af4518",
+      "status_histogram": {
+        "complete": 2
+      },
+      "updated_at": "2026-09-03T03:54:48.794Z",
+      "run_id": "20260903115426",
+      "created_at": "2026-09-03T03:54:26.754Z"
+    },
+    {
+      "source": "block-page-automation/.state/onpage-agent-h-v3-six-components-regression-state.json",
+      "source_sha256": "3b9ec742cc3ee94f197261fc4ece858d88ebb382d0cb156eda3fe6ce7f8d9ba1",
+      "status_histogram": {
+        "complete": 1,
+        "failed": 1
+      },
+      "updated_at": "2026-09-09T06:12:32.787Z",
+      "run_id": "20260909140706",
+      "created_at": "2026-09-09T06:07:06.842Z"
+    },
+    {
+      "source": "block-page-automation/.state/onpage-agent-h-v3-state.before-interface-run-20260903165005.json",
+      "source_sha256": "ccd204c6ad5c4ecbded583ab6f55d7e775f3c6010a6b597b1ca5b961c9da14e9",
+      "status_histogram": {
+        "complete": 2,
+        "failed": 3
+      },
+      "updated_at": "2026-09-01T04:52:57.107Z",
+      "run_id": "20260901124259",
+      "created_at": "2026-09-01T04:42:59.445Z"
+    },
+    {
+      "source": "block-page-automation/.state/onpage-agent-h-v3-state.json",
+      "source_sha256": "c1d516b40fe4e2f8e7e91d2ba2d37c944453747355dd227794a22684201a7cf6",
+      "status_histogram": {
+        "complete": 2,
+        "failed": 3
+      },
+      "updated_at": "2026-09-03T08:55:20.481Z",
+      "run_id": "20260903165020",
+      "created_at": "2026-09-03T08:50:20.942Z"
+    },
+    {
+      "source": "block-page-automation/.state/onpage-agent-tdk-v3-dual-regression-state.json",
+      "source_sha256": "7af73a77596f8c6272b2101810742c6fb5188b7ed3456b767a5a8665e66b4c13",
+      "status_histogram": {
+        "complete": 1
+      },
+      "updated_at": "2026-09-16T06:02:43.279Z",
+      "run_id": "20260916055838",
+      "created_at": "2026-09-16T05:58:38.458Z"
+    },
+    {
+      "source": "block-page-automation/.state/v3-current-h-audit-20260825181500.json",
+      "source_sha256": "eb526447ceed917b34ba5d73c9f018bebc39cc757cd35589661403195140c632",
+      "status_histogram": {
+        "complete": 17
+      },
+      "updated_at": "2026-08-25T09:52:42.808Z",
+      "run_id": "20260825181500",
+      "created_at": "2026-08-25T09:52:42.808Z"
+    },
+    {
+      "source": "block-page-automation/.state/v3-full-heading-state.json",
+      "source_sha256": "8285034b5251702a5aa193871694a76f37d013c00e6b367f985a5d8fe9119510",
+      "status_histogram": {
+        "existing_mapping_missing": 37
+      },
+      "updated_at": "2026-08-24T04:23:08.622Z",
+      "created_at": "2026-08-23T11:13:46.277Z"
+    },
+    {
+      "source": "block-page-automation/.state/v3-online-heading-state.json",
+      "source_sha256": "0f56d6a08a59b6213c5e3ac55b2e116b348dd1dc384f8c65fa0091a525fad49c",
+      "status_histogram": {
+        "heading_failed": 22
+      },
+      "updated_at": "2026-08-27T07:09:02.645Z",
+      "created_at": "2026-08-25T16:07:48.392Z"
+    },
+    {
+      "source": "block-page-automation/.state/v3-supplement-attribution-20260825194500.json",
+      "source_sha256": "f5a5bdaef40de0d3d0c9d65fe1aa6f84d09f0c566d4085bea6ca583a48ade18a",
+      "status_histogram": {
+        "complete": 17
+      },
+      "updated_at": "2026-08-25T14:03:04.916Z",
+      "run_id": "20260825194500",
+      "created_at": "2026-08-25T14:03:04.916Z"
+    },
+    {
+      "source": "block-page-automation/.state/v4-mirror-no-proxy-state.json",
+      "source_sha256": "b8516f2930fb0cad3176c3e72ecdc551926a209ae9c18ae865a75d719c5557bf",
+      "status_histogram": {
+        "complete": 24,
+        "verified": 362
+      },
+      "updated_at": "2026-08-20T03:38:11.205Z",
+      "created_at": "2026-08-19T09:57:49.564Z"
+    },
+    {
+      "source": "block-page-automation/.state/v4-rich-text-batch-state.json",
+      "source_sha256": "1cac3e28188cd8a505144075e70bfeb6a387bbb3a0e80012ca15def77559ab92",
+      "status_histogram": {
+        "complete": 23,
+        "verified": 532
+      },
+      "updated_at": "2026-08-19T08:35:24.319Z",
+      "started_at": "2026-08-19T07:53:19.013Z"
+    },
+    {
+      "source": "block-page-automation/.state/v4-rich-text-setup-state.json",
+      "source_sha256": "3d0f5cb27a93a499942a7f4589e828b246b0c6ca2c157cfcacf61c4e074715f6",
+      "status_histogram": {
+        "verified": 22
+      },
+      "updated_at": "2026-08-19T07:28:32.603Z",
+      "started_at": "2026-08-19T07:19:03.478Z"
+    }
+  ]
+}

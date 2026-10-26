@@ -1,0 +1,19 @@
+{
+  "browser": {
+    "launchOptions": {
+      "headless": false,
+      "args": [
+        "--proxy-pac-url=http://proxy.example.invalid:8080/gray.pac",
+        "--ignore-certificate-errors"
+      ]
+    },
+    "contextOptions": {
+      "locale": "zh-CN",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "ignoreHTTPSErrors": true
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "proxy": "none",
+  "proxyPac": "gray.pac",
+  "pacUrl": "http://proxy.example.invalid:8080/gray.pac",
+  "ignoreHTTPSErrors": true,
+  "environment": {
+    "entryProtocol": "http:",
+    "expectedHostname": "www.leadong.com",
+    "requiredHeaderName": "x-via",
+    "requiredHeaderValue": "Ld-Gray"
+  },
+  "urls": {
+    "login": "http://www.leadong.com/login.html",
+    "cloudHome": "http://www.leadong.com/website.html",
+    "taskList": "http://www.leadong.com/task-list.html",
+    "agent": "http://admin.example.invalid/phoenix/website?module=agent"
+  },
+  "accounts": {
+    "user": {
+      "account": "",
+      "passwordEnv": "PHOENIX_USER_PASSWORD"
+    },
+    "designer": {
+      "account": "",
+      "passwordEnv": "PHOENIX_DESIGNER_PASSWORD",
+      "fallbackPasswordEnv": "PHOENIX_USER_PASSWORD"
+    },
+    "admin": {
+      "account": "",
+      "passwordEnv": "PHOENIX_ADMIN_PASSWORD"
+    }
+  },
+  "defaults": {
+    "designerName": "YOUR_TEST_ITEM",
+    "themeNo": "238",
+    "primaryColor": "#1E88E5",
+    "secondaryColor": "#F5A623",
+    "uploadFile": "input/example-upload.png",
+    "expectedCompletionDays": 7,
+    "feedback": "自动化流程验证：页面操作正常，设计服务已完成。",
+    "formText": "自动化测试资料",
+    "materialRejectReason": "自动化测试：资料需要补充后重新提交。",
+    "acceptanceRejectReason": "自动化测试：请按意见修改页面内容。",
+    "rejectAttachment": "input/example-upload.png",
+    "materialSectionLabels": [
+      "网站风格",
+      "首页内容",
+      "公司资料",
+      "产品资料",
+      "新闻资料",
+      "其他页面资料",
+      "联系资料",
+      "网站优化"
+    ]
+  },
+  "sites": [
+    {
+      "name": "YOUR_TEST_SITE",
+      "frontUrl": "http://site.example.invalid",
+      "siteSettingId": "YOUR_TEST_ID",
+      "designId": "YOUR_TEST_ID",
+      "organizationId": "YOUR_TEST_ID",
+      "companyId": "YOUR_TEST_ID",
+      "languageCode": "0"
+    },
+    {
+      "name": "YOUR_TEST_SITE",
+      "frontUrl": "http://site.example.invalid",
+      "siteSettingId": "YOUR_TEST_ID",
+      "designId": "YOUR_TEST_ID",
+      "organizationId": "YOUR_TEST_ID",
+      "companyId": "YOUR_TEST_ID",
+      "languageCode": "0"
+    }
+  ]
+}

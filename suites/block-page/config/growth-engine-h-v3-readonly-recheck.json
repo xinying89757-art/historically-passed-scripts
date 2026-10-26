@@ -1,0 +1,38 @@
+{
+  "loginUrl": "https://admin.example.invalid/website.html",
+  "growthEngineUrl": "https://admin.example.invalid/phoenix2/composite/middle/platform/index.html#/other?parmas=iframe&text=geo_growth_engine&isMoliAIIsall=0",
+  "targetPagePath": "/ge-block-test-001",
+  "publicUrl": "http://site.example.invalid/ge-block-test-001",
+  "proxyServer": "http://proxy.example.invalid:8080",
+  "growthEngineSite": {
+    "name": "全量3.0区块",
+    "host": "site.example.invalid"
+  },
+  "browser": {
+    "channel": "chrome",
+    "headless": false,
+    "startMinimized": true,
+    "slowMo": 80,
+    "locale": "zh-CN"
+  },
+  "timeouts": {
+    "actionMs": 20000,
+    "navigationMs": 60000,
+    "syncMs": 90000,
+    "liveMs": 120000,
+    "livePollMs": 3000
+  },
+  "paths": {
+    "userDataDir": ".auth/growth-engine-h-v3-full",
+    "stateFile": ".state/growth-engine-h-v3-readonly-recheck-state.json",
+    "artifactsDir": "artifacts/growth-engine-h-v3-readonly-recheck",
+    "reportsDir": "reports/growth-engine-h-v3-readonly-recheck"
+  },
+  "v3ReadonlyRecheck": {
+    "sourceWorkbook": "../outputs/019fa755-5d3d-7792-8740-e4786e04a2f7/3.0-growth-engine-readonly-20260825/20个明确归属区块-只读问题明细.xlsx",
+    "stateFile": ".state/growth-engine-h-v3-readonly-recheck-state.json",
+    "artifactsDir": "artifacts/growth-engine-h-v3-readonly-recheck",
+    "reportsDir": "reports/growth-engine-h-v3-readonly-recheck",
+    "outputDir": "../outputs/3.0-growth-engine-readonly-recheck"
+  }
+}

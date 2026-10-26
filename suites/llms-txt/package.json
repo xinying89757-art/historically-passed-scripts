@@ -1,0 +1,23 @@
+{
+  "name": "llms-txt-ui-automation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "通过代理登录、只读探测并验证领动 3.0 llms.txt UI 的 Playwright 自动化基础设施",
+  "scripts": {
+    "test": "node --test",
+    "test:live": "RUN_LIVE=1 node --test test/live-p0.test.mjs && RUN_LIVE=1 node --test test/live-extended.test.mjs",
+    "auth": "node src/cli.mjs auth",
+    "probe": "node src/cli.mjs probe",
+    "probe:headed": "node src/cli.mjs probe --headed",
+    "record": "node src/record.mjs",
+    "inspect": "node src/inspect.mjs",
+    "config": "node src/cli.mjs config"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright": "1.61.1"
+  }
+}

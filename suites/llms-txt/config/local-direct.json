@@ -1,0 +1,18 @@
+{
+  "editorUrl": "http://website.leadong.com/phoenix/pagebuilder/layout",
+  "publicBaseUrl": "https://site.example.invalid",
+  "proxy": null,
+  "browser": {
+    "headless": true,
+    "channel": "chrome",
+    "locale": "zh-CN",
+    "slowMo": 0,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    }
+  },
+  "paths": {
+    "userDataDir": "/tmp/llms-txt-direct-profile-20260910"
+  }
+}

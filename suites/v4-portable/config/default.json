@@ -1,0 +1,41 @@
+{
+  "inputCsv": "input/blocks.csv",
+  "componentWorkbook": "input/components.xlsx",
+  "componentSheetName": "本包未使用",
+  "editorUrl": "https://website.leadong.com/phoenix2/composite/blockEditorUI/index.html#/",
+  "siteListUrlIncludes": "/website.html",
+  "siteName": "YOUR_TEST_SITE",
+  "siteLanguage": "英语",
+  "publicBaseUrl": "https://site.example.invalid",
+  "siteConfirmationHost": "site.example.invalid",
+  "blocksPerPage": 10,
+  "componentsPerPage": 6,
+  "pageNamePrefix": "本包未使用-",
+  "pagePathPrefix": "unused-",
+  "componentPageNamePrefix": "本包未使用-",
+  "componentPagePathPrefix": "unused-",
+  "timeouts": {
+    "actionMs": 15000,
+    "blockRenderMs": 60000,
+    "blockNoSignalMs": 5000,
+    "searchResultMs": 10000,
+    "saveMs": 30000,
+    "publishMs": 180000
+  },
+  "browser": {
+    "headless": false,
+    "channel": "chrome",
+    "locale": "zh-CN",
+    "slowMo": 180
+  },
+  "paths": {
+    "userDataDir": ".auth/chrome-profile-v4-no-proxy",
+    "stateFile": ".state/unused.json",
+    "artifactsDir": "artifacts/unused",
+    "reportsDir": "reports/unused",
+    "componentStateFile": ".state/unused-component.json",
+    "componentArtifactsDir": "artifacts/unused-component",
+    "componentReportsDir": "reports/unused-component"
+  },
+  "selectors": {}
+}

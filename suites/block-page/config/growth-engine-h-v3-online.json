@@ -1,0 +1,36 @@
+{
+  "loginUrl": "https://admin.example.invalid/website.html",
+  "growthEngineUrl": "https://admin.example.invalid/phoenix2/composite/middle/platform/index.html#/other?parmas=iframe&text=geo_growth_engine&isMoliAIIsall=0",
+  "targetPagePath": "/v3-online-heading-block-001",
+  "publicUrl": "http://site.example.invalid/v3-online-heading-block-001",
+  "proxyServer": "http://proxy.example.invalid:8080",
+  "growthEngineSite": {
+    "name": "私有库区块",
+    "host": "site.example.invalid"
+  },
+  "growthEngineSiteName": "YOUR_TEST_SITE",
+  "browser": {
+    "channel": "chrome",
+    "headless": false,
+    "startMinimized": true,
+    "slowMo": 80,
+    "locale": "zh-CN"
+  },
+  "timeouts": {
+    "actionMs": 20000,
+    "navigationMs": 60000,
+    "syncMs": 90000
+  },
+  "paths": {
+    "userDataDir": ".auth/growth-engine-h-v3-full",
+    "stateFile": ".state/growth-engine-h-v3-online-audit-state.json",
+    "artifactsDir": "artifacts/growth-engine-h-v3-online-audit",
+    "reportsDir": "reports/growth-engine-h-v3-online-audit"
+  },
+  "v3OnlineAudit": {
+    "sourceStateFile": ".state/v3-online-heading-state.json",
+    "stateFile": ".state/growth-engine-h-v3-online-audit-state.json",
+    "artifactsDir": "artifacts/growth-engine-h-v3-online-audit",
+    "reportsDir": "reports/growth-engine-h-v3-online-audit"
+  }
+}

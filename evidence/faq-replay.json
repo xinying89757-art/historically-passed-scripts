@@ -1,0 +1,50 @@
+{
+  "suite": "faq-replay",
+  "note": "历史首批 3 项通过；依赖已有浏览器会话与已打开的 FAQ/前台页。",
+  "evidence_version_caveat": "历史记录未包含可核对的源码提交哈希；此为来源历史证据，不是当前脱敏版本的 live 验证。",
+  "source_documents": [],
+  "related_suite_evidence": [],
+  "records": [
+    {
+      "source": "output/playwright/faq-schema-pilot-live/core-batch-style-20260910.json",
+      "source_sha256": "6c815e469fd9fa101fe9587541589258ea386520f9619d84dfa95a7f2bbcce0e",
+      "status_histogram": {
+        "failed": 4,
+        "passed": 1
+      },
+      "runAt": "2026-09-10T07:32:12.032Z"
+    },
+    {
+      "source": "output/playwright/faq-schema-pilot-live/first-batch-20260910.json",
+      "source_sha256": "82c7b3b5c0e37eede9630571c6ea35a106357ab71e5a3f14d146592d4218ebad",
+      "status_histogram": {
+        "passed": 3
+      },
+      "runAt": "2026-09-10T07:38:09.703Z"
+    },
+    {
+      "source": "output/playwright/faq-schema-pilot-live/live-validation-20260910.json",
+      "source_sha256": "d14f01a38a69ef6c428fcb74b81792e940e8447873dbc966dfc08fc2fdcc7bb0",
+      "status_histogram": {
+        "passed": 10
+      }
+    },
+    {
+      "source": "output/playwright/faq-schema-pilot-live/style-edit-20260910.json",
+      "source_sha256": "29006c2cb902c5c5609993762ef54b3bdb78eb5640e30bd5d1d05f99d9cc2c8c",
+      "status_histogram": {
+        "failed": 1
+      },
+      "runAt": "2026-09-10T07:39:07.683Z",
+      "top_status": "failed"
+    },
+    {
+      "source": "output/playwright/faq-schema-pilot-live/style-edit-manual-replay-20260910.json",
+      "source_sha256": "572180cbfea526632f960e43ba4672e2a021e61f063c61e3110c66c8db10d267",
+      "status_histogram": {
+        "passed": 1
+      },
+      "top_status": "passed"
+    }
+  ]
+}

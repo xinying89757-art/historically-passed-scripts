@@ -1,0 +1,53 @@
+{
+  "loginUrl": "https://admin.example.invalid/website.html",
+  "growthEngineUrl": "https://admin.example.invalid/phoenix2/composite/middle/platform/index.html#/other?parmas=iframe&text=geo_growth_engine&isMoliAIIsall=0",
+  "targetPagePath": "/001.html",
+  "publicUrl": "http://site.example.invalid/001.html",
+  "publicBaseUrl": "https://site.example.invalid",
+  "proxyServer": "http://proxy.example.invalid:8080",
+  "refreshButtonOptional": true,
+  "previewResolution": {
+    "preferDerived": true,
+    "allowEditorFallback": true,
+    "protocol": "http:"
+  },
+  "growthEngineSite": {
+    "name": "3.0区块+组件",
+    "host": "site.example.invalid"
+  },
+  "editorBackfill": {
+    "enabled": true,
+    "siteName": "YOUR_TEST_SITE",
+    "siteHost": "site.example.invalid",
+    "siteLanguage": "英语",
+    "pageName": "组件标题测试-001"
+  },
+  "browser": {
+    "channel": "chrome",
+    "headless": false,
+    "slowMo": 250,
+    "locale": "zh-CN",
+    "startMinimized": true
+  },
+  "timeouts": {
+    "actionMs": 15000,
+    "navigationMs": 60000,
+    "syncMs": 60000,
+    "liveMs": 120000,
+    "livePollMs": 3000
+  },
+  "paths": {
+    "userDataDir": ".auth/growth-engine-h-v3-preview-pilot",
+    "stateFile": ".state/growth-engine-h-v3-preview-pilot-state.json",
+    "artifactsDir": "artifacts/growth-engine-h-v3-preview-pilot",
+    "reportsDir": "reports/growth-engine-h-v3-preview-pilot"
+  },
+  "batch": {
+    "componentStateFile": ".state/component-run-state.json",
+    "rankingStateFile": ".state/ranking-heading-run-state.json",
+    "stateFile": ".state/growth-engine-h-batch-run-state.json",
+    "pagesStateDir": ".state/growth-engine-h-batch-pages",
+    "artifactsDir": "artifacts/growth-engine-h-batch",
+    "reportsDir": "reports/growth-engine-h-batch"
+  }
+}

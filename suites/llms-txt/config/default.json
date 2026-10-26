@@ -1,0 +1,52 @@
+{
+  "loginUrl": "https://admin.example.invalid/website.html",
+  "editorUrl": "",
+  "recordStartUrl": "https://admin.example.invalid/phoenix2/composite/middle/platform/index.html#/?parmas=router&text=overview&isMoliAIIsall=0",
+  "siteName": "YOUR_TEST_SITE",
+  "siteLanguage": "英语",
+  "publicBaseUrl": "https://site.example.invalid",
+  "proxy": {
+    "server": "http://proxy.example.invalid:8080"
+  },
+  "browser": {
+    "headless": false,
+    "channel": "chrome",
+    "locale": "zh-CN",
+    "slowMo": 80,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    }
+  },
+  "paths": {
+    "userDataDir": ".auth/proxy-profile",
+    "artifactsDir": "artifacts/probe",
+    "reportPath": "reports/probe-report.json",
+    "htmlReportPath": "reports/probe-report.html"
+  },
+  "candidateTexts": [
+    "设置",
+    "管理\\s*txt\\s*文件",
+    "llms\\.txt",
+    "自定义\\s*txt",
+    "保存",
+    "取消",
+    "开启",
+    "关闭"
+  ],
+  "testIds": [
+    "settings-entry",
+    "manage-txt-files-entry",
+    "txt-manager-dialog",
+    "txt-tab-llms",
+    "txt-tab-custom",
+    "llms-enabled-switch",
+    "llms-source-auto",
+    "llms-source-custom",
+    "llms-custom-textarea",
+    "txt-save",
+    "txt-cancel",
+    "txt-dialog-close",
+    "txt-toast"
+  ]
+}

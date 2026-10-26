@@ -1,0 +1,136 @@
+{
+  "v4Csv": "input/blocks.csv",
+  "v4EntryUrl": "https://admin.example.invalid/website.html",
+  "editorUrl": "http://website.leadong.com/phoenix2/composite/blockEditorUI/index.html#/",
+  "publicBaseUrl": "https://site.example.invalid",
+  "siteName": "YOUR_TEST_SITE",
+  "blocksPerPage": 10,
+  "v4TargetMode": "all",
+  "v4IncludeCustomized": true,
+  "v4Categories": [
+    "图片集",
+    "图文"
+  ],
+  "proxyServer": "http://proxy.example.invalid:8080",
+  "v4PageDescriptors": {
+    "图片集": {
+      "namePrefix": "新版图片集区块测试-",
+      "pathPrefix": "new-gallery-block-test-"
+    },
+    "图文": {
+      "namePrefix": "新版图文区块测试-",
+      "pathPrefix": "new-image-text-block-test-"
+    }
+  },
+  "browser": {
+    "headless": false,
+    "channel": "chrome",
+    "locale": "zh-CN",
+    "slowMo": 180
+  },
+  "paths": {
+    "userDataDir": ".auth/chrome-profile-v4-proxy",
+    "v4StateFile": ".state/v4-block-run-state-proxy.json",
+    "v4ArtifactsDir": "artifacts/v4-blocks-proxy",
+    "v4ReportsDir": "reports/v4-blocks-proxy"
+  },
+  "v4RichText": {
+    "stateFile": ".state/v4-rich-text-setup-state.json",
+    "artifactsDir": "artifacts/v4-rich-text-setup",
+    "reportsDir": "reports/v4-rich-text-setup"
+  },
+  "v4RichTextBatch": {
+    "stateFile": ".state/v4-rich-text-batch-state.json",
+    "artifactsDir": "artifacts/v4-rich-text-batch",
+    "reportsDir": "reports/v4-rich-text-batch"
+  },
+  "v4Selectors": {
+    "siteCardSelector": ".mySiteBox",
+    "siteLanguageSelector": ".lansSelect .lanItem",
+    "editSiteSelector": ".userEditSite",
+    "pageMenuTexts": [
+      "^页面\\s*[:：]"
+    ],
+    "newPageTexts": [
+      "^新建页面$"
+    ],
+    "editor4Texts": [
+      "网页编辑器4\\.0",
+      "4\\.0编辑器",
+      "新版编辑器"
+    ],
+    "blankPageTexts": [
+      "添加空白页",
+      "空白页"
+    ],
+    "selectTemplateTexts": [
+      "^选取$",
+      "^使用$",
+      "^创建页面$"
+    ],
+    "pageSettingsTexts": [
+      "页面设置"
+    ],
+    "pageNameLabels": [
+      "页面名称",
+      "名称"
+    ],
+    "pagePathLabels": [
+      "页面地址",
+      "页面路径",
+      "页面URL",
+      "URL"
+    ],
+    "confirmTexts": [
+      "^确定$",
+      "^创建$",
+      "^完成$"
+    ],
+    "customPageTexts": [
+      "自定义页面"
+    ],
+    "addEntryTexts": [
+      "添加一个新区块",
+      "添加区块"
+    ],
+    "searchPlaceholders": [
+      "请输入",
+      "请输入区块ID",
+      "搜索区块",
+      "请输入关键词",
+      "输入区块ID"
+    ],
+    "addButtonTexts": [
+      "^添加$",
+      "^\\+\\s*添加$",
+      "^使用$"
+    ],
+    "emptyResultTexts": [
+      "暂无数据",
+      "没有数据",
+      "无搜索结果",
+      "没有找到",
+      "暂无相关"
+    ],
+    "saveTexts": [
+      "^保存$"
+    ],
+    "saveSuccessTexts": [
+      "保存成功",
+      "已保存",
+      "保存完成"
+    ],
+    "loadingSelectors": [
+      ".loading",
+      ".is-loading",
+      "[aria-busy='true']",
+      ".ant-spin-spinning"
+    ],
+    "renderErrorTexts": [
+      "加载失败",
+      "渲染失败",
+      "组件异常",
+      "区块异常"
+    ]
+  }
+}

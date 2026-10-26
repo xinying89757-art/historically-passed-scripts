@@ -1,0 +1,47 @@
+{
+  "loginUrl": "https://admin.example.invalid/website.html",
+  "growthEngineUrl": "https://admin.example.invalid/phoenix2/composite/middle/platform/index.html#/other?parmas=iframe&text=geo_growth_engine&isMoliAIIsall=0",
+  "targetPagePath": "/ge-block-test-001",
+  "publicUrl": "http://site.example.invalid/ge-block-test-001",
+  "allowDirectConnection": true,
+  "growthEngineSite": {
+    "name": "全量3.0区块",
+    "host": "site.example.invalid"
+  },
+  "editorBackfill": {
+    "enabled": true,
+    "siteName": "YOUR_TEST_SITE",
+    "siteHost": "site.example.invalid",
+    "siteLanguage": "英语",
+    "pageName": "GE-区块测试-001",
+    "scope": "blocks"
+  },
+  "browser": {
+    "channel": "chrome",
+    "headless": false,
+    "startMinimized": true,
+    "slowMo": 20,
+    "locale": "zh-CN"
+  },
+  "timeouts": {
+    "actionMs": 20000,
+    "navigationMs": 60000,
+    "syncMs": 90000,
+    "liveMs": 120000,
+    "livePollMs": 3000
+  },
+  "paths": {
+    "userDataDir": ".auth/growth-engine-h-v3-full",
+    "stateFile": ".state/growth-engine-h-v3-full-direct-recheck-state.json",
+    "artifactsDir": "artifacts/growth-engine-h-v3-full-direct-recheck",
+    "reportsDir": "reports/growth-engine-h-v3-full-direct-recheck"
+  },
+  "batch": {
+    "componentStateFile": ".state/growth-engine-empty-component-source.json",
+    "rankingStateFile": ".state/growth-engine-v3-full-ranking-source.json",
+    "stateFile": ".state/growth-engine-h-v3-full-batch-state.json",
+    "pagesStateDir": ".state/growth-engine-h-v3-full-pages",
+    "artifactsDir": "artifacts/growth-engine-h-v3-full-batch",
+    "reportsDir": "reports/growth-engine-h-v3-full-batch"
+  }
+}

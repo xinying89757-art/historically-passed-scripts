@@ -1,0 +1,17 @@
+{
+  "browser": {
+    "launchOptions": {
+      "headless": false,
+      "proxy": {
+        "server": ""
+      }
+    },
+    "contextOptions": {
+      "locale": "zh-CN",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      }
+    }
+  }
+}

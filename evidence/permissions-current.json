@@ -1,0 +1,205 @@
+{
+  "suite": "permissions-current",
+  "note": "与交付版本有差异；最新摘要 13 条中 9 通过、3 阻塞、1 产品确认。",
+  "evidence_version_caveat": "历史记录未包含可核对的源码提交哈希；此为来源历史证据，不是当前脱敏版本的 live 验证。",
+  "source_documents": [],
+  "related_suite_evidence": [],
+  "records": [
+    {
+      "source": "output/ui-orchestrator/bug1004949/runner/results/latest-summary.json",
+      "source_sha256": "ee9902bf63dee4ad05d99204c91cd3cb08c1d99b415d8a1d8d2758f7391b64c9",
+      "status_histogram": {},
+      "runId": "BUG1004949-20260917121522284",
+      "summary": {
+        "total": 13,
+        "attempted": 9,
+        "passed": 9,
+        "business_failure": 0,
+        "automation_failure": 0,
+        "environment_blocked": 3,
+        "product_confirmation": 1
+      }
+    },
+    {
+      "source": "output/ui-orchestrator/bug1004949/ui-execution-results.v3.json",
+      "source_sha256": "41e93a04e54eaa4c426d5901c49b47f91d310ab372790eb82ee2cad8a404cbb8",
+      "status_histogram": {
+        "passed": 33,
+        "business_failure": 4,
+        "environment_blocked": 3
+      },
+      "run_id": "BUG1004949-20260914-04",
+      "started_at": "2026-09-14T06:00:52.739Z",
+      "finished_at": "2026-09-14T06:03:51.015Z",
+      "summary": {
+        "source_case_count": 40,
+        "automated_execution_count": 37,
+        "pass_count": 33,
+        "business_failure_count": 4,
+        "environment_blocked_count": 3
+      },
+      "cases": [
+        {
+          "case_id": "用例-0001",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0002",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0003",
+          "status": "business_failure"
+        },
+        {
+          "case_id": "用例-0004",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0005",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0006",
+          "status": "environment_blocked"
+        },
+        {
+          "case_id": "用例-0007",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0008",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0009",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0010",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0011",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0012",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0013",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0014",
+          "status": "business_failure"
+        },
+        {
+          "case_id": "用例-0015",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0016",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0017",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0018",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0019",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0020",
+          "status": "environment_blocked"
+        },
+        {
+          "case_id": "用例-0021",
+          "status": "environment_blocked"
+        },
+        {
+          "case_id": "用例-0022",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0023",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0024",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0025",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0026",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0027",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0028",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0029",
+          "status": "business_failure"
+        },
+        {
+          "case_id": "用例-0030",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0031",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0032",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0033",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0034",
+          "status": "business_failure"
+        },
+        {
+          "case_id": "用例-0035",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0036",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0037",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0038",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0039",
+          "status": "passed"
+        },
+        {
+          "case_id": "用例-0043",
+          "status": "passed"
+        }
+      ]
+    }
+  ]
+}

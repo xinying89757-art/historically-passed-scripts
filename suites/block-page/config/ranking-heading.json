@@ -1,0 +1,12 @@
+{
+  "rankingWorkbook": "input/ranking.xlsx",
+  "rankingSheetName": "Sheet1",
+  "preDeferredNameKeywords": [],
+  "pageNamePrefix": "区块排名H测试-",
+  "pagePathPrefix": "block-ranking-heading-test-",
+  "paths": {
+    "stateFile": ".state/ranking-heading-run-state.json",
+    "artifactsDir": "artifacts/ranking-heading",
+    "reportsDir": "reports/ranking-heading"
+  }
+}

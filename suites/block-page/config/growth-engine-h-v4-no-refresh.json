@@ -1,0 +1,61 @@
+{
+  "loginUrl": "https://admin.example.invalid/website.html",
+  "growthEngineUrl": "https://admin.example.invalid/phoenix2/composite/middle/platform/index.html#/other?parmas=iframe&text=geo_growth_engine&isMoliAIIsall=0",
+  "targetPagePath": "/new-gallery-block-test-001",
+  "publicUrl": "http://site.example.invalid/new-gallery-block-test-001",
+  "publicBaseUrl": "https://site.example.invalid",
+  "proxyServer": "http://proxy.example.invalid:8080",
+  "refreshBeforeEdit": false,
+  "refreshButtonOptional": true,
+  "previewResolution": {
+    "preferDerived": false,
+    "useEditorPreviewButton": true,
+    "allowEditorFallback": false,
+    "protocol": "http:"
+  },
+  "growthEngineSite": {
+    "name": "4.0区块",
+    "host": "site.example.invalid"
+  },
+  "editorBackfill": {
+    "enabled": true,
+    "editorVersion": "4.0",
+    "editorUrlIncludes": "/phoenix2/composite/blockEditorUI/",
+    "siteName": "YOUR_TEST_SITE",
+    "siteHost": "site.example.invalid",
+    "siteLanguage": "英语",
+    "pageName": "新版图片集区块测试-001"
+  },
+  "v4Source": {
+    "firstPageStateFile": ".state/v4-rich-text-setup-state.json",
+    "batchStateFile": ".state/v4-rich-text-batch-state.json",
+    "editorConfigFile": "config/v4-blocks.json"
+  },
+  "v4Batch": {
+    "stateFile": ".state/growth-engine-h-v4-no-refresh-batch-state.json",
+    "pagesStateDir": ".state/growth-engine-h-v4-no-refresh-pages",
+    "artifactsDir": "artifacts/growth-engine-h-v4-no-refresh-batch",
+    "reportsDir": "reports/growth-engine-h-v4-no-refresh-batch",
+    "priorPageStateFile": ".state/growth-engine-h-v4-no-refresh-state.json"
+  },
+  "browser": {
+    "channel": "chrome",
+    "headless": false,
+    "startMinimized": true,
+    "slowMo": 120,
+    "locale": "zh-CN"
+  },
+  "timeouts": {
+    "actionMs": 20000,
+    "navigationMs": 60000,
+    "syncMs": 90000,
+    "liveMs": 120000,
+    "livePollMs": 3000
+  },
+  "paths": {
+    "userDataDir": ".auth/growth-engine-h",
+    "stateFile": ".state/growth-engine-h-v4-no-refresh-state.json",
+    "artifactsDir": "artifacts/growth-engine-h-v4-no-refresh",
+    "reportsDir": "reports/growth-engine-h-v4-no-refresh"
+  }
+}

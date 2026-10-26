@@ -1,0 +1,16 @@
+{
+  "baseConfig": "config/v4-blocks.json",
+  "entryUrl": "https://www.leadong.com/website.html",
+  "siteName": "YOUR_TEST_SITE",
+  "siteLanguage": "英语",
+  "proxyServer": "",
+  "userDataDir": ".auth/chrome-profile-v4",
+  "sourceBlockStateFile": ".state/v4-block-run-state-proxy.json",
+  "sourceFirstRichTextStateFile": ".state/v4-rich-text-setup-state.json",
+  "sourceBatchRichTextStateFile": ".state/v4-rich-text-batch-state.json",
+  "targetExistingStateFile": ".state/v4-block-run-state.json",
+  "allowExistingExtraBlocks": true,
+  "stateFile": ".state/v4-mirror-no-proxy-state.json",
+  "artifactsDir": "artifacts/v4-mirror-no-proxy",
+  "reportsDir": "reports/v4-mirror-no-proxy"
+}

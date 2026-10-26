@@ -1,0 +1,25 @@
+{
+  "name": "generated-ui-automation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "npm run test:nonblocked",
+    "test:headed": "HEADLESS=0 npm run test:nonblocked",
+    "test:nonblocked": "node ./support/run-suite.mjs",
+    "test:case": "node ./support/run-suite.mjs --case",
+    "test:group": "node ./support/run-suite.mjs --group",
+    "test:recover": "node ./support/run-suite.mjs --recover",
+    "test:list": "node ./support/run-suite.mjs --list",
+    "test:unit": "playwright test -c playwright.unit.config.ts",
+    "report:merge": "node ./support/merge-incremental-results.mjs",
+    "report:combine": "node ./support/merge-current-results.mjs",
+    "test:playwright": "playwright test",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@playwright/test": "^1.50.0",
+    "typescript": "^5.7.0"
+  }
+}
